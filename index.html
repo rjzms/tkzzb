@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>满分刷题基地</title>
+    <style>
+        body { margin: 0; padding: 0; background: #f0f2f5; font-family: "Microsoft YaHei", sans-serif; display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
+        .header { margin-top: 60px; margin-bottom: 40px; text-align: center; }
+        .header h1 { color: #35495e; margin-bottom: 10px; }
+        .header p { color: #666; }
+        .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; width: 90%; max-width: 1200px; padding: 20px; }
+        .card { background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-decoration: none; color: #2c3e50; display: flex; flex-direction: column; align-items: center; text-align: center; transition: transform 0.2s; border: 2px solid transparent; cursor: pointer; position: relative; }
+        .card:hover { transform: translateY(-5px); border-color: #42b883; }
+        .icon { font-size: 3rem; margin-bottom: 15px; }
+        .title { font-size: 1.4rem; font-weight: bold; margin-bottom: 10px; }
+        .desc { font-size: 0.9rem; color: #888; }
+        
+        .card.add-card { border: 2px dashed #ccc; background: #fafafa; }
+        .card.add-card:hover { border-color: #42b883; background: #fff; }
+        .add-icon { font-size: 3rem; color: #ccc; transition: color 0.2s; }
+        .card.add-card:hover .add-icon { color: #42b883; }
+
+        .btn-delete { position: absolute; top: 10px; right: 10px; background: none; border: none; color: #ff6b6b; font-size: 1.2rem; cursor: pointer; opacity: 0; transition: opacity 0.2s; }
+        .card:hover .btn-delete { opacity: 1; }
+
+        .modal { display: none; position: fixed; z-index: 100; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4); justify-content: center; align-items: center; }
+        .modal-content { background-color: #fefefe; padding: 30px; border-radius: 12px; width: 90%; max-width: 500px; box-shadow: 0 5px 25px rgba(0,0,0,0.2); animation: slideDown 0.3s ease; }
+        @keyframes slideDown { from { transform: translateY(-20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+        .form-group { margin-bottom: 20px; text-align: left; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: bold; color: #333; }
+        .form-group input { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; box-sizing: border-box; }
+        .modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 30px; }
+        .btn { padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold; }
+        .btn-cancel { background: #f0f2f5; color: #666; }
+        .btn-confirm { background: #42b883; color: white; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>满分刷题基地</h1>
+        <p>选择科目，开始挑战</p>
+    </div>
+    <div class="container" id="card-container"></div>
+
+    <div id="add-modal" class="modal">
+        <div class="modal-content">
+            <h2 style="margin-top:0; color:#333;">📂 导入新题库</h2>
+            <div class="form-group">
+                <label>科目名称</label>
+                <input type="text" id="sub-name" placeholder="例如：高等数学">
+            </div>
+            <div class="form-group">
+                <label>选择 JSON 题库文件</label>
+                <input type="file" id="sub-file" accept=".json">
+            </div>
+            <div class="modal-actions">
+                <button class="btn btn-cancel" onclick="closeModal()">取消</button>
+                <button class="btn btn-confirm" onclick="confirmAdd()">导入</button>
+            </div>
+        </div>
+    </div>
+
+<script>
+    const container = document.getElementById('card-container');
+    const modal = document.getElementById('add-modal');
+    const fallbackSubjects = [
+        { id: 'vue', file: 'vue.json', name: 'Vue.js 前端', desc: '精选真题', icon: '⚡' },
+        { id: 'python', file: 'python.json', name: 'Python 编程', desc: '基础语法与算法', icon: '🐍' },
+        { id: 'os', file: 'os.json', name: '操作系统', desc: '进程管理与内存', icon: '💻' },
+        { id: 'network', file: 'network.json', name: '计算机网络', desc: 'TCP/IP 协议栈', icon: '🌐' },
+        { id: 'mcu', file: 'mcu.json', name: '单片机', desc: '51/STM32 开发', icon: '📟' },
+        { id: 'ds', file: 'ds.json', name: '数据结构', desc: '链表/树/图/排序', icon: '🌳' },
+        { id: 'se', file: 'se.json', name: '软件工程', desc: '设计模式与维护', icon: '🏗️' },
+        { id: 'ml', file: 'ml.json', name: '机器学习', desc: 'ISBN 9787115598486', icon: '🤖' }
+    ];
+    
+    function getIcon(name) {
+        if(/数学|math/i.test(name)) return '📐';
+        if(/英语|english/i.test(name)) return '🔤';
+        if(/物理|physics/i.test(name)) return '⚛️';
+        if(/化学|chem/i.test(name)) return '🧪';
+        if(/历史|history/i.test(name)) return '📜';
+        if(/地理|geo/i.test(name)) return '🌍';
+        if(/政治|politics/i.test(name)) return '⚖️';
+        if(/java/i.test(name)) return '☕';
+        if(/c\+\+|cpp/i.test(name)) return '🚀';
+        return '📚'; 
+    }
+
+    function subjectFromJsonFile(fileName) {
+        const id = fileName.replace(/\.json$/i, '');
+        const matched = fallbackSubjects.find(sub => sub.id === id);
+        if (matched) return matched;
+        return {
+            id,
+            file: fileName,
+            name: id,
+            desc: 'JSON 题库',
+            icon: getIcon(id)
+        };
+    }
+
+    async function discoverGithubJsonSubjects() {
+        const host = location.hostname;
+        const repo = location.pathname.split('/').filter(Boolean)[0];
+        const ownerMatch = host.match(/^(.+)\.github\.io$/i);
+        if (!ownerMatch || !repo) return [];
+
+        const apiUrl = `https://api.github.com/repos/${ownerMatch[1]}/${repo}/contents/`;
+        const response = await fetch(apiUrl);
+        if (!response.ok) return [];
+        const files = await response.json();
+        if (!Array.isArray(files)) return [];
+
+        return files
+            .filter(file => file.type === 'file' && /\.json$/i.test(file.name) && file.name !== 'subjects.json')
+            .map(file => subjectFromJsonFile(file.name));
+    }
+
+    async function loadSubjects() {
+        try {
+            const githubSubjects = await discoverGithubJsonSubjects();
+            if (githubSubjects.length) return githubSubjects;
+
+            const response = await fetch('subjects.json?v=' + new Date().getTime());
+            if (!response.ok) throw new Error('subjects.json 加载失败');
+            const subjects = await response.json();
+            return Array.isArray(subjects) ? subjects : [];
+        } catch (e) {
+            console.warn('使用内置题库清单回退。请通过本地服务器或 GitHub Pages 打开页面以启用 subjects.json 动态加载。', e);
+            return fallbackSubjects;
+        }
+    }
+
+    async function subjectExists(sub) {
+        try {
+            const file = sub.file || `${sub.id}.json`;
+            const response = await fetch(file + '?v=' + new Date().getTime());
+            return response.ok;
+        } catch (e) {
+            return true;
+        }
+    }
+
+    async function init() {
+        const subjects = await loadSubjects();
+        for (const sub of subjects) {
+            if (sub && sub.id && await subjectExists(sub)) {
+                addCardToDOM(sub.id, sub.name || sub.id, sub.desc || '', false, sub.icon);
+            }
+        }
+
+        const customSubs = JSON.parse(localStorage.getItem('my_subjects') || '[]');
+        customSubs.forEach(sub => {
+            addCardToDOM(sub.id, sub.name, sub.desc, true);
+        });
+
+        const addBtn = document.createElement('div');
+        addBtn.className = 'card add-card';
+        addBtn.innerHTML = `<div class="icon add-icon">➕</div><div class="title">添加科目</div><div class="desc">导入 JSON 题库</div>`;
+        addBtn.onclick = openModal;
+        container.appendChild(addBtn);
+    }
+
+    function addCardToDOM(id, name, desc, isCustom = false, configuredIcon = '') {
+        const icon = configuredIcon || getIcon(name);
+        const a = document.createElement('a');
+        a.href = `quiz.html?subject=${id}${isCustom ? '&custom=true' : ''}`;
+        a.className = 'card';
+        a.innerHTML = `
+            <div class="icon">${icon}</div>
+            <div class="title">${name}</div>
+            <div class="desc">${desc}</div>
+        `;
+        if (isCustom) {
+            const delBtn = document.createElement('button');
+            delBtn.className = 'btn-delete';
+            delBtn.innerHTML = '×';
+            delBtn.title = '删除此科目';
+            delBtn.onclick = (e) => {
+                e.preventDefault();
+                deleteSubject(id, a);
+            };
+            a.appendChild(delBtn);
+        }
+        const addCard = container.lastElementChild && container.lastElementChild.classList.contains('add-card')
+            ? container.lastElementChild
+            : null;
+        if (addCard) container.insertBefore(a, addCard);
+        else container.appendChild(a);
+    }
+
+    function openModal() { modal.style.display = 'flex'; }
+    function closeModal() { modal.style.display = 'none'; }
+
+    function confirmAdd() {
+        const nameInput = document.getElementById('sub-name');
+        const fileInput = document.getElementById('sub-file');
+        
+        if (!nameInput.value || !fileInput.files[0]) {
+            alert('请填写完整信息！');
+            return;
+        }
+
+        const file = fileInput.files[0];
+        const reader = new FileReader();
+        
+        reader.onload = function(e) {
+            try {
+                const jsonContent = JSON.parse(e.target.result);
+                const id = 'custom_' + Date.now();
+                const newSub = {
+                    id: id,
+                    name: nameInput.value,
+                    desc: `包含 ${jsonContent.length} 道题目`
+                };
+
+                localStorage.setItem('quiz_pro_db_' + id, JSON.stringify(jsonContent));
+                const subs = JSON.parse(localStorage.getItem('my_subjects') || '[]');
+                subs.push(newSub);
+                localStorage.setItem('my_subjects', JSON.stringify(subs));
+                location.reload();
+            } catch (err) {
+                alert('JSON 文件格式有误，请检查！');
+                console.error(err);
+            }
+        };
+        reader.readAsText(file);
+    }
+
+    function deleteSubject(id, element) {
+        if(confirm('确定要删除这个科目吗？刷题记录也会丢失。')) {
+            let subs = JSON.parse(localStorage.getItem('my_subjects') || '[]');
+            subs = subs.filter(s => s.id !== id);
+            localStorage.setItem('my_subjects', JSON.stringify(subs));
+            localStorage.removeItem('quiz_pro_db_' + id);
+            localStorage.removeItem('quiz_pro_v2_' + id);
+            element.remove();
+        }
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) closeModal();
+    }
+
+    init();
+</script>
+</body>
+</html>

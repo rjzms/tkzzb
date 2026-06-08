@@ -1,0 +1,58 @@
+[
+  {
+    "id": "vue",
+    "file": "vue.json",
+    "name": "Vue.js 前端",
+    "desc": "精选真题",
+    "icon": "⚡"
+  },
+  {
+    "id": "python",
+    "file": "python.json",
+    "name": "Python 编程",
+    "desc": "基础语法与算法",
+    "icon": "🐍"
+  },
+  {
+    "id": "os",
+    "file": "os.json",
+    "name": "操作系统",
+    "desc": "进程管理与内存",
+    "icon": "💻"
+  },
+  {
+    "id": "network",
+    "file": "network.json",
+    "name": "计算机网络",
+    "desc": "TCP/IP 协议栈",
+    "icon": "🌐"
+  },
+  {
+    "id": "mcu",
+    "file": "mcu.json",
+    "name": "单片机",
+    "desc": "51/STM32 开发",
+    "icon": "📟"
+  },
+  {
+    "id": "ds",
+    "file": "ds.json",
+    "name": "数据结构",
+    "desc": "链表/树/图/排序",
+    "icon": "🌳"
+  },
+  {
+    "id": "se",
+    "file": "se.json",
+    "name": "软件工程",
+    "desc": "设计模式与维护",
+    "icon": "🏗️"
+  },
+  {
+    "id": "ml",
+    "file": "ml.json",
+    "name": "机器学习",
+    "desc": "ISBN 9787115598486",
+    "icon": "🤖"
+  }
+]
