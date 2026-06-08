@@ -571,6 +571,11 @@ function save() {
 function getCurrentIndex() { return state.idx || 0; }
 function formatText(text) { if(!text) return ''; return text.replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
 function isTextQuestion(q) { return ['填空题', '简答题', '分析题', '计算题'].includes(q.type); }
+function hasQuestionImages(q) { return !!(q.image || (Array.isArray(q.images) && q.images.length)); }
+function renderQuestionPrompt(q) {
+    if (isTextQuestion(q) && hasQuestionImages(q)) return '';
+    return `<div class="q-body">${q.id}. ${formatText(q.q)}</div>`;
+}
 function renderQuestionImages(q) {
     const images = Array.isArray(q.images) ? q.images : (q.image ? [q.image] : []);
     if (!images.length) return '';
@@ -664,7 +669,6 @@ function renderCard() {
     const q = state.currentList[state.idx];
     const isMistake = state.mistakes.includes(q.id);
     const total = state.currentList.length;
-    let safeQ = formatText(q.q);
     
     const mobProg = document.getElementById('mobile-progress');
     if(mobProg) mobProg.innerText = `${state.idx + 1} / ${total}`;
@@ -678,7 +682,7 @@ function renderCard() {
                     ${toggleHtml}
                     <span style="color:#aaa;margin-left:10px;font-size:0.9rem;">${state.idx + 1} / ${total}</span>
                 </div>
-                <div class="q-body">${q.id}. ${safeQ}</div>
+                ${renderQuestionPrompt(q)}
                 ${renderQuestionImages(q)}`;
 
     if (q.type === '单选题') {
