@@ -171,11 +171,9 @@
             flex-direction: column;
             gap: 14px;
             margin: -10px 0 28px;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
         }
         .q-image {
-            display: block; max-width: 100%; height: auto;
+            display: block; width: 100%; max-width: 100%; height: auto;
             border: 1px solid var(--border); border-radius: 6px;
             background: #fff;
         }
@@ -339,15 +337,28 @@
             body.keyboard-open .control-bar { transform: translateY(100%); }
             
             .hint { display: none; } 
+
+            .mode-list {
+                display: flex;
+                gap: 8px;
+                padding: 8px 10px;
+                overflow-x: auto;
+                overflow-y: hidden;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+            }
+            .mode-list::-webkit-scrollbar { display: none; }
+            .mode-item {
+                flex: 0 0 auto;
+                min-width: 72px;
+                padding: 7px 12px;
+                font-size: 0.85rem;
+                white-space: nowrap;
+            }
             
             .q-body { font-size: 1.15rem; }
             .q-images.image-only {
-                margin: 0 -12px 24px;
-                padding: 0 12px 8px;
-            }
-            .q-images.image-only .q-image {
-                max-width: none;
-                width: max(100%, 860px);
+                margin: 0 0 24px;
             }
             .opt-btn { padding: 12px 15px; font-size: 1rem; }
             
@@ -593,11 +604,74 @@ function renderQuestionPrompt(q) {
     if (isTextQuestion(q) && hasQuestionImages(q)) return '';
     return `<div class="q-body">${q.id}. ${formatText(q.q)}</div>`;
 }
+function trimQuestionImage(img) {
+    if (img.dataset.trimmed || !img.closest('.q-images.image-only')) return;
+    img.dataset.trimmed = '1';
+
+    const source = new Image();
+    source.onload = () => {
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        const w = source.naturalWidth;
+        const h = source.naturalHeight;
+        if (!ctx || !w || !h) return;
+
+        canvas.width = w;
+        canvas.height = h;
+        ctx.drawImage(source, 0, 0);
+
+        let data;
+        try {
+            data = ctx.getImageData(0, 0, w, h).data;
+        } catch (e) {
+            return;
+        }
+
+        let minX = w, minY = h, maxX = 0, maxY = 0;
+        for (let y = 0; y < h; y++) {
+            for (let x = 0; x < w; x++) {
+                const i = (y * w + x) * 4;
+                const alpha = data[i + 3];
+                const r = data[i];
+                const g = data[i + 1];
+                const b = data[i + 2];
+                if (alpha > 10 && (r < 248 || g < 248 || b < 248)) {
+                    if (x < minX) minX = x;
+                    if (y < minY) minY = y;
+                    if (x > maxX) maxX = x;
+                    if (y > maxY) maxY = y;
+                }
+            }
+        }
+
+        if (minX >= maxX || minY >= maxY) return;
+
+        const pad = 16;
+        minX = Math.max(0, minX - pad);
+        minY = Math.max(0, minY - pad);
+        maxX = Math.min(w - 1, maxX + pad);
+        maxY = Math.min(h - 1, maxY + pad);
+
+        const cropW = maxX - minX + 1;
+        const cropH = maxY - minY + 1;
+        if (cropW / w > 0.92 && cropH / h > 0.92) return;
+
+        const cropped = document.createElement('canvas');
+        cropped.width = cropW;
+        cropped.height = cropH;
+        const croppedCtx = cropped.getContext('2d');
+        if (!croppedCtx) return;
+        croppedCtx.drawImage(canvas, minX, minY, cropW, cropH, 0, 0, cropW, cropH);
+        img.src = cropped.toDataURL('image/png');
+    };
+    source.src = img.currentSrc || img.src;
+}
 function renderQuestionImages(q) {
     const images = Array.isArray(q.images) ? q.images : (q.image ? [q.image] : []);
     if (!images.length) return '';
     const modeClass = isTextQuestion(q) ? ' image-only' : '';
-    return `<div class="q-images${modeClass}">${images.map(src => `<img class="q-image" src="${formatText(src)}" alt="题目图片">`).join('')}</div>`;
+    const trimAttr = isTextQuestion(q) ? ' onload="trimQuestionImage(this)"' : '';
+    return `<div class="q-images${modeClass}">${images.map(src => `<img class="q-image" src="${formatText(src)}" alt="题目图片"${trimAttr}>`).join('')}</div>`;
 }
 
 function shuffleArray(array) {
