@@ -166,7 +166,14 @@
             padding-bottom: 20px; word-wrap: break-word;
         }
 
-        .q-images { display: flex; flex-direction: column; gap: 14px; margin: -10px 0 28px; }
+        .q-images {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin: -10px 0 28px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
         .q-image {
             display: block; max-width: 100%; height: auto;
             border: 1px solid var(--border); border-radius: 6px;
@@ -334,6 +341,14 @@
             .hint { display: none; } 
             
             .q-body { font-size: 1.15rem; }
+            .q-images.image-only {
+                margin: 0 -12px 24px;
+                padding: 0 12px 8px;
+            }
+            .q-images.image-only .q-image {
+                max-width: none;
+                width: max(100%, 860px);
+            }
             .opt-btn { padding: 12px 15px; font-size: 1rem; }
             
             .code-block { font-size: 0.8rem; padding: 10px; }
@@ -371,6 +386,8 @@
             <div class="mode-item" onclick="changeMode('判断题')">判断题</div>
             <div class="mode-item" onclick="changeMode('填空题')">填空题</div>
             <div class="mode-item" onclick="changeMode('简答题')">简答题</div>
+            <div class="mode-item" onclick="changeMode('分析题')">分析题</div>
+            <div class="mode-item" onclick="changeMode('计算题')">计算题</div>
             <div class="mode-item" onclick="changeMode('操作题')">操作题</div>
         </div>
 
@@ -511,7 +528,7 @@ async function init() {
             // 尝试加载服务器文件，如果失败（可能是自定义科目），检查是否仅存在于 localStorage
             try {
                 const fileName = subjectFiles[currentSubject] || currentSubject + '.json';
-                const response = await fetch(fileName + '?v=' + new Date().getTime());
+                const response = await fetch(encodeURI(fileName) + '?v=' + new Date().getTime());
                 if (!response.ok) throw new Error(`无法找到题库文件: ${fileName}`);
                 fullDB = await response.json();
                 console.log("Loaded from JSON file");
@@ -579,7 +596,8 @@ function renderQuestionPrompt(q) {
 function renderQuestionImages(q) {
     const images = Array.isArray(q.images) ? q.images : (q.image ? [q.image] : []);
     if (!images.length) return '';
-    return `<div class="q-images">${images.map(src => `<img class="q-image" src="${formatText(src)}" alt="题目图片">`).join('')}</div>`;
+    const modeClass = isTextQuestion(q) ? ' image-only' : '';
+    return `<div class="q-images${modeClass}">${images.map(src => `<img class="q-image" src="${formatText(src)}" alt="题目图片">`).join('')}</div>`;
 }
 
 function shuffleArray(array) {

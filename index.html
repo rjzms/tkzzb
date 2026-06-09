@@ -88,16 +88,28 @@
         return '📚'; 
     }
 
+    function cleanSubjectName(id) {
+        try {
+            id = decodeURIComponent(id);
+        } catch (e) {}
+
+        return id
+            .replace(/[_-]+/g, ' ')
+            .replace(/^\d+\s*/, '')
+            .trim() || id;
+    }
+
     function subjectFromJsonFile(fileName) {
         const id = fileName.replace(/\.json$/i, '');
         const matched = fallbackSubjects.find(sub => sub.id === id);
         if (matched) return matched;
+        const name = cleanSubjectName(id);
         return {
             id,
             file: fileName,
-            name: id,
+            name,
             desc: 'JSON 题库',
-            icon: getIcon(id)
+            icon: getIcon(name)
         };
     }
 
@@ -114,7 +126,9 @@
         if (!Array.isArray(files)) return [];
 
         return files
-            .filter(file => file.type === 'file' && /\.json$/i.test(file.name) && file.name !== 'subjects.json')
+            .filter(file => file.type === 'file')
+            .filter(file => /\.json$/i.test(file.name))
+            .filter(file => file.name !== 'subjects.json')
             .map(file => subjectFromJsonFile(file.name));
     }
 
@@ -136,7 +150,7 @@
     async function subjectExists(sub) {
         try {
             const file = sub.file || `${sub.id}.json`;
-            const response = await fetch(file + '?v=' + new Date().getTime());
+            const response = await fetch(encodeURI(file) + '?v=' + new Date().getTime());
             return response.ok;
         } catch (e) {
             return true;
@@ -166,7 +180,7 @@
     function addCardToDOM(id, name, desc, isCustom = false, configuredIcon = '') {
         const icon = configuredIcon || getIcon(name);
         const a = document.createElement('a');
-        a.href = `quiz.html?subject=${id}${isCustom ? '&custom=true' : ''}`;
+        a.href = `quiz.html?subject=${encodeURIComponent(id)}${isCustom ? '&custom=true' : ''}`;
         a.className = 'card';
         a.innerHTML = `
             <div class="icon">${icon}</div>
