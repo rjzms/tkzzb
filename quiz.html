@@ -172,11 +172,45 @@
             gap: 14px;
             margin: -10px 0 28px;
         }
-        .q-image {
-            display: block; width: 100%; max-width: 100%; height: auto;
-            border: 1px solid var(--border); border-radius: 6px;
-            background: #fff;
-        }
+       .q-image {
+    display: block; width: 100%; max-width: 100%; height: auto;
+    border: 1px solid var(--border); border-radius: 6px;
+    background: #fff;
+}
+
+        .q-image { cursor: zoom-in; }
+
+.image-zoom-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.72);
+    z-index: 198;
+}
+
+.image-zoom-backdrop.active {
+    display: block;
+}
+
+body.image-zoom-open {
+    overflow: hidden;
+}
+
+.q-image.zoomed {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    max-width: 96vw;
+    max-height: 88vh;
+    transform: translate(-50%, -50%);
+    z-index: 199;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.35);
+    cursor: zoom-out;
+}
 
         .opt-group { display: flex; flex-direction: column; gap: 12px; }
         .opt-btn {
@@ -375,6 +409,8 @@
     </div>
 
     <div class="mobile-overlay" onclick="toggleSidebar()"></div>
+
+    <div id="image-zoom-backdrop" class="image-zoom-backdrop" onclick="closeImageZoom()"></div>
 
     <aside class="sidebar" id="sidebar">
         <div class="brand-area">
@@ -666,12 +702,45 @@ function trimQuestionImage(img) {
     };
     source.src = img.currentSrc || img.src;
 }
+
+    function toggleQuestionImage(img) {
+    if (!img.closest('.q-images.image-only')) return;
+
+    if (img.classList.contains('zoomed')) {
+        closeImageZoom();
+        return;
+    }
+
+    closeImageZoom();
+
+    img.classList.add('zoomed');
+    document.body.classList.add('image-zoom-open');
+
+    const backdrop = document.getElementById('image-zoom-backdrop');
+    if (backdrop) backdrop.classList.add('active');
+}
+
+function closeImageZoom() {
+    document.querySelectorAll('.q-image.zoomed').forEach(img => {
+        img.classList.remove('zoomed');
+    });
+
+    document.body.classList.remove('image-zoom-open');
+
+    const backdrop = document.getElementById('image-zoom-backdrop');
+    if (backdrop) backdrop.classList.remove('active');
+}
+
+document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeImageZoom();
+});
 function renderQuestionImages(q) {
     const images = Array.isArray(q.images) ? q.images : (q.image ? [q.image] : []);
     if (!images.length) return '';
     const modeClass = isTextQuestion(q) ? ' image-only' : '';
-    const trimAttr = isTextQuestion(q) ? ' onload="trimQuestionImage(this)"' : '';
-    return `<div class="q-images${modeClass}">${images.map(src => `<img class="q-image" src="${formatText(src)}" alt="题目图片"${trimAttr}>`).join('')}</div>`;
+  const trimAttr = isTextQuestion(q) ? ' onload="trimQuestionImage(this)"' : '';
+const zoomAttr = isTextQuestion(q) ? ' onclick="toggleQuestionImage(this)"' : '';
+return `<div class="q-images${modeClass}">${images.map(src => `<img class="q-image" src="${formatText(src)}" alt="题目图片"${trimAttr}${zoomAttr}>`).join('')}</div>`;
 }
 
 function shuffleArray(array) {
