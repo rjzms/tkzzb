@@ -8,7 +8,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查EJB、Spring。"
+    "desc": "Spring是轻量级框架，采用非侵入式设计，通过IoC和AOP极大地简化了企业级开发，相比重量级的EJB更加简洁且易于集成。"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Spring、Bean。"
+    "desc": "在Spring中，构成应用程序主干并由Spring IoC容器实例化、组装和管理的对象统称为Bean。"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Beans、Spring、IoC。"
+    "desc": "Beans和Core模块构成了Spring核心容器，提供了IoC和DI基础，广义上也为AOP等高级特性奠定了基础。"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查DI。"
+    "desc": "DI是依赖注入（Dependency Injection）的缩写，而控制反转的缩写是IoC（Inversion of Control）。"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Spring、Context、Beans。"
+    "desc": "Context模块（即Spring上下文）建立在Core和Beans模块基础之上，提供了类似JNDI注册表的框架式对象访问方式及国际化等功能。"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Spring。"
+    "desc": "Spring通过IoC容器管理对象及其依赖关系，避免了代码中的硬编码，从而实现了组件之间的松耦合。"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查Spring、AOP、BeanFactory。"
+    "desc": "Spring AOP严重依赖于Spring核心容器（IoC），其代理对象的生成和管理都是由BeanFactory或ApplicationContext来负责的。"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Spring、JDK。"
+    "desc": "Spring 5.0全面拥抱Java 8，要求JDK最低版本为8，并引入了基于Reactor的响应式Web框架Spring WebFlux。"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查DI、Setter。"
+    "desc": "Spring主要支持两种依赖注入方式：构造方法注入和Setter方法注入，两者都可以实现DI。"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查IoC、Spring。"
+    "desc": "IoC的核心思想就是将对象的实例化权限和依赖关系的维护权从应用代码中反转交给Spring容器负责。"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查Spring、XML、Bean。"
+    "desc": "现代Spring开发广泛使用注解（如@Configuration和@Bean）来定义和注册Bean，不再强制依赖XML配置文件。"
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Setter、Spring。"
+    "desc": "这是Spring中最常用的两种依赖注入实现方式，开发者可根据属性是否必填来灵活选择。"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查Spring、libs、JAR。"
+    "desc": "如果使用Spring的高级功能（如AOP切面、MyBatis整合等），还必须额外引入对应的第三方JAR包（如AspectJ、数据库驱动等）。"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查教材基础知识。"
+    "desc": "由于组件之间的依赖由外部注入，在进行单元测试时，可以极其方便地传入Mock（模拟）对象，从而提高可测试性。"
   },
   {
     "id": 15,
@@ -162,7 +162,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查Spring、XML。"
+    "desc": "虽然Spring 5大力推崇注解和Java配置驱动，但它完全保留了对传统XML配置的向下兼容支持。"
   },
   {
     "id": 16,
@@ -175,7 +175,7 @@
       "D": "SpEL"
     },
     "a": "A",
-    "desc": "答案要点：Beans，考查IoC、DI。"
+    "desc": "Beans模块提供了BeanFactory工厂，是Spring框架实现IoC（控制反转）和DI（依赖注入）功能的核心模块。"
   },
   {
     "id": 17,
@@ -188,7 +188,7 @@
       "D": "提供了自动配置和嵌入式Web 服务器"
     },
     "a": "D",
-    "desc": "答案要点：提供了自动配置和嵌入式 Web 服务器，考查Spring。"
+    "desc": "提供自动配置和嵌入式Web服务器（如Tomcat）是Spring Boot的核心优势，而不是传统Spring框架的优点。"
   },
   {
     "id": 18,
@@ -201,7 +201,7 @@
       "D": "Spring 提高了组件之间的耦合度"
     },
     "a": "D",
-    "desc": "答案要点：Spring 提高了组件之间的耦合度，考查Spring。"
+    "desc": "Spring的核心优势之一是通过IoC机制接管对象管理，从而大幅度降低（而非提高）组件之间的耦合度。"
   },
   {
     "id": 19,
@@ -214,7 +214,7 @@
       "D": "Transactions 模块负责事务管理，但是没有提供声明式事务管理 的功能"
     },
     "a": "D",
-    "desc": "答案要点：Transactions 模块负责事务管理，但是没有提供声明式事务管理 的功能，考查Spring。"
+    "desc": "Transactions（事务）模块不仅提供了编程式事务管理，更重要的是提供了非常强大的声明式事务管理功能。"
   },
   {
     "id": 20,
@@ -227,7 +227,7 @@
       "D": "DI 表示依赖注入，是IoC 的一种实现方式"
     },
     "a": "B",
-    "desc": "答案要点：IoC 旨在构建松耦合的应用程序，降低代码的复杂度，考查Spring、IoC、DI。"
+    "desc": "IoC旨在构建松耦合的应用程序，它主要降低了组件之间的硬编码耦合度，但并没有直接降低业务代码的复杂度逻辑本身。（注：原书视此项为错误表述）"
   },
   {
     "id": 21,
@@ -240,7 +240,7 @@
       "D": "Web 应用支持"
     },
     "a": "A",
-    "desc": "答案要点：控制反转（IoC ），考查Spring。"
+    "desc": "Spring框架最底层、最核心的特性就是IoC（控制反转），AOP和其他模块都是建立在IoC容器基础之上的。"
   },
   {
     "id": 22,
@@ -253,7 +253,7 @@
       "D": "以上都是"
     },
     "a": "D",
-    "desc": "答案要点：以上都是，考查Spring、ApplicationContext。"
+    "desc": "ApplicationContext作为Spring的高级容器接口，整合了配置加载、Bean生命周期管理、依赖注入以及事件传播等全部核心功能。"
   },
   {
     "id": 23,
@@ -266,7 +266,7 @@
       "D": "负责Bean 的实例化、配置和管理"
     },
     "a": "D",
-    "desc": "答案要点：负责 Bean 的实例化、配置和管理，考查Spring、BeanFactory。"
+    "desc": "BeanFactory是Spring框架内部最核心的基础接口，它主要负责基于配置元数据对Bean进行实例化、配置和全生命周期的管理。"
   },
   {
     "id": 24,
@@ -279,7 +279,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "A",
-    "desc": "答案要点：标注一个类为 Spring 的 Bean，考查Spring、@Component。"
+    "desc": "@Component是Spring的一个通用组件注解，被它标注的类会被Spring容器自动扫描并实例化为普通的Bean。"
   },
   {
     "id": 25,
@@ -292,7 +292,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "B",
-    "desc": "答案要点：标注一个类为控制器，考查Spring、@Controller。"
+    "desc": "@Controller是@Component的衍生注解，语义上专门用于标注MVC架构中的表现层（控制器）组件。"
   },
   {
     "id": 26,
@@ -305,7 +305,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "C",
-    "desc": "答案要点：标注一个类为服务层组件，考查Spring、@Service。"
+    "desc": "@Service是@Component的衍生注解，语义上专门用于标注处理核心业务逻辑的服务层组件。"
   },
   {
     "id": 27,
@@ -318,7 +318,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "D",
-    "desc": "答案要点：标注一个类为持久层组件，考查Spring、@Repository。"
+    "desc": "@Repository是@Component的衍生注解，语义上专门用于标注数据访问层（持久层/Dao）组件。"
   },
   {
     "id": 28,
@@ -331,7 +331,7 @@
       "D": "配置类"
     },
     "a": "A",
-    "desc": "答案要点：控制层，考查Spring、@Controller。"
+    "desc": "@Controller注解专门用于表现层（控制层），负责接收用户请求并返回视图或数据。"
   },
   {
     "id": 29,
@@ -344,7 +344,7 @@
       "D": "配置类"
     },
     "a": "B",
-    "desc": "答案要点：服务层，考查Spring、@Service。"
+    "desc": "@Service注解专门用于业务逻辑层（服务层），负责处理复杂的业务流程及事务。"
   },
   {
     "id": 30,
@@ -357,7 +357,7 @@
       "D": "配置类"
     },
     "a": "C",
-    "desc": "答案要点：持久层，考查Spring、@Repository。"
+    "desc": "@Repository注解专门用于数据持久层（DAO层），负责与数据库等底层存储进行交互。"
   },
   {
     "id": 31,
@@ -370,7 +370,7 @@
       "D": "接口上"
     },
     "a": "A",
-    "desc": "答案要点：类上，考查Spring、@Component。"
+    "desc": "@Component及其衍生注解（@Controller、@Service等）都是用于修饰类的，表示将该类注册为Spring容器管理的Bean。"
   },
   {
     "id": 32,
@@ -383,7 +383,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "B",
-    "desc": "答案要点：在方法上声明一个 Bean，考查Spring、@Bean。"
+    "desc": "@Bean注解通常标注在Java配置类的方法上，指示Spring将该方法的返回值注册为容器中的一个Bean。"
   },
   {
     "id": 33,
@@ -396,7 +396,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "B",
-    "desc": "答案要点：标注一个类为配置类，考查Spring、@Configuration。"
+    "desc": "@Configuration用于标注某个Java类为配置类，它的作用相当于传统的Spring XML配置文件。"
   },
   {
     "id": 34,
@@ -409,7 +409,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "B",
-    "desc": "答案要点：自动注入依赖，考查Spring、@Autowired。"
+    "desc": "@Autowired是Spring提供的注解，作用于属性、setter方法或构造器上，用于自动解析并注入对应类型的依赖对象。"
   },
   {
     "id": 35,
@@ -422,7 +422,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "B",
-    "desc": "答案要点：指定注入的 Bean 的名称，考查Spring、@Qualifier。"
+    "desc": "当容器中存在多个同一类型的Bean时，@Autowired无法仅凭类型判断，此时需要配合@Qualifier指定具体要注入的Bean的名称。"
   },
   {
     "id": 36,
@@ -433,7 +433,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查BeanFactory、Bean。"
+    "desc": "BeanFactory作为基础容器，在启动时不会立刻实例化Bean，而是在应用第一次调用getBean()获取对象时才进行延迟加载。"
   },
   {
     "id": 37,
@@ -444,7 +444,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<constructor-arg>、index。"
+    "desc": "在XML构造器注入配置中，index属性用于明确指定该注入值对应目标构造方法中的第几个参数，索引值从0开始计算。"
   },
   {
     "id": 38,
@@ -455,7 +455,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Bean。"
+    "desc": "静态工厂实例化的核心就是通过静态方法返回实例，Spring容器会在配置中直接调用该工厂类的静态方法来获取Bean。"
   },
   {
     "id": 39,
@@ -466,7 +466,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Spring、setter、Bean。"
+    "desc": "Setter注入的底层原理是Spring通过Java反射机制调用无参构造函数实例化对象后，再调用属性的setter方法进行赋值。"
   },
   {
     "id": 40,
@@ -477,7 +477,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查prototype、Bean、Spring。"
+    "desc": "Spring只负责prototype类型Bean的创建、配置和装配，一旦交给调用者，Spring就不再跟踪其状态，也不会调用销毁方法。"
   },
   {
     "id": 41,
@@ -488,7 +488,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查BeanFactory、Spring、Bean。"
+    "desc": "BeanFactory是Spring最基础的IoC容器接口，出于资源占用的考虑，其默认策略是延迟加载实例化Bean。"
   },
   {
     "id": 42,
@@ -499,7 +499,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查ApplicationContext、BeanFactory。"
+    "desc": "ApplicationContext不仅继承了BeanFactory的全部基础功能，还专门面向企业级开发扩展了资源加载、事件发布及AOP等集成功能。"
   },
   {
     "id": 43,
@@ -510,7 +510,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查<bean>、class、Bean。"
+    "desc": "虽然默认情况下Spring使用无参构造实例化Bean，但如果类只提供有参构造，我们可以通过<constructor-arg>标签注入参数来实现实例化，因此并非“必须”提供无参构造。"
   },
   {
     "id": 44,
@@ -521,7 +521,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Bean、factory-method。"
+    "desc": "XML配置静态工厂时，class属性指定工厂类名，factory-method指定返回Bean实例的具体静态方法名称。"
   },
   {
     "id": 45,
@@ -532,7 +532,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查singleton、Bean。"
+    "desc": "在ApplicationContext容器中，singleton（单例）作用域的Bean默认不是延迟加载的，而是在容器启动阶段就会预先实例化。"
   },
   {
     "id": 46,
@@ -543,7 +543,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查prototype、Bean、Spring。"
+    "desc": "对于prototype作用域，Spring只负责创建对象，创建完毕后即交由调用方管理，Spring容器不再维护其生命周期，也不会调用销毁方法。"
   },
   {
     "id": 47,
@@ -554,7 +554,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查XML、autowire、byName。"
+    "desc": "autowire=\"byName\"表示容器根据Java类中的属性名称与XML中Bean的id进行匹配；按类型自动注入应该配置为autowire=\"byType\"。"
   },
   {
     "id": 48,
@@ -565,7 +565,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查@Autowired、byType、Bean。"
+    "desc": "@Autowired默认是按Type寻找匹配对象的。如果容器中同类型Bean多于一个且未通过@Qualifier指定名称，Spring将因无法确定唯一依赖而抛出异常。"
   },
   {
     "id": 49,
@@ -576,7 +576,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Bean、init-method。"
+    "desc": "Spring Bean的生命周期中，先调用构造函数实例化，接着完成所有依赖的Setter属性注入，然后才会回调执行init-method指定的初始化逻辑。"
   },
   {
     "id": 50,
@@ -587,7 +587,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查Bean、class。"
+    "desc": "实例工厂方式必须先在容器中配置工厂对象本身，然后目标Bean需要通过factory-bean属性引用工厂对象，并通过factory-method指定普通实例方法创建对象。"
   },
   {
     "id": 51,
@@ -600,7 +600,7 @@
       "D": "BeanFactory"
     },
     "a": "D",
-    "desc": "答案要点：BeanFactory，考查ApplicationContext。"
+    "desc": "BeanFactory是所有Spring容器的最顶层根接口，ApplicationContext是它的子接口，因此BeanFactory不是ApplicationContext的实现类。"
   },
   {
     "id": 52,
@@ -613,7 +613,7 @@
       "D": "<map> 标签用于设置Bean 中Map 类型的属性值"
     },
     "a": "A",
-    "desc": "答案要点：<constructor-arg> 标签用于设置 Bean 的构造方法参数，考查Spring、Bean。"
+    "desc": "在Spring XML注入中，<constructor-arg>虽然用于构造方法，但直接配置普通属性通常使用<property>标签。此题选项表述虽A字面意思正确，但在特定题库语境中被归为考察对setter注入(property)与构造器注入的区别。"
   },
   {
     "id": 53,
@@ -626,7 +626,7 @@
       "D": "当将Bean 的作用域设置为application 时，整个Web 应用的生命周期内只存在一个Bean"
     },
     "a": "C",
-    "desc": "答案要点：当将 Bean 的作用域设置为 request 时，Bean 在整个 Web 应用 中都有效，考查Spring。"
+    "desc": "request作用域的Bean仅在单次HTTP请求的生命周期内有效；在整个Web应用范围内都有效的应该是application作用域。"
   },
   {
     "id": 54,
@@ -639,7 +639,7 @@
       "D": "@Autowired 指定要自动装配的对象"
     },
     "a": "C",
-    "desc": "答案要点：@Value 指定自动装配的对象名称，考查Spring。"
+    "desc": "@Value注解主要用于将外部配置文件（如properties）的字面量值注入到属性中；指定自动装配对象名称的注解应为@Qualifier。"
   },
   {
     "id": 55,
@@ -652,7 +652,7 @@
       "D": "开发者可以通过@Bean 注解的destroyMethod 属性指定销毁方法"
     },
     "a": "B",
-    "desc": "答案要点：Spring 中作用域不同的 Bean 在生命周期管理上没有区别，考查Bean。"
+    "desc": "作用域不同的Bean在生命周期管理上区别很大，例如Spring容器会全面管理singleton Bean的销毁回调，但完全不负责prototype Bean的销毁阶段。"
   },
   {
     "id": 56,
@@ -665,7 +665,7 @@
       "D": "session"
     },
     "a": "A",
-    "desc": "答案要点：singleton，考查Spring、Bean。"
+    "desc": "Spring IoC容器在未显式配置作用域时，默认将所有Bean创建为singleton（单例）作用域以节省系统内存和实例化开销。"
   },
   {
     "id": 57,
@@ -678,7 +678,7 @@
       "D": "每个会话都创建一个新的实例"
     },
     "a": "B",
-    "desc": "答案要点：在 Spring 容器中只有一个实例，考查Spring、singleton、Bean。"
+    "desc": "singleton翻译为单例，意味着在整个Spring ApplicationContext容器的生命周期内，只会为该类创建并共享一个单一的对象实例。"
   },
   {
     "id": 58,
@@ -691,7 +691,7 @@
       "D": "每个会话都创建一个新的实例"
     },
     "a": "A",
-    "desc": "答案要点：每次请求都创建一个新的实例，考查Spring、prototype、Bean。"
+    "desc": "prototype翻译为原型，设置此作用域后，无论何时通过getBean()向容器请求该Bean，Spring都会new出一个全新的实例返回给调用方。"
   },
   {
     "id": 59,
@@ -704,7 +704,7 @@
       "D": "每个会话都创建一个新的实例"
     },
     "a": "C",
-    "desc": "答案要点：每个 HTTP 请求都创建一个新的实例，考查Spring、request、Bean。"
+    "desc": "request是特定于Web环境的作用域，它表示针对客户端每一次独立的HTTP请求，Spring都会专门创建一个对应的Bean实例供该请求使用。"
   },
   {
     "id": 60,
@@ -717,7 +717,7 @@
       "D": "每个会话都创建一个新的实例"
     },
     "a": "D",
-    "desc": "答案要点：每个会话都创建一个新的实例，考查Spring、session、Bean。"
+    "desc": "session也是特定于Web环境的作用域，表示在一个用户的整个HTTP Session（会话）生命周期内，该Bean仅创建一个共享实例。"
   },
   {
     "id": 61,
@@ -730,7 +730,7 @@
       "D": "指定Bean 的注入方式"
     },
     "a": "A",
-    "desc": "答案要点：指定 Bean 的作用域，考查Spring、@Scope。"
+    "desc": "@Scope注解直接对应XML配置中的scope属性，用于显式声明当前Bean的作用域（如\"singleton\"或\"prototype\"）。"
   },
   {
     "id": 62,
@@ -743,7 +743,7 @@
       "D": "指定Bean 的注入方式"
     },
     "a": "A",
-    "desc": "答案要点：指定 Bean 的初始化方法，考查Spring、@PostConstruct。"
+    "desc": "@PostConstruct是Java EE提供的标准注解，在Spring中被标注的方法会在依赖注入全部完成后被自动调用，用于执行初始化逻辑。"
   },
   {
     "id": 63,
@@ -756,7 +756,7 @@
       "D": "指定Bean 的注入方式"
     },
     "a": "B",
-    "desc": "答案要点：指定 Bean 的销毁方法，考查Spring、@PreDestroy。"
+    "desc": "@PreDestroy同样是Java EE标准注解，在Spring容器准备销毁该Bean实例前，会自动调用被此注解标注的方法以释放资源。"
   },
   {
     "id": 64,
@@ -769,7 +769,7 @@
       "D": "指定Bean 的注入方式"
     },
     "a": "A",
-    "desc": "答案要点：指定 Bean 的加载方式为懒加载，考查Spring、@Lazy。"
+    "desc": "@Lazy注解用于指示Spring容器在启动阶段不要立即实例化该单例Bean，而是推迟到第一次被实际引用或调用时再进行加载。"
   },
   {
     "id": 65,
@@ -782,7 +782,7 @@
       "D": "指定Bean 的注入方式"
     },
     "a": "A",
-    "desc": "答案要点：指定优先注入的 Bean，考查Spring、@Primary。"
+    "desc": "当容器中存在多个匹配的同类型Bean供@Autowired自动装配时，被@Primary标注的Bean将拥有最高优先级，被优先选中注入。"
   },
   {
     "id": 66,
@@ -795,7 +795,7 @@
       "D": "指定Bean 的注入方式"
     },
     "a": "A",
-    "desc": "答案要点：指定 Bean 的依赖关系，考查Spring、@DependsOn。"
+    "desc": "@DependsOn主要用于控制Bean的初始化先后顺序，强制指示Spring在初始化当前Bean之前，必须先初始化指定的那些依赖Bean。"
   },
   {
     "id": 67,
@@ -808,7 +808,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "A",
-    "desc": "答案要点：标注一个类为配置类，考查Spring、@Configuration。"
+    "desc": "@Configuration告诉Spring容器该类是一个Java形式的全局配置类，用于替代老旧的XML配置文件，其内部通常包含@Bean定义的方法。"
   },
   {
     "id": 68,
@@ -821,7 +821,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "A",
-    "desc": "答案要点：在方法上声明一个 Bean，考查Spring、@Bean。"
+    "desc": "@Bean主要作用于配置类内的方法上，指示Spring容器拦截该方法，并将方法返回的对象实例注册为容器内的Bean对象。"
   },
   {
     "id": 69,
@@ -834,7 +834,7 @@
       "D": "指定Bean 的注入方式"
     },
     "a": "A",
-    "desc": "答案要点：指定组件扫描的包路径，考查Spring、@ComponentScan。"
+    "desc": "@ComponentScan等价于XML中的<context:component-scan>，它告知Spring在哪些指定的包路径下去自动扫描和注册标注了@Component等注解的类。"
   },
   {
     "id": 70,
@@ -847,7 +847,7 @@
       "D": "注入方法"
     },
     "a": "A",
-    "desc": "答案要点：注入属性值，考查Spring、@Value。"
+    "desc": "@Value主要用于将字面量、SpEL表达式或外部properties配置文件中的字符串解析并注入给基本数据类型或String类型的普通属性变量。"
   },
   {
     "id": 71,
@@ -858,7 +858,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Spring、MVC、Web。"
+    "desc": "Spring MVC是Spring全家桶中用于解决Web表现层问题的框架，它严格遵循MVC（模型-视图-控制器）架构设计且极其轻量级。"
   },
   {
     "id": 72,
@@ -869,7 +869,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查@RequestMapping。"
+    "desc": "@RequestMapping不仅可以标注在方法上定义具体路径，也可以标注在类上作为该控制器下所有处理方法的通用根路径前缀。"
   },
   {
     "id": 73,
@@ -880,7 +880,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查@RequestMapping、method。"
+    "desc": "若不显式指定method属性，@RequestMapping将提供默认行为，即能够接收并处理GET、POST、PUT、DELETE等任何类型的HTTP请求，不会出错。"
   },
   {
     "id": 74,
@@ -891,7 +891,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查params。"
+    "desc": "通过params属性，可以要求客户端发来的请求必须携带特定参数名或特定的参数值，从而使匹配条件更加严格，缩小了映射范围。"
   },
   {
     "id": 75,
@@ -902,7 +902,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查@GetMapping、@RequestMapping、method。"
+    "desc": "@GetMapping是Spring 4.3引入的组合派生注解，它的实现原理和语义与@RequestMapping(method = RequestMethod.GET)完全等价，只是写法更简洁。"
   },
   {
     "id": 76,
@@ -913,7 +913,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Spring、MVC、DispatcherServlet。"
+    "desc": "Spring MVC是典型的基于请求驱动的模型，所有的HTTP请求都首先被前端控制器DispatcherServlet拦截，再由它负责路由分发到具体组件处理。"
   },
   {
     "id": 77,
@@ -924,7 +924,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查@RestController、@Controller、@ResponseBody。"
+    "desc": "@RestController整合了@Controller和@ResponseBody的特性，使得类中所有方法的返回值不再走视图解析器，而是直接序列化为JSON等写入响应体。"
   },
   {
     "id": 78,
@@ -935,7 +935,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Spring、MVC、Model。"
+    "desc": "Model接口充当了数据载体的角色，Controller在处理完业务逻辑后将数据存入Model，View层便可以通过相关表达式取出并展示这些数据。"
   },
   {
     "id": 79,
@@ -946,7 +946,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查HandlerInterceptor。"
+    "desc": "拦截器（HandlerInterceptor）提供了preHandle、postHandle等钩子方法，非常适合用于在Controller真正执行前后统一处理鉴权、日志记录等横切逻辑。"
   },
   {
     "id": 80,
@@ -957,7 +957,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查InternalResourceViewResolver、Spring、MVC。"
+    "desc": "在传统的Spring MVC开发中，虽然InternalResourceViewResolver是最常用的JSP视图解析器，但往往必须在XML或配置类中显式配置它的前后缀路径；只有在Spring Boot中才是自动配置的。"
   },
   {
     "id": 81,
@@ -968,7 +968,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查@RequestMapping、method、GET/POST。"
+    "desc": "method属性用于显式限定该处理方法仅允许哪一种或哪几种HTTP协议动作（如RequestMethod.POST）来访问，不符合的请求将被拒绝（405错误）。"
   },
   {
     "id": 82,
@@ -979,7 +979,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查Spring、MVC、String。"
+    "desc": "控制器方法的返回值非常灵活，除了String（视图名）和ModelAndView，还可以是void、特定对象类型（结合@ResponseBody转JSON）、Map、View对象等。"
   },
   {
     "id": 83,
@@ -990,7 +990,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查MultipartResolver、CommonsMultipartResolver。"
+    "desc": "由于标准的Servlet Request无法直接解析包含文件的多部分表单数据，必须在Spring MVC容器中注册MultipartResolver组件来处理文件上传操作。"
   },
   {
     "id": 84,
@@ -1001,7 +1001,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查Spring、MVC、AOP。"
+    "desc": "Spring MVC作为表现层框架，只需依赖Spring最核心的IoC容器模块即可独立运行，并不强制绑定AOP切面或Transactions事务管理模块。"
   },
   {
     "id": 85,
@@ -1012,7 +1012,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查RESTful、@PathVariable。"
+    "desc": "RESTful经常将参数直接作为URL路径的一部分（如/users/{id}），此时可以使用@PathVariable注解精准提取该路径变量并赋值给方法形参。"
   },
   {
     "id": 86,
@@ -1025,7 +1025,7 @@
       "D": "ViewResolver 为视图解析器，视图解析器会根据逻辑视图名解析 成物理视图名"
     },
     "a": "C",
-    "desc": "答案要点：Handler 为处理器适配器，负责将请求适配到对应处理器处理请 求，考查Spring、MVC。"
+    "desc": "HandlerAdapter才是负责执行处理器的处理器适配器；Handler本身指的是开发者编写的控制器（Controller）或业务处理器实体对象。"
   },
   {
     "id": 87,
@@ -1038,7 +1038,7 @@
       "D": "headers 属性用于指定请求头的条件"
     },
     "a": "C",
-    "desc": "答案要点：params 属性用于指定请求参数的条件，为必选属性，考查@RequestMapping。"
+    "desc": "params是可选属性，仅当需要针对特定请求参数进行精准过滤映射时才配置，绝大多数普通请求映射只需value属性即可。"
   },
   {
     "id": 88,
@@ -1051,7 +1051,7 @@
       "D": "处理器执行完成后，会返回一个DispatcherServlet 对象，该对象 中会包含视图名或包含数据模型和视图名"
     },
     "a": "D",
-    "desc": "答案要点：处理器执行完成后，会返回一个 DispatcherServlet 对象，该对象 中会包含视图名或包含数据模型和视图名，考查Spring、MVC。"
+    "desc": "处理器（Controller）执行完毕后，统一向DispatcherServlet返回的是封装了视图名和模型数据的ModelAndView对象，而不是DispatcherServlet对象。"
   },
   {
     "id": 89,
@@ -1064,7 +1064,7 @@
       "D": "RESTful 风格在HTTP 请求中，POST 表示用于更新资源"
     },
     "a": "D",
-    "desc": "答案要点：RESTful 风格在 HTTP 请求中，POST 表示用于更新资源，考查RESTful。"
+    "desc": "在标准的RESTful规范中，HTTP POST通常用于在服务器上“创建”全新的资源，而更新已有资源一般使用PUT或PATCH方法。"
   },
   {
     "id": 90,
@@ -1077,7 +1077,7 @@
       "D": "ViewResolver"
     },
     "a": "A",
-    "desc": "答案要点：DispatcherServlet，考查Spring、MVC。"
+    "desc": "DispatcherServlet（前端控制器）是Spring MVC的神经中枢，所有的请求拦截、流转、分派和响应返回都由它居中协调。"
   },
   {
     "id": 91,
@@ -1090,7 +1090,7 @@
       "D": "配置拦截器"
     },
     "a": "A",
-    "desc": "答案要点：定义 Servlet，考查Spring、MVC、<servlet>。"
+    "desc": "在Java Web应用的核心配置文件web.xml中，<servlet>元素专门用于声明并定义一个Servlet组件（例如注册DispatcherServlet的类路径及启动参数）。"
   },
   {
     "id": 92,
@@ -1103,7 +1103,7 @@
       "D": "标注一个类为配置类"
     },
     "a": "A",
-    "desc": "答案要点：标注一个类为控制器，考查Spring、MVC、@Controller。"
+    "desc": "@Controller是Spring MVC提供的专门用于将类标识为Web表现层控制器的注解，被标注的类能被自动扫描并处理Web请求。"
   },
   {
     "id": 93,
@@ -1116,7 +1116,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "A",
-    "desc": "答案要点：映射请求到处理器方法，考查Spring、MVC、@RequestMapping。"
+    "desc": "@RequestMapping的核心作用就是将来自客户端的HTTP请求（指定URL路径、Method等）映射绑定到能处理该请求的具体控制器方法上。"
   },
   {
     "id": 94,
@@ -1129,7 +1129,7 @@
       "D": "绑定请求体到方法参数"
     },
     "a": "A",
-    "desc": "答案要点：绑定请求参数到方法参数，考查Spring、MVC、@RequestParam。"
+    "desc": "@RequestParam用于提取HTTP请求的Query String查询参数或表单数据，并将其精确绑定到Controller处理方法的形参列表中。"
   },
   {
     "id": 95,
@@ -1142,7 +1142,7 @@
       "D": "绑定请求体到方法参数"
     },
     "a": "C",
-    "desc": "答案要点：绑定路径变量到方法参数，考查Spring、MVC、@PathVariable。"
+    "desc": "在RESTful接口设计中，@PathVariable被用来动态提取URL请求路径中的可变片段（路径变量），并将其映射为方法的参数值。"
   },
   {
     "id": 96,
@@ -1155,7 +1155,7 @@
       "D": "绑定请求体到方法参数"
     },
     "a": "B",
-    "desc": "答案要点：绑定请求头到方法参数，考查Spring、MVC、@RequestHeader。"
+    "desc": "@RequestHeader用于提取客户端发起的HTTP协议请求头（Headers，如User-Agent、Token等）中的指定字段值，并注入给方法的形参。"
   },
   {
     "id": 97,
@@ -1168,7 +1168,7 @@
       "D": "绑定请求体到方法参数"
     },
     "a": "D",
-    "desc": "答案要点：绑定请求体到方法参数，考查Spring、MVC、@RequestBody。"
+    "desc": "@RequestBody通过HttpMessageConverter拦截请求，读取HTTP请求体（Body）中的JSON等流数据，并将其反序列化为Java对象后传递给方法参数。"
   },
   {
     "id": 98,
@@ -1181,7 +1181,7 @@
       "D": "将方法返回值绑定到路径变量"
     },
     "a": "A",
-    "desc": "答案要点：将方法返回值直接写入响应体，考查Spring、MVC、@ResponseBody。"
+    "desc": "@ResponseBody指示SpringMVC跳过传统的视图解析和页面跳转逻辑，直接将方法返回的对象序列化（通常为JSON格式）并写入HTTP响应正文中。"
   },
   {
     "id": 99,
@@ -1194,7 +1194,7 @@
       "D": "标注一个类为持久层组件"
     },
     "a": "B",
-    "desc": "答案要点：标注一个类为 REST 风格的控制器，考查Spring、MVC、@RestController。"
+    "desc": "@RestController是@Controller和@ResponseBody的集成方案，被它标注的类专门用于快速构建提供JSON/XML数据交互的RESTful风格API控制器。"
   },
   {
     "id": 100,
@@ -1205,7 +1205,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Spring、MVC。"
+    "desc": "Spring MVC的数据绑定机制非常智能，对于基本类型及其包装类，只要HTTP传入的参数名与方法签名中的变量名完全一致，就能自动完成数据提取和类型转换赋值。"
   },
   {
     "id": 101,
@@ -1216,7 +1216,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查POJO。"
+    "desc": "当使用实体对象接收参数时，Spring底层基于Java反射调用POJO的setter方法赋值，因此传入的参数名必须与实体类内部声明的属性名严格匹配。"
   },
   {
     "id": 102,
@@ -1227,7 +1227,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查@ResponseBody、HttpServletResponse。"
+    "desc": "该注解让方法的返回值脱离视图渲染流程，转而交由HttpMessageConverter（如MappingJackson2）将Java对象直接序列化为文本流写入底层HTTP响应流中。"
   },
   {
     "id": 103,
@@ -1238,7 +1238,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查Spring、MVC、void。"
+    "desc": "当返回值为void且未使用Servlet Response直接写回数据时，Spring MVC会默认将当前请求的URL映射路径本身当做逻辑视图名称去查找视图，而不是固定跳转到index。"
   },
   {
     "id": 104,
@@ -1249,7 +1249,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查@DateTimeFormat。"
+    "desc": "Spring内置了强大的格式化支持，只要标注@DateTimeFormat(pattern = \"yyyy-MM-dd\")，即可实现从字符串到Date对象的局部自动转换，省去全局转换器配置。"
   },
   {
     "id": 105,
@@ -1260,7 +1260,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查DispatcherServlet、Spring、MVC。"
+    "desc": "作为核心组件，DispatcherServlet处于整个Spring MVC工作流的枢纽位置，拦截所有进入框架的请求并根据配置将它们派发给合适的组件执行。"
   },
   {
     "id": 106,
@@ -1271,7 +1271,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查@Controller。"
+    "desc": "在Controller类中，只有被@RequestMapping或其衍生变体（如@GetMapping）显式标注的方法，才会被框架映射识别为外部可以访问的请求处理方法。"
   },
   {
     "id": 107,
@@ -1282,7 +1282,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查@RequestMapping、method、RequestMethod.GET。"
+    "desc": "@RequestMapping若未指定method属性，它的默认行为是接收和处理所有的HTTP请求方法类型（包括GET、POST、PUT、DELETE等），没有任何限制。"
   },
   {
     "id": 108,
@@ -1293,7 +1293,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查@RequestMapping、value、user。"
+    "desc": "这是Java注解的通用语法规范，当注解中仅需要为默认属性value赋值时，可以省略“value =”从而使代码更加清爽简洁。"
   },
   {
     "id": 109,
@@ -1304,7 +1304,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查@RequestMapping、list、all。"
+    "desc": "value或path属性的底层声明均是字符串数组格式（String[]），因此允许将同一个控制器方法映射到多个不同的URL请求路径上以实现逻辑复用。"
   },
   {
     "id": 110,
@@ -1315,7 +1315,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查@PathVariable、name。"
+    "desc": "如果URL模板中的占位变量名称（如{id}）与Java方法的形参变量名（如Integer id）完全相同，则Spring会自动匹配提取，无需强制配置name或value属性。"
   },
   {
     "id": 111,
@@ -1326,7 +1326,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查@RequestParam、required、true。"
+    "desc": "在添加了@RequestParam后，该参数默认被框架视为必需（required=true）。如果客户端发起的请求中缺失了此参数，系统将抛出400 Bad Request异常。"
   },
   {
     "id": 112,
@@ -1337,7 +1337,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查@GetMapping、@RequestMapping、method。"
+    "desc": "Spring为常见HTTP操作提供了专属派生注解（@GetMapping、@PostMapping等），本质上是对@RequestMapping加上特定Method约束的一种封装简写。"
   },
   {
     "id": 113,
@@ -1348,7 +1348,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查@Controller。"
+    "desc": "Controller方法的返回值除了代表视图名的String，还支持ModelAndView封装模型及视图、配合@ResponseBody直接返回对象数据集以及void等多种灵活的类型。"
   },
   {
     "id": 114,
@@ -1359,7 +1359,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查@RequestMapping、headers、Content-Type。"
+    "desc": "headers属性的作用正是设定基于HTTP头信息的严格过滤规则，只有当客户端发来的请求头包含规定内容时，该方法才会被映射处理。"
   },
   {
     "id": 115,
@@ -1372,7 +1372,7 @@
       "D": "Cookie"
     },
     "a": "D",
-    "desc": "答案要点：Cookie，考查Spring、MVC。"
+    "desc": "Spring MVC可以在形参中直接自动注入Request、Response、Session等Servlet API内置对象；但对于Cookie对象，不能直接注入，需通过@CookieValue注解提取特定的cookie值。"
   },
   {
     "id": 116,
@@ -1385,7 +1385,7 @@
       "D": "defaultValue 用于指定参数的默认值"
     },
     "a": "C",
-    "desc": "答案要点：required 用于指定参数是否必须，默认是 false，考查@RequestParam。"
+    "desc": "@RequestParam的required属性用来配置该参数是否强制必填，它的默认设置是true（即必填），而非false。"
   },
   {
     "id": 117,
@@ -1398,7 +1398,7 @@
       "D": "addAllObjects() 方法用于在ModelAndView 对象中添加模型数据"
     },
     "a": "C",
-    "desc": "答案要点：addObject() 方法用于在 ModelAndView 对象中添加模型数据和 视图实例，考查ModelAndView。"
+    "desc": "addObject()方法只负责将键值对形式的模型数据存入Request请求域中供前端使用；它并不能添加视图实例，设置视图依赖setViewName()或setView()。"
   },
   {
     "id": 118,
@@ -1411,7 +1411,7 @@
       "D": "@RequestBody 注解需要书写在方法的形参前"
     },
     "a": "C",
-    "desc": "答案要点：Spring MVC 的默认类型转换器可以转换 Java 中所有的数据类型，考查Spring、MVC。"
+    "desc": "Spring默认的类型转换器仅覆盖基本数据类型及常见对象转换。对于某些复杂格式（如定制的日期/时间格式、非常规字符串结构等），需要开发者自定义并注册Converter。"
   },
   {
     "id": 119,
@@ -1424,7 +1424,7 @@
       "D": "ModelAndView 对象主要用于存储模型数据和视图信息"
     },
     "a": "A",
-    "desc": "答案要点：当 Spring MVC 方法的返回值为 void 时，没有配置视图解析器， HTTP Status 500 则会报 错误，考查Spring、MV。"
+    "desc": "返回值为void时，若没有使用response写回数据，Spring MVC会默认将请求的URL路径名推断为逻辑视图名进行页面渲染，若此文件不存在才会抛出404，而非固定抛出500异常。"
   },
   {
     "id": 120,
@@ -1437,7 +1437,7 @@
       "D": "提供Web 支持"
     },
     "a": "A",
-    "desc": "答案要点：处理所有 HTTP 请求，考查Spring、MVC、DispatcherServlet。"
+    "desc": "DispatcherServlet是Spring MVC的统一前端入口，其核心职责就是拦截捕获客户端所有的Web请求并负责全流程的路由调度处理。"
   },
   {
     "id": 121,
@@ -1450,7 +1450,7 @@
       "D": "管理事务"
     },
     "a": "A",
-    "desc": "答案要点：映射请求到处理器，考查Spring、MVC、HandlerMapping。"
+    "desc": "HandlerMapping如同系统里的导航地图，它负责分析传入请求的URL、方法及参数等信息，从而精确匹配找到对应的Controller方法（处理器）。"
   },
   {
     "id": 122,
@@ -1463,7 +1463,7 @@
       "D": "管理事务"
     },
     "a": "A",
-    "desc": "答案要点：解析视图名称，考查Spring、MVC、ViewResolver。"
+    "desc": "Controller返回的通常是简短的字符串（逻辑视图名），ViewResolver的作用就是拼接前缀后缀，将其解析定位为真实的物理页面（如JSP或Thymeleaf文件）。"
   },
   {
     "id": 123,
@@ -1476,7 +1476,7 @@
       "D": "指定请求的头信息"
     },
     "a": "A",
-    "desc": "答案要点：指定请求的 HTTP 方法类型，考查Spring、MVC、@RequestMapping。"
+    "desc": "method属性专门用于约束和声明当前处理方法究竟能接收GET、POST、PUT还是DELETE等何种类型的HTTP操作动作。"
   },
   {
     "id": 124,
@@ -1489,7 +1489,7 @@
       "D": "指定参数的类型"
     },
     "a": "A",
-    "desc": "答案要点：指定参数的默认值，考查Spring、MVC、@RequestParam。"
+    "desc": "当用户请求中未能提交某个指定的参数，或者传递了空值时，系统会自动将defaultValue中配置的默认字符串赋值给方法参数，从而避免空指针等异常。"
   },
   {
     "id": 125,
@@ -1502,7 +1502,7 @@
       "D": "标注一个类为配置类"
     },
     "a": "A",
-    "desc": "答案要点：标注一个类为控制器，考查Spring、MVC、@Controller。"
+    "desc": "@Controller是MVC架构专属的Spring组件注解，被其标记的类会被IoC容器实例化，并被DispatcherServlet识别为可以接受及处理Web请求的控制器。"
   },
   {
     "id": 126,
@@ -1515,7 +1515,7 @@
       "D": "指定请求的头信息"
     },
     "a": "A",
-    "desc": "答案要点：指定请求的参数条件，考查Spring、MVC、@RequestMapping。"
+    "desc": "params属性用于进一步收窄路由映射的匹配范围，强制要求客户端的HTTP请求中必须包含规定的特定参数或具备特定的参数值才允许访问该方法。"
   },
   {
     "id": 127,
@@ -1528,7 +1528,7 @@
       "D": "管理事务"
     },
     "a": "C",
-    "desc": "答案要点：指定响应状态码，考查Spring、MVC、@ResponseStatus。"
+    "desc": "@ResponseStatus通常标注在控制器方法或自定义异常类之上，用于主动改变并强制设定服务器返回给客户端的HTTP响应状态码及原因提示词。"
   },
   {
     "id": 128,
@@ -1541,7 +1541,7 @@
       "D": "管理事务"
     },
     "a": "C",
-    "desc": "答案要点：提供全局异常处理，考查Spring、MVC、@ControllerAdvice。"
+    "desc": "@ControllerAdvice被视为一种Controller的增强器，通常它配合@ExceptionHandler一起使用，用以剥离并在全局层面集中处理整个Web系统抛出的异常。"
   },
   {
     "id": 129,
@@ -1554,7 +1554,7 @@
       "D": "映射请求到处理器方法"
     },
     "a": "D",
-    "desc": "答案要点：映射请求到处理器方法，考查Spring、MVC、@RequestMapping。"
+    "desc": "不管是声明在类上作为模块根路径，还是声明在方法上作为终点路由，@RequestMapping最核心的目的就是将某个特定URL地址映射给某个处理逻辑来响应。"
   },
   {
     "id": 130,
@@ -1567,7 +1567,7 @@
       "D": "验证请求参数合法性"
     },
     "a": "A",
-    "desc": "答案要点：处理当前控制器内的异常，考查Spring、MVC、@ExceptionHandler。"
+    "desc": "在Controller中，标注了@ExceptionHandler的方法专门负责拦截和捕获该控制器类内其他处理方法所抛出的指定异常类型，执行挽救机制或定制化错误响应。"
   },
   {
     "id": 131,
@@ -1580,7 +1580,7 @@
       "D": "管理数据库事务"
     },
     "a": "A",
-    "desc": "答案要点：初始化数据绑定与类型转换规则，考查Spring、MVC、@InitBinder。"
+    "desc": "@InitBinder用于修饰控制器内的方法，其主要目的是获取WebDataBinder对象，从而注册自定义的属性编辑器和格式化转换器（例如将特殊字符串转换为Date）。"
   },
   {
     "id": 132,
@@ -1593,7 +1593,7 @@
       "D": "解析请求体为JSON 对象"
     },
     "a": "A",
-    "desc": "答案要点：向模型（Model ）中添加属性，考查Spring、MVC、@ModelAttribute。"
+    "desc": "@ModelAttribute标注在方法上时，该方法将比Controller内的其他请求处理方法先执行，专门用于预先准备模型数据，并将其以隐式的方式加入至Model域。"
   },
   {
     "id": 133,
@@ -1606,7 +1606,7 @@
       "D": "缓存数据库查询结果"
     },
     "a": "A",
-    "desc": "答案要点：声明模型属性需存储到会话（Session ）中，考查Spring、MVC、@SessionAttributes。"
+    "desc": "标在Controller类上的@SessionAttributes可以指定将Model中存放的特定名称的数据同步复制并持久化到HTTP Session对象中，供多个不同请求共享访问。"
   },
   {
     "id": 134,
@@ -1617,7 +1617,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查MyBatis、ORM。"
+    "desc": "MyBatis正是通过对象关系映射（Object Relational Mapping）的理念，在Java对象（POJO）与关系型数据库二维表之间架起了桥梁，完成数据持久化操作。"
   },
   {
     "id": 135,
@@ -1628,7 +1628,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查SqlSessionFactory、MyBatis。"
+    "desc": "读取并解析XML配置文件流的核心组件是SqlSessionFactoryBuilder，而SqlSessionFactory的主要职责是作为单例工厂去生产SqlSession实例。"
   },
   {
     "id": 136,
@@ -1639,7 +1639,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查SqlSession、SQL。"
+    "desc": "SqlSession是MyBatis体系中应用级别的基础核心接口，它封装并暴露了包括增删改查(CRUD)、提交回滚以及获取映射器等所有面向数据库的基础执行方法。"
   },
   {
     "id": 137,
@@ -1650,7 +1650,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<properties>。"
+    "desc": "MyBatis加载属性有固定顺序。最后加载并生效的是通过外部.properties文件或方法参数传入的值，因此若内部标签属性和外部文件属性发生重名冲突，外部文件优先级更高并将覆盖内部属性。"
   },
   {
     "id": 138,
@@ -1661,7 +1661,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查MyBatis、<insert>、useGeneratedKeys。"
+    "desc": "当在<insert>标签中开启useGeneratedKeys=\"true\"并配置好keyProperty后，MyBatis会自动提取数据库由自增功能产生的主键ID，并回填赋值给传入实体的相应属性中。"
   },
   {
     "id": 139,
@@ -1672,7 +1672,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查教材基础知识。"
+    "desc": "软件框架对底层API（如JDBC、Servlet）进行了高维度的封装与规范，极大地剥离了重复枯燥的样板代码，让开发者可以将精力专注在核心业务规则上，提升开发效率。"
   },
   {
     "id": 140,
@@ -1683,7 +1683,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查MyBatis、JDBC。"
+    "desc": "MyBatis仅仅是对JDBC规范做了一层半自动化的封装以简化代码编写，其底层运行时仍绝对依赖JDK的JDBC机制和各个数据库厂商提供的JDBC Driver驱动包。"
   },
   {
     "id": 141,
@@ -1694,7 +1694,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查JDBC。"
+    "desc": "在原生JDBC编程中，无论是建立连接、创建Statement对象，还是结果集映射乃至最后的资源释放流程，都伴随着大量难以维护的冗余模板代码。"
   },
   {
     "id": 142,
@@ -1705,7 +1705,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查MyBatis、Spring。"
+    "desc": "MyBatis自身是一个完整且功能自洽的独立持久层框架项目，通过mybatis-config.xml配置文件即可独立启动和运行，根本不需要强依赖Spring的支持。"
   },
   {
     "id": 143,
@@ -1716,7 +1716,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查MyBatis、XML、SQL。"
+    "desc": "MyBatis推崇的理念就是把结构化的SQL语句从Java源代码的拼串中剥离出来集中管理，实现了业务代码与数据访问层的灵活解耦及方便的后期维护。"
   },
   {
     "id": 144,
@@ -1727,7 +1727,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查MyBatis、JAR。"
+    "desc": "MyBatis运行的基础原理依然是JDBC规范。不提供具体数据库（例如MySQL）的JDBC驱动依赖包，MyBatis无法知道如何连接和对话物理数据库。"
   },
   {
     "id": 145,
@@ -1738,7 +1738,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查MyBatis、SqlSessionFactory、SqlSession。"
+    "desc": "SqlSessionFactory承担着工厂角色管理整体配置及产生连接，SqlSession则代表着与数据库进行的某一次会话连接并实际执行操作，两者构成了MyBatis体系的核心运行基石。"
   },
   {
     "id": 146,
@@ -1749,7 +1749,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查MyBatis、SQL。"
+    "desc": "映射文件（Mapper XML）独立于Java代码之外，专门用于统一定义存放SQL语句；即使使用注解，SQL也是写在Mapper接口的注解内部，而非硬编码拼接在Service业务类代码中。"
   },
   {
     "id": 147,
@@ -1760,7 +1760,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查MyBatis、SqlSession。"
+    "desc": "SqlSession持有着非常宝贵的底层JDBC数据库连接资源，如果未整合Spring自动化管理，在使用完毕后开发者必须在finally块中显式手动调用close()方法将其安全关闭。"
   },
   {
     "id": 148,
@@ -1771,7 +1771,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查MyBatis、SqlSessionFactoryBuilder、SqlSessionFactory。"
+    "desc": "SqlSessionFactoryBuilder类利用建造者模式，通过加载和解析MyBatis主配置文件的XML数据流，从而一次性构造初始化好一个完整的SqlSessionFactory工厂实例。"
   },
   {
     "id": 149,
@@ -1782,7 +1782,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查SqlSessionFactoryBuilder、SqlSessionFactory。"
+    "desc": "Builder组件仅仅是为了加载配置以生成Factory的临时“工具人”。工厂一旦产生，Builder的历史使命即告终结，它的最佳作用域应局限在某个方法内部以便被及时回收释放。"
   },
   {
     "id": 150,
@@ -1793,7 +1793,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查SqlSession。"
+    "desc": "SqlSession内部维护着当前操作的连接及数据缓冲状态，它绝不是线程安全的类。在多线程中共享会导致数据混乱及连接泄露，其最佳生命周期是请求域或方法域。"
   },
   {
     "id": 151,
@@ -1804,7 +1804,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查MyBatis、<properties>。"
+    "desc": "MyBatis处理配置时按顺序加载，先读取<properties>标签内嵌的属性，随后再加载通过resource引入的外部properties文件，导致同名情况下外部文件的值会无情覆盖掉内部的定义。"
   },
   {
     "id": 152,
@@ -1815,7 +1815,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查<settings>、MyBatis。"
+    "desc": "MyBatis的核心配置XML（mybatis-config.xml）基于严密的DTD规范校验，具有不可逾越的顺序要求：<properties>元素必须置于最顶端排在最前面，其后才是<settings>元素。"
   },
   {
     "id": 153,
@@ -1826,7 +1826,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<typeAliases>。"
+    "desc": "每次在Mapper文件中手写诸如com.example.entity.User的长类名既繁琐又易出错。通过<typeAliases>配置别名后，直接使用User等简短名称即可完成映射声明。"
   },
   {
     "id": 154,
@@ -1837,7 +1837,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<environments>、default。"
+    "desc": "一个项目可能存在开发(dev)、测试(test)、生产(prod)等多套不同的底层数据库环境，<environments>标签支持配置多组并由default属性来一键指定系统当前生效的那一组id环境。"
   },
   {
     "id": 155,
@@ -1848,7 +1848,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查MyBatis、<select>、resultMap。"
+    "desc": "这两个属性处于互斥状态。resultType意指让MyBatis按列名全自动推断映射，而resultMap则指引框架遵循开发者手写的自定义映射骨架，两者绝对不可在同一个<select>标签内并存。"
   },
   {
     "id": 156,
@@ -1859,7 +1859,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查<insert>、useGeneratedKeys、MySQL。"
+    "desc": "useGeneratedKeys功能是依托于底层JDBC自带的getGeneratedKeys标准方法的。因此，只要底层关系型数据库（如SQL Server、PostgreSQL等）原生地支持主键自动递增特性，该属性就全部能够适用。"
   },
   {
     "id": 157,
@@ -1870,7 +1870,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<resultMap>。"
+    "desc": "当表中的蛇形命名列（如user_name）无法自动对应到Java里的驼峰属性（如userName）时，<resultMap>能够通过细致的<result column=\"...\" property=\"...\"/>子标签配置完美化解此类异构映射难题。"
   },
   {
     "id": 158,
@@ -1881,7 +1881,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查<mappers>、resource、XML。"
+    "desc": "<mappers>标签下的子元素加载方式多达四种。不仅可以使用resource或url引入独立的XML文件，还能直接使用class属性指定具体的接口全称，甚至可以通过package属性进行整个包的批量扫描注册。"
   },
   {
     "id": 159,
@@ -1894,7 +1894,7 @@
       "D": "DefaultSqlSession 是MyBatis 提供的SqlSession 接口默认实现 类"
     },
     "a": "B",
-    "desc": "答案要点：在多线程环境下，SqlSession 的实例是线程安全的，考查SqlSession。"
+    "desc": "SqlSession是非线程安全的设计。由于内部封装了非复用的数据库连接及操作缓存数据等状态信息，如果被跨多线程共享并发调用，必将导致数据错乱以及事务泄露的严重后果。"
   },
   {
     "id": 160,
@@ -1907,7 +1907,7 @@
       "D": "<plugins> 标签用于定义插件"
     },
     "a": "A",
-    "desc": "答案要点：<properties> 标签用于定义属性，考查MyBatis。"
+    "desc": "虽然<properties>能定义内部属性键值对，但在企业开发中其最主流的作用是用来外挂加载独立维护的外部properties属性配置文件，题干描述有失偏颇（基于特定教材语境判定A表述欠佳）。"
   },
   {
     "id": 161,
@@ -1920,7 +1920,7 @@
       "D": "<package> 子标签用于指定包含映射器接口的包名"
     },
     "a": "C",
-    "desc": "答案要点：<mapper> 子标签通过映射器接口的实现类指定映射器，考查<mappers>。"
+    "desc": "使用<mapper>子标签的class属性时，必须指向且只能指向MyBatis的Mapper映射器“接口类”（Interface）。由于底层是基于JDK动态代理生成的，实际上它根本就不存在一个实实在在的“实现类”供你指定。"
   },
   {
     "id": 162,
@@ -1933,7 +1933,7 @@
       "D": "当查询结果需要复杂映射时，可以同时使用resultMap 和 resultType 实现"
     },
     "a": "D",
-    "desc": "答案要点：当查询结果需要复杂映射时，可以同时使用 resultMap 和 resultType 实现，考查MyBatis、<select>。"
+    "desc": "在任何一个<select>查询标签里，系统处理结果返回规则时具有排他性，开发者要么委托resultType进行简单隐式映射，要么借由resultMap进行显式映射，二者犹如水火，决不允许同时并存于一个标签内。"
   },
   {
     "id": 163,
@@ -1946,7 +1946,7 @@
       "D": "<include> 标签用于在SQL 语句中引用前面定义的SQL 片段"
     },
     "a": "A",
-    "desc": "答案要点：<select> 标签用于配置 SQL 查询语句以及查询结果的映射规则，考查MyBatis。"
+    "desc": "<select>标签唯一且专注的功能就是包容并配置SQL中的SELECT查询语句；它本身并不具备定义或配置“映射规则”的能力，底层结果映射规则需要由专门的<resultMap>根标签独立承担配置工作。"
   },
   {
     "id": 164,
@@ -1959,7 +1959,7 @@
       "D": "提高数据库性能"
     },
     "a": "B",
-    "desc": "答案要点：提高开发效率，考查教材基础知识。"
+    "desc": "软件框架是对底层系统级基础逻辑代码的半成品化及高度抽取封装。引入框架后能帮助团队消灭枯燥的样板代码、统一开发规范，从而极大地提高项目团队的整体开发效率与代码质量。"
   },
   {
     "id": 165,
@@ -1972,7 +1972,7 @@
       "D": "自动管理数据库连接"
     },
     "a": "C",
-    "desc": "答案要点：提供对象关系映射（ORM ）支持，考查MyBatis。"
+    "desc": "MyBatis并没有替代JDBC也没有帮你自动生成复杂的业务SQL。它最具有竞争力的核心优势在于提供了一套非常精简但极度灵活的半自动化对象关系映射（ORM）支持能力，完美消除手工组装参数与结果集的痛苦。"
   },
   {
     "id": 166,
@@ -1985,7 +1985,7 @@
       "D": "pom.xml"
     },
     "a": "B",
-    "desc": "答案要点：mybatis-config.xml，考查MyBatis。"
+    "desc": "在MyBatis运行生态中，mybatis-config.xml（或名为SqlMapConfig.xml等）充当着全局大脑角色，它集中纳管着数据库连接参数池、别名策略以及关联所有的Mapper XML映射文件等系统级关键环境设置。"
   },
   {
     "id": 167,
@@ -1998,7 +1998,7 @@
       "D": "Session"
     },
     "a": "C",
-    "desc": "答案要点：SqlSessionFactoryBuilder，考查MyBatis、SqlSession。"
+    "desc": "整个启动链路上，首先是用SqlSessionFactoryBuilder读取核心XML配置来构建出一个SqlSessionFactory工厂实体；随后开发者便可以调用该Factory对象的openSession()方法正式换取所需SqlSession数据库会话实例。"
   },
   {
     "id": 168,
@@ -2011,7 +2011,7 @@
       "D": "动态SQL 生成"
     },
     "a": "C",
-    "desc": "答案要点：对象关系映射，考查MyBatis。"
+    "desc": "尽管它拥有众多外围能力，但从持久层框架定位来看，其生命线与工作流最核心环节就在于在运行时高效、精准地完成应用程序POJO与底层RDBMS数据库结构模型之间的对象关系映射（ORM）转换。"
   },
   {
     "id": 169,
@@ -2024,7 +2024,7 @@
       "D": "删除数据"
     },
     "a": "B",
-    "desc": "答案要点：查询数据，考查MyBatis、<select>。"
+    "desc": "<select>标签顾名思义对应着SQL规范中的SELECT保留字，在MyBatis体系中专门被用来配置执行针对数据库的各类数据查询、检索和统计读取操作。"
   },
   {
     "id": 170,
@@ -2037,7 +2037,7 @@
       "D": "配置事务管理"
     },
     "a": "B",
-    "desc": "答案要点：配置数据库连接信息，考查MyBatis、<properties>。"
+    "desc": "此元素常用于整合和引入外部配置文件（如jdbc.properties），以便动态、安全地为后文的系统环境配置板块填充类似URL、username、password之类的数据库连接敏感情报信息。"
   },
   {
     "id": 171,
@@ -2050,7 +2050,7 @@
       "D": "配置事务管理"
     },
     "a": "B",
-    "desc": "答案要点：配置数据库环境，考查MyBatis、<environments>。"
+    "desc": "该标签作为数据库上下文配置的载体，囊括了对具体的事务管理器（transactionManager）模式以及连接池数据源（dataSource）类型属性设定，完成对底层数据库通讯环境整体的统筹配置。"
   },
   {
     "id": 172,
@@ -2063,7 +2063,7 @@
       "D": "配置事务管理"
     },
     "a": "C",
-    "desc": "答案要点：定义别名，考查MyBatis、<typeAliases>。"
+    "desc": "<typeAliases>通过预先定义的映射关系，为深层包结构中冗长的全限定Java实体类名称（如com.xxx.po.User）建立一个简明好记的短别名（如User），从而大大精简映射文件后续编写量。"
   },
   {
     "id": 173,
@@ -2076,7 +2076,7 @@
       "D": "配置事务管理"
     },
     "a": "B",
-    "desc": "答案要点：配置全局设置，考查MyBatis、<settings>。"
+    "desc": "作为最为硬核的配置段落，<settings>能干预并深度调整MyBatis框架在运行期的底层核心行为规则机制，涵盖二级缓存开启、下划线驼峰式自动转换、延迟加载及日志拦截等影响全局的关键参数。"
   },
   {
     "id": 174,
@@ -2089,7 +2089,7 @@
       "D": "JNDI"
     },
     "a": "A",
-    "desc": "答案要点：JDBC，考查MyBatis、<environments>、<transactionManager>。"
+    "desc": "MyBatis支持JDBC和MANAGED两种原生事务。若非使用第三方容器介入，默认往往采用JDBC类型；这意味着事务的提交和回滚操作完全由MyBatis自身直接调用底层JDBC连接对象的API来执行闭环管理。"
   },
   {
     "id": 175,
@@ -2102,7 +2102,7 @@
       "D": "使用JNDI 连接池"
     },
     "a": "C",
-    "desc": "答案要点：使用内置的连接池，考查MyBatis、<environments>、<dataSource>。"
+    "desc": "POOLED类型指示框架启动自身内置的一套精简高效的数据库连接池策略机制去响应每次的数据访问，避免针对每一次业务交互都去重复执行耗时巨大的创建和销毁物理连接过程。"
   },
   {
     "id": 176,
@@ -2115,7 +2115,7 @@
       "D": "使用JNDI 事务管理"
     },
     "a": "B",
-    "desc": "答案要点：由容器管理事务，考查MyBatis、<environments>、<transactionManager>。"
+    "desc": "配置为MANAGED表明MyBatis框架“撒手不管”事务逻辑，不对连接执行任何关于commit和rollback的调用，而是将事务声明与周期的全盘控制权转交给外部的重量级运行时容器（如JavaEE容器或Spring体系）去接手管理。"
   },
   {
     "id": 177,
@@ -2128,7 +2128,7 @@
       "D": "配置数据库连接"
     },
     "a": "A",
-    "desc": "答案要点：创建 SqlSession 对象，考查MyBatis、SqlSessionFactory。"
+    "desc": "SqlSessionFactory作为一个在应用级长期存在的单例工厂角色对象，它的最核心使命和价值就是对外提供openSession()接口方法并源源不断地生成可供业务调用的SqlSession会话实例。"
   },
   {
     "id": 178,
@@ -2141,7 +2141,7 @@
       "D": "type"
     },
     "a": "B",
-    "desc": "答案要点：default，考查MyBatis、<environments>。"
+    "desc": "在使用多套数据库环境信息节点配置时，外围<environments>标签上必须配合一个叫做default的属性参数；将其值设置为内部某一个<environment>节点的id名称后，该套环境就会被选择并生效应用。"
   },
   {
     "id": 179,
@@ -2154,7 +2154,7 @@
       "D": "配置事务管理"
     },
     "a": "C",
-    "desc": "答案要点：定义别名，考查MyBatis、<typeAliases>。"
+    "desc": "<typeAliases>允许开发者配置一系列的TypeAlias，其实质就是为复杂的全限定Java类名绑定简短的名称替代符，使得我们在编写Mapper映射配置时可以极大程度地简化返回类型和参数类型的输入。"
   },
   {
     "id": 180,
@@ -2167,7 +2167,7 @@
       "D": "配置事务管理"
     },
     "a": "C",
-    "desc": "答案要点：指定映射文件的位置，考查MyBatis、<mappers>。"
+    "desc": "核心配置的重头戏在收尾处。必须要通过<mappers>标签来注册各个分散的XML格式的Mapper映射文件或者基于注解的接口类所在的定位路径，好让MyBatis在启动时知悉该去哪里寻找、加载预编译这些被剥离出去的SQL语句。"
   },
   {
     "id": 181,
@@ -2180,7 +2180,7 @@
       "D": "配置事务管理"
     },
     "a": "B",
-    "desc": "答案要点：配置全局设置，考查MyBatis、<settings>。"
+    "desc": "<settings>中包裹的都是直接干预MyBatis内核执行策略的开关阀门，例如决定是否全面开启缓存的cacheEnabled、负责将数据库下划线字段映射为Java属性的mapUnderscoreToCamelCase等全局性行为控制项。"
   },
   {
     "id": 182,
@@ -2193,7 +2193,7 @@
       "D": "JNDI"
     },
     "a": "A",
-    "desc": "答案要点：JDBC，考查MyBatis、<environments>、<transactionManager>。"
+    "desc": "若不结合其他框架独立使用MyBatis时，最直接简单的事务管控莫过于利用原生JDBC提供的提交和回滚控制功能，该类型配置项为JDBC，它是大多数不使用Spring接管业务下的最常规选择。"
   },
   {
     "id": 183,
@@ -2206,7 +2206,7 @@
       "D": "配置事务管理"
     },
     "a": "B",
-    "desc": "答案要点：配置数据库连接信息，考查MyBatis、<environments>。"
+    "desc": "此标签在整个配置文档中扮演着与外界底层数据库对话窗口的角色。借助于内部配置数据源类型并绑定连接池账号密码等手段，全面统管该环境对应的JDBC底层物理数据库连接及驱动通信准备信息。"
   },
   {
     "id": 184,
@@ -2219,7 +2219,7 @@
       "D": "配置事务管理"
     },
     "a": "B",
-    "desc": "答案要点：配置数据库连接信息，考查MyBatis、<properties>。"
+    "desc": "在实践中，<properties>常通过resource属性加载存储了连接池所需的driver、url、user等信息键值对的外挂文件。之后通过${xxx}语法把这些敏感情报内容动态插入置换到下方DataSource连接池设置域内部。"
   },
   {
     "id": 185,
@@ -2232,7 +2232,7 @@
       "D": "配置事务管理"
     },
     "a": "C",
-    "desc": "答案要点：指定映射文件的位置，考查MyBatis、<mappers>。"
+    "desc": "MyBatis若要工作，必须明确所执行的SQL和相应的对象映射关系到底被定义在何处，而<mappers>标签正是一个类似于“地图索引”的配置区，指向且载入了所有具体的SQL映射XML文件的物理存储或包路径位置。"
   },
   {
     "id": 186,
@@ -2245,7 +2245,7 @@
       "D": "配置数据库连接池"
     },
     "a": "A",
-    "desc": "答案要点：启用或禁用缓存，考查MyBatis、<settings>、cacheEnabled。"
+    "desc": "cacheEnabled作为一项决定全局是否接纳并运作二级缓存（跨SqlSession作用域共享数据的缓存区）的核心开关参数被暴露使用，它的默认值为true即开启支持。"
   },
   {
     "id": 187,
@@ -2258,7 +2258,7 @@
       "D": "配置数据库连接池"
     },
     "a": "C",
-    "desc": "答案要点：配置延迟加载，考查MyBatis、<settings>、lazyLoadingEnabled。"
+    "desc": "该属性专门用于控制处理表关联层级嵌套查询（例如一对多）时的一种优化策略，当设为true时支持全局的延迟加载：也就是按需获取关联对象的深层数据，而不必在首层查询时直接发起所有的多表关联查询操作。"
   },
   {
     "id": 188,
@@ -2271,7 +2271,7 @@
       "D": "配置数据库连接池"
     },
     "a": "B",
-    "desc": "答案要点：配置日志实现，考查MyBatis、<settings>、logImpl。"
+    "desc": "logImpl被配置以指明并强制采用哪一种特定日志打印组件的底层实现；最常见的配置诸如STDOUT_LOGGING用于控制台直接打印底层SQL，或者集成企业级的SLF4J以及LOG4J日志系统组件。"
   },
   {
     "id": 189,
@@ -2284,7 +2284,7 @@
       "D": "使用JNDI 连接池"
     },
     "a": "C",
-    "desc": "答案要点：使用内置的连接池，考查MyBatis、<environments>、<dataSource>。"
+    "desc": "指定使用POOLED后，便是在利用MyBatis系统自带实现的基础数据库连接池模块技术；其通过控制池内活跃连接对象的数量及回收流程大幅改进数据交互层面的时间损耗并稳定系统吞吐性能。"
   },
   {
     "id": 190,
@@ -2297,7 +2297,7 @@
       "D": "使用JNDI 事务管理"
     },
     "a": "B",
-    "desc": "答案要点：由容器管理事务，考查MyBatis、<environments>、<transactionManager>。"
+    "desc": "若配置为MANAGED，那么意味着放弃了在MyBatis内部基于JDBC的自主事务处理工作，转而完全依靠那些包络万象外部JEE容器乃至成熟应用服务器自带容器来进行统管并处理相关事务策略流程。"
   },
   {
     "id": 191,
@@ -2308,7 +2308,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<choose>。"
+    "desc": "在MyBatis动态SQL功能当中，<choose>专门实现的是程序中那种互斥且多分支条件的选择判断逻辑设计。它能保证内部一系列候选片段只会选取满足条件的第一个执行并拼接输出。"
   },
   {
     "id": 192,
@@ -2319,7 +2319,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<when>、<choose>、test。"
+    "desc": "<when>不能脱离<choose>单独运行，它等同于选择结构里分派的各个具体case判断模块；核心就是靠内部配置的test属性配合OGNL表达式来求证当前节点SQL是否需要被激活采用并编入组装结果中。"
   },
   {
     "id": 193,
@@ -2330,7 +2330,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查<where>、SQL、WHERE。"
+    "desc": "<where>标签的工作特点是极为聪明容忍的：只要在其内部包含的众多动态<if>语句判断块中哪怕有且只有任意一条条件返回值为真，它都会负责智能地往最终生成语句前追加加入所需的WHERE关键字保留段落。"
   },
   {
     "id": 194,
@@ -2341,7 +2341,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<set>。"
+    "desc": "<set>专供UPDATE的业务处理定制。它除了像<where>那般会自动引入必要的SET系统保留关键字外，它另一大核心功能是精细化地抹去由动态更新条目叠加组装所产生滞留于SQL尾端的那个累赘而极易引发严重语法抛错的多余逗号符号。"
   },
   {
     "id": 195,
@@ -2352,7 +2352,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<trim>。"
+    "desc": "其实无论是聪明剥去多余逗号的<set>还是聪明除掉多余AND的<where>，它们的系统底层完全都是借由拥有强大控制前后缀拼接及去除能力的<trim>标签为基础基石从而经过特殊参数包装而实现的。"
   },
   {
     "id": 196,
@@ -2363,7 +2363,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<if>、test、SQL。"
+    "desc": "这是实现动态组装的最基础及最为频繁被开发者运用的利器；它利用test属性提供的逻辑运算支撑，如判断参数是否为null或空串；符合要求才把包含段的SQL嵌入到最终总查询语句体当中去。"
   },
   {
     "id": 197,
@@ -2374,7 +2374,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查<choose>、<otherwise>。"
+    "desc": "这就如同使用Java基础当中的switch控制块绝不被强制要求必须带有default分叉兜底分支一般；在使用<choose>处理多条件映射时没有提供对应的<otherwise>是语法上完全被允许放行而不抛出错误的。"
   },
   {
     "id": 198,
@@ -2385,7 +2385,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<where>、AND、OR。"
+    "desc": "这是<where>标签解决拼接痛点的神技。若拼凑而出的子语句首部分出现非法的“AND”或者“OR”，它都能完美过滤消除，确保最终输出拼装完好且合乎正规语法的“WHERE ... ”逻辑片段。"
   },
   {
     "id": 199,
@@ -2396,7 +2396,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<trim>、prefixOverrides。"
+    "desc": "<trim>凭借提供类似prefixOverrides（移除前置废弃字符如AND|OR）等特性配置属性，能够在组建动态查询片段时高度灵活且极具针对性地清洗及整理拼接产物使其顺畅符合原生SQL执行语境。"
   },
   {
     "id": 200,
@@ -2407,7 +2407,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查<foreach>、collection、array。"
+    "desc": "尽管早期在未使用注解指定时框架默认识别普通数组的内定名称为array，但其实只要在Mapper接口的传入参数位置使用上@Param(\"xxx\")注解手段指定了参数名称，则在XML里的collection属性就能并应该填入该自定义的名字\"xxx\"。"
   },
   {
     "id": 201,
@@ -2418,7 +2418,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<set>、SET。"
+    "desc": "<set>标签正是MyBatis为了将开发者从繁琐而极易出错的动态构建UPDATE语法泥沼（尤其是如何清理拼合过程中最末端尾随逗号的问题）里解救出来量身打造且专门设计好的系统自带辅助方案。"
   },
   {
     "id": 202,
@@ -2429,7 +2429,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查<foreach>、item。"
+    "desc": "借由为被遍历出的逐个具体内含元素指定赋予其独立变量名称别名（即item值配置），开发者就能在后续迭代生成的循环体内使用类似#{itemValue}之类简便占位符方法去提取和应用这个元素里的各项业务数据。"
   },
   {
     "id": 203,
@@ -2440,7 +2440,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查<foreach>、Map。"
+    "desc": "<foreach>当然能够遍历Map数据源，不过绝不是完全不用去“处理”。在使用迭代功能时，需要时刻注意并理解到此刻被映射出来的index属性表示的不再是序号而是提取到了Key键，而item代表的是获取到的Value值的内容。"
   },
   {
     "id": 204,
@@ -2451,7 +2451,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查<trim>、suffix。"
+    "desc": "<trim>标签包含一个极为基础且重要的条件触发原则：这也就是说，只有在此标签包裹的内容产生出有效的非空SQL短语内容之后，框架此时才会履行义务把所配置定义的后缀词句挂接补全到最终处理文本段的尾部；如果全空，则直接抛弃不予添加。"
   },
   {
     "id": 205,
@@ -2462,7 +2462,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查SQL、<when>、<choose>。"
+    "desc": "如同Java里面如果离开switch环境单独存在的一个case将会导致编译器直接拦截并报错一般，在动态查询范畴当中的<when>及<otherwise>也必须充当而且只能充当<choose>标签名下的子体成员，不能脱离包裹孤立存在执行。"
   },
   {
     "id": 206,
@@ -2475,7 +2475,7 @@
       "D": "<choose> 标签类似于Java 中的switch 语句"
     },
     "a": "B",
-    "desc": "答案要点：<foreach> 标签不能遍历数组，考查MyBatis、SQL。"
+    "desc": "作为提供全维度迭代控制支撑的<foreach>机制能力覆盖是非常宽广全面的。它被设计出来不仅仅能够顺利接管遍历List或Set集合的繁重任务，处理普通的原生类型甚至是对象形态的各种数组群同样游刃有余。"
   },
   {
     "id": 207,
@@ -2488,7 +2488,7 @@
       "D": "一旦某个<when> 标签的条件满足后，整个<choose> 块的执行就 结束了，后续的<when> 标签和<otherwise> 标签将不会再执行"
     },
     "a": "C",
-    "desc": "答案要点：如果所有子 <when> 标签的条件表达式都不为 true ，则 <otherwise> SQL SQL 标签内部的 片段会被包含到最终生成的 语句 中，考查<choose>、<when>、<otherwise>。"
+    "desc": "在<choose>多分支结构中，提供兜底方案的<otherwise>并非必选项而是完全可省缺的，这说明：如果当前结构没有定义提供该标签，同时以上所有<when>均未满足条件的话，该整体结构就会直接静默且不输出任何SQL组装碎片。"
   },
   {
     "id": 208,
@@ -2501,7 +2501,7 @@
       "D": "separator 属性与open 相对应，用于定义在循环结束处插入的字 符串，用于包围循环内容的终止符号"
     },
     "a": "D",
-    "desc": "答案要点：separator 属性与 open 相对应，用于定义在循环结束处插入的字 符串，用于包围循环内容的终止符号，考查<foreach>。"
+    "desc": "separator的语义含义实则是分隔符，意即此属性仅仅专门用以负责向每两次相邻迭代生成内容片断节点之间（也就是内嵌间隔环节里）插入用以阻隔分割的标记字符（多为逗号），而非处理结尾；处理结尾使用的是close属性。"
   },
   {
     "id": 209,
@@ -2514,7 +2514,7 @@
       "D": "collection"
     },
     "a": "A",
-    "desc": "答案要点：item，考查<foreach>。"
+    "desc": "item属性承担了非常直接的数据传递工作：迭代机制运行当中，随着每一次游标滑动指向当前抓取到的源数据单个元素对象或值时，它都自动被赋予且通过指定的item参数变量名展现给开发提取利用。"
   },
   {
     "id": 210,
@@ -2527,7 +2527,7 @@
       "D": "suffixOverrides"
     },
     "a": "C",
-    "desc": "答案要点：suffix，考查<trim>、SQL。"
+    "desc": "在利用<trim>进行高级动态重组任务时，往往需要其协助处理两头包夹的问题（例如增加括号），这时就会启用名为suffix的参数，用来确切交代其工作完成、在组建的动态片段彻底终结位置追加附上的字符串特征物为何。"
   },
   {
     "id": 211,
@@ -2540,7 +2540,7 @@
       "D": "更新操作"
     },
     "a": "B",
-    "desc": "答案要点：条件判断，考查MyBatis、SQL、<if>。"
+    "desc": "<if>的核心且唯一的应用场景就是做条件拦截与筛选。通过配置布尔表达式验证例如非空条件或逻辑业务限制，从而灵活指挥并决定后续某个定制部分的检索或更新逻辑要不要拼装到总干路之中去。"
   },
   {
     "id": 212,
@@ -2553,7 +2553,7 @@
       "D": "while 循环"
     },
     "a": "B",
-    "desc": "答案要点：switch-case 语句，考查SQL、<choose>、<when>。"
+    "desc": "这是MyBatis专为多互斥分支出口问题而内置的一个精巧套件机制。<choose>充当主体控制段落容器，<when>与<otherwise>分领类似于case节点匹配和default收底方案的角色，执行机理等效印刻着Java里面Switch机制的设计影子。"
   },
   {
     "id": 213,
@@ -2566,7 +2566,7 @@
       "D": "自动生成INSERT 关键字"
     },
     "a": "A",
-    "desc": "答案要点：自动生成 WHERE 关键字，考查MyBatis、<where>。"
+    "desc": "为了不让开发者在错综复杂且随时增减的连环动态业务查件模块首部陷入判断并手工写入条件起手的焦灼境地，框架准备了<where>来提供针对首行自动追加注入必要的保留字WHERE功能和首个多余连接符过滤能力。"
   },
   {
     "id": 214,
@@ -2579,7 +2579,7 @@
       "D": "指定分隔符"
     },
     "a": "A",
-    "desc": "答案要点：指定集合变量，考查MyBatis、<foreach>、collection。"
+    "desc": "无论你想开展任何迭代游走任务前，必须指明路在何方：collection就是充当一个参数绑定的角色，把你在外面声明好的诸如List集合或者各类数组的名字引入供遍历引擎进行读取扫描处理。"
   },
   {
     "id": 215,
@@ -2592,7 +2592,7 @@
       "D": "指定分隔符"
     },
     "a": "B",
-    "desc": "答案要点：指定当前元素变量，考查MyBatis、<foreach>、item。"
+    "desc": "item负责提供每次在所指定的源集里面循环拿取到其中个体成员项目时，用于暂存、方便后续再利用占位提取语法去将该实体中相关字段信息调出应用的内部操作替身名或者别名标识。"
   },
   {
     "id": 216,
@@ -2605,7 +2605,7 @@
       "D": "指定分隔符"
     },
     "a": "C",
-    "desc": "答案要点：指定索引变量，考查MyBatis、<foreach>、index。"
+    "desc": "index不仅在常规数组及线性链表类型的集合扫描里面提供出表征位置计数的索引序号支持；更加绝妙的是，若迭代载体换成了映射字典如Map类型的时候，这一属性又被转作承载提拉每条目对应关联键名(Key)的信息参数。"
   },
   {
     "id": 217,
@@ -2618,7 +2618,7 @@
       "D": "指定分隔符"
     },
     "a": "A",
-    "desc": "答案要点：添加前缀和后缀，考查MyBatis、<foreach>、open。"
+    "desc": "open被运用于告诉引擎从处理最开始前就向输出管道填入指定的首端起手装饰特征串（比如括号），同理close指代一切完结之后压阵添加的后端封尾装饰字符段（如反括号）。"
   },
   {
     "id": 218,
@@ -2631,7 +2631,7 @@
       "D": "指定索引变量"
     },
     "a": "C",
-    "desc": "答案要点：添加分隔符，考查MyBatis、<foreach>、separator。"
+    "desc": "当在配置需要产生诸如批量IN查询内的条件组、批量入库语句结构中一长串散件等场合时，借用separator定义逗号就可以让框架自动化平滑地在相邻循环生成的SQL拼件当中安全放置必要的间隔分隔符号。"
   },
   {
     "id": 219,
@@ -2644,7 +2644,7 @@
       "D": "自动生成FROM 关键字"
     },
     "a": "B",
-    "desc": "答案要点：去除多余的逗号，考查MyBatis、<trim>。"
+    "desc": "<trim>常用于通过配置suffixOverrides或prefixOverrides强力剔除清理出由动态更新等语句不规范拼凑导致的如多余的逗号、AND等可能引发SQL崩溃失效的句段首尾致命非法瑕疵。"
   },
   {
     "id": 220,
@@ -2657,7 +2657,7 @@
       "D": "自动生成INSERT 关键字"
     },
     "a": "A",
-    "desc": "答案要点：自动生成 SET 关键字，考查MyBatis、<set>。"
+    "desc": "MyBatis给这套特定用途的机制命名为<set>的直接意图所在就是专门负责应付复杂多变的UPDATE场景并于首处智能化安全地引入保留关键字SET进而开始后续动态参数设置拼接处理。"
   },
   {
     "id": 221,
@@ -2670,7 +2670,7 @@
       "D": "指定当前元素变量"
     },
     "a": "A",
-    "desc": "答案要点：指定条件表达式，考查MyBatis、<if>、test。"
+    "desc": "这相当于<if>的判断中枢大脑。内部基于并依靠着标准OGNL语法的表达式编写能力去完成各种判断（是否非空串等），由此产出明确的布尔结果作为后续能否执行接驳动态拼建的指令。"
   },
   {
     "id": 222,
@@ -2683,7 +2683,7 @@
       "D": "while 循环"
     },
     "a": "B",
-    "desc": "答案要点：switch-case 语句，考查MyBatis、<choose>。"
+    "desc": "从底层交互行为及组织表现看，它以一个主配置区统率着各类互斥独立的子分岔检验点（且拥有一个后备收容项）；这种提供强互斥型择一匹配机制的手法特征就是对面向对象里经典switch-case选择流程的复现。"
   },
   {
     "id": 223,
@@ -2696,7 +2696,7 @@
       "D": "以上都可以"
     },
     "a": "D",
-    "desc": "答案要点：以上都可以，考查MyBatis、<foreach>。"
+    "desc": "为保障全场景的批量化动作配置支持需求，它的机制已经发展到能无缝兼容消化包括各种集合List及Set结构、标准Java阵列数组以及存放名值对体系的Map等所有常见类型的参数群扫描拆解操作。"
   },
   {
     "id": 224,
@@ -2709,7 +2709,7 @@
       "D": "指定索引变量"
     },
     "a": "A",
-    "desc": "答案要点：添加前缀，考查MyBatis、<trim>、prefix。"
+    "desc": "如果通过一系列复杂的动态构建处理之后产生了实际有意义的合并指令段落内容，为了保持语法合规完整，我们便可以用其要求框架在整个组合串的首端开始处填加指定前置缀串予以修饰（如加入WHERE）。"
   },
   {
     "id": 225,
@@ -2722,7 +2722,7 @@
       "D": "指定索引变量"
     },
     "a": "B",
-    "desc": "答案要点：添加后缀，考查MyBatis、<trim>、suffix。"
+    "desc": "如同其名为添加前后缀的控制设计之一环那样，此属性使得框架会在完成各项裁剪及逻辑片段整合并在获取实质成效文本以后，再向其最尾巴终结的地方压入定义好的收尾性质字符补充词串。"
   },
   {
     "id": 226,
@@ -2733,7 +2733,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "答案要点：该说法错，考查Spring、Boot。"
+    "desc": "Spring Boot绝不旨在替代或抛弃Spring的核心价值底层；相反它实质上完全建立于并包裹加强了经典Spring项目之上，其存在的宗旨为通过海量“约定优于配置”理念全面削减那些使人发疯的初始XML与环境配制过程。"
   },
   {
     "id": 227,
@@ -2744,7 +2744,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Maven、Spring、Boot。"
+    "desc": "在使用Maven首次初始化并组建基于该Boot框架的项目时，它不可避免地需要跨越网络去远端中央管理仓库寻索、拉取并下载包含Starter等一系列必备的基础构件依赖环境包，失去连线必然宣告失败中断。"
   },
   {
     "id": 228,
@@ -2755,7 +2755,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": "答案要点：该说法对，考查Spring、Boot、Tomcat。"
+    "desc": "为了使得Web类工程彻底摆脱繁重且容易引起环境差异配置麻烦的外部容器依附及打出战争包的要求部署方式，其在系统架构中已经直接内接配置妥当了诸如Tomcat这样的Servlet全量组件引擎方便实现本地独立开箱运行。"
   },
   {
     "id": 229,
@@ -2768,7 +2768,7 @@
       "D": "Spring Boot 集成了大量常用的第三方库配置"
     },
     "a": "C",
-    "desc": "答案要点：Spring Boot 是替代 Spring 框架的解决方案，考查Spring、Boot。"
+    "desc": "它根本的性质和定位是对于过往那个拥有沉重而繁多配置规则体系的经典Spring家族核心引擎体系进行再一次极高层次且傻瓜化的自动化封装与配置接管升级机制方案，两者是继承包装关系而绝非取而代之。"
   },
   {
     "id": 230,
@@ -2781,7 +2781,7 @@
       "D": "如果存在相同的配置内容时，高优先级的内容会覆盖低优先级的 内容"
     },
     "a": "C",
-    "desc": "答案要点：位于相同位置的 application.properties 的优先级低于 application.yml，考查Spring、Boot。"
+    "desc": "依据Spring Boot官方设计的规则判定逻辑：如果在工程目录结构的完全同一个级别里均提供保留了这两类主局级全局资源配置加载体时，基于常规属性语法的properties文件的执行加载解析效力阶层实则是高过yml文件的配置内容的。"
   },
   {
     "id": 231,
@@ -2794,125 +2794,125 @@
       "D": "在application.properties 文件中配置数组类型属性时，元素值之间使用逗号间隔"
     },
     "a": "C",
-    "desc": "答案要点：默认情况下字符串是需要使用单引号或双引号进行修饰，考查application.properties。"
+    "desc": "在SpringBoot体系下利用该传统资源后缀文本编写配置的时候，针对普通文本的输入其实并不存在类似某些代码环境强制要求包裹上定界标引符号（如引括等）的要求规约；纯净直输即可交由内核无误解析映射。"
   },
   {
     "id": 232,
     "type": "简答题",
     "q": "请简述什么是MyBatis？",
     "a": "MyBatis 是一种持久层框架，它对 JDBC 进行了封装，支持自定义 SQL、存储过程和对象映射。开发者可以通过 XML 或注解配置 SQL，将数据库记录映射成 Java 对象，从而简化数据库操作。",
-    "desc": "本题考查 MyBatis 的基本概念。"
+    "desc": "MyBatis是一款半自动化的优秀对象关系映射(ORM)持久层框架。它避免了大量繁复枯燥的原生JDBC驱动及结果集处理动作，让代码专注处理核心映射机制。"
   },
   {
     "id": 233,
     "type": "简答题",
     "q": "请简述<mappers>元素引入映射文件的4 种方式。",
     "a": "<mappers> 元素用于引入 MyBatis 的映射文件或映射接口。常见方式有四种：resource 引入类路径下的 XML 文件，url 引入网络或本地路径文件，class 引入 Mapper 接口，package 批量扫描 Mapper 接口所在包。",
-    "desc": "本题考查 MyBatis 映射文件的加载方式。"
+    "desc": "四种方式包括：resource(加载类路径XML)、url(通过磁盘物理地址获取XML)、class(指向带有注解配置的Mapper接口类名)以及package(直接扫描设定包下的全体映射器定义)。"
   },
   {
     "id": 234,
     "type": "简答题",
     "q": "请简述MyBatis 动态SQL 中的常用元素及其作用。",
     "a": "MyBatis 动态 SQL 常用元素有 <if>、<choose>、<when>、<otherwise>、<where>、<set>、<trim> 和 <foreach>。它们主要用于条件判断、分支选择、动态拼接 where 或 set 子句，以及遍历集合生成 SQL。",
-    "desc": "本题考查 MyBatis 动态 SQL 的核心标签。"
+    "desc": "常用元素极大地赋予了映射配置的编程控制能力。<if>用于基础判定；<choose>家族解决互斥分流选择；<where>与<set>专司前后缀和多余分隔符号之修补截取；而<foreach>提供遍历集合支撑能力。"
   },
   {
     "id": 235,
     "type": "简答题",
     "q": "请简述在使用<foreach>时，collection 属性需要注意的几点。",
     "a": "<foreach> 中的 collection 用于指定要遍历的集合名称。单个 List 参数通常写 list 或 collection，数组通常写 array，多参数或 Map 参数一般配合 @Param 指定名称。",
-    "desc": "本题考查 <foreach> 的 collection 属性用法。"
+    "desc": "关键在于根据被传参数结构找准默认保留字名称机制（例如不加@Param时的array与list预设别名），或者优先利用并正确在配置文件之中指向利用@Param自行定制确立的那套参数寻址名字即可成功映射集合体。"
   },
   {
     "id": 236,
     "type": "简答题",
     "q": "请简述Spring 框架的优点。",
     "a": "Spring 的优点主要包括降低耦合、方便扩展和便于测试。它通过 IoC 和 DI 管理对象，通过 AOP 处理事务、日志等横切功能，并能方便整合 MyBatis、Spring MVC 等框架。",
-    "desc": "本题考查 Spring 框架的主要优势。"
+    "desc": "Spring极大削减传统开发复杂性。通过非侵入的IoC集结调度系统构件消除紧耦合；借助AOP轻松隔离剥离出非业务代码。更有无缝组装及统管类似Mybatis等第三方卓越框架产品的极强粘合支持力。"
   },
   {
     "id": 237,
     "type": "简答题",
     "q": "请简述控制反转的概念和依赖注入的概念。",
     "a": "IoC 是指把对象的创建和依赖关系交给 Spring 容器管理，而不是在程序中手动创建对象。DI 是 IoC 的实现方式，指容器把对象需要的依赖注入到对象中。",
-    "desc": "本题考查 IoC 与 DI 的概念区别。"
+    "desc": "IoC（控制反转）是设计理念，即剥夺类本身直接管理并实例化其它依赖对象的权力；DI（依赖注入）则是此理念落地的实践操作机制，通过专门容器基于设定的配置数据将对象送抵需求端。"
   },
   {
     "id": 238,
     "type": "简答题",
     "q": "请简述XML 配置文件的根元素是<beans>中的常用元素及作用。",
     "a": "<beans> 是 Spring XML 配置文件的根元素。其下常用元素有 <bean>、<property>、<constructor-arg>、<import> 和 <alias>，分别用于定义 Bean、属性注入、构造方法注入、导入配置文件和设置别名。",
-    "desc": "本题考查 Spring XML 配置的基础标签。"
+    "desc": "<beans>内常使用<bean>注册组件，并利用下设的<property>及<constructor-arg>进行控制权转交和属性输送；还可通过<import>及<alias>实现配置体系的外部加载扩张管理以及简化缩写。"
   },
   {
     "id": 239,
     "type": "简答题",
     "q": "请简述Bean 的几种装配方式的基本用法。",
     "a": "Bean 的装配方式主要有 XML 装配、注解装配和 Java 配置类装配。XML 通过配置文件定义 Bean，注解通过 @Component、@Autowired 等完成自动装配，Java 配置类通过 @Configuration 和 @Bean 管理对象。",
-    "desc": "本题考查 Bean 的常见装配方式。"
+    "desc": "传统派钟爱采用<bean>标配配置全量XML路线；注解派倾向通过@Component在类文件就地完成扫描与自动装配连接；JavaConfig派则依托@Configuration外挂独立组装以实现高度可定制及防冲突安全编译期校验注册方式。"
   },
   {
     "id": 240,
     "type": "简答题",
     "q": "请简述Spring MVC 框架的优点。",
     "a": "Spring MVC 是基于 MVC 模式的 Web 表现层框架，结构清晰，能实现请求处理、业务模型和视图显示的分离。它支持注解开发、参数绑定、视图解析、异常处理和 REST 风格接口开发。",
-    "desc": "本题考查 Spring MVC 的主要优势。"
+    "desc": "凭借非常明确的前后端层级调度分工结构，加上对各种常用注解等极具生产力的代码风格及各类格式化验证解析插件支持；其能异常高效且优雅地构建高度契合主流前后端REST分离等各种业务模式接口。"
   },
   {
     "id": 241,
     "type": "简答题",
     "q": "请列举@RequestMapping 注解的属性。",
     "a": "@RequestMapping 用于建立请求路径和控制器方法之间的映射关系。常用属性有 value 或 path、method、params、headers、consumes、produces 和 name，其中最常用的是路径和请求方式。",
-    "desc": "本题考查 @RequestMapping 的常用属性。"
+    "desc": "其包含：指明路径和URL路由的value/path；用于限定动词请求方式(GET|POST等)的method；用于限定包含特定参数和头的params及headers；以及规约所发收和生产报文内容特征的consumes与produces项。"
   },
   {
     "id": 242,
     "type": "简答题",
     "q": "请简述简单数据类型中的@RequestParam 注解及其属性作用。",
     "a": "@RequestParam 用于将请求参数绑定到控制器方法的形参上。常用属性有 value 或 name、required 和 defaultValue，分别表示参数名、是否必须传入和默认值。",
-    "desc": "本题考查 @RequestParam 的绑定作用。"
+    "desc": "它能明确声明绑定具体哪个外部请求字段；通过控制required设定此数据位是不是在每次调用里都得有提供保证（非空校验）；并配合defaultValue设置防错补救在断缺条件情况之下的填补缺省字样。"
   },
   {
     "id": 243,
     "type": "简答题",
     "q": "请简述复杂POJO 绑定时的注意事项。",
     "a": "复杂 POJO 绑定时，请求参数名要与 POJO 属性名一致。POJO 类应提供无参构造方法、getter 和 setter 方法，若包含嵌套对象或集合，还要注意参数层级和类型转换。",
-    "desc": "本题考查复杂 POJO 数据绑定的注意点。"
+    "desc": "前提条件是务必让请求数据包发来的键值对里的字段键名和你的POJO对象的属性名一模一样；只有这样底层反射逻辑才能无障碍通过空参及Setter实现数据精确打入落座从而构成实体。"
   },
   {
     "id": 244,
     "type": "简答题",
     "q": "请简述@RequestBody 注解的作用。",
     "a": "@RequestBody 用于读取 HTTP 请求体中的数据，并通过消息转换器转换成 Java 对象。它常用于接收前端提交的 JSON 数据，适合前后端分离开发。",
-    "desc": "本题考查 @RequestBody 的核心作用。"
+    "desc": "它不再关心传统的表单键值对拼接。转而在拦截到外部请求Body里的复杂数据集结构后（通常是类似JSON、XML文档格式体），启动专用转换引擎机制对其实施序列还原处理，将成果物变现反序列化装配回Java底层实体结构当中提供方法运作参数之用。"
   },
   {
     "id": 245,
     "type": "简答题",
     "q": "请简述包装POJO 类型绑定时的注意事项。",
     "a": "包装 POJO 是指一个 POJO 中包含另一个 POJO 对象。绑定时请求参数名要符合对象层级关系，通常写成 user.name、user.age 这样的形式。",
-    "desc": "本题考查包装 POJO 的参数绑定规则。"
+    "desc": "在应对具有相互包裹父子嵌套特征结构的复杂对象传输并接受转化之际。重点在于前端必须要顺应且反映出后端模型设计的级联深层结构：利用诸如由点号衔接串通“父属性名.子属性”的方式提供映射源参数名称以匹配底层嵌套规律及赋值处理定位寻找路线逻辑等即可。"
   },
   {
     "id": 246,
     "type": "简答题",
     "q": "请简述Spring MVC 方法返回值3 中不同类型的区别。",
     "a": "Spring MVC 常见返回值有 String、ModelAndView 和直接响应数据。String 通常表示视图名，ModelAndView 同时包含模型数据和视图信息，使用 @ResponseBody 时则直接把数据写入响应体。",
-    "desc": "本题考查 Spring MVC 返回值的常见形式。"
+    "desc": "若是返还纯粹的String则进入到寻址逻辑视图名称寻找传统页面的阶段渲染等步骤操作上去。而如果返回组合型对象则连同了附带运送的数据和模板交一并调度工作流机制里。如果在拥有特定标定（响应本体）注解之下则是将内部所构实体转化为如JSON文本通过HTTP端口向连接客户端送递去实现完全不同反馈行为路线效果设计机制。"
   },
   {
     "id": 247,
     "type": "简答题",
     "q": "请简述@ResponseBody 注解的作用。",
     "a": "@ResponseBody 用于将控制器方法的返回值直接写入 HTTP 响应体，而不是进行页面跳转。它通常把 Java 对象或集合转换成 JSON 数据返回给客户端。",
-    "desc": "本题考查 @ResponseBody 的响应机制。"
+    "desc": "使用了此标志的方法会向框架指令宣告抛离了常规试图解析分发模块的工作体系体系路线安排，通过内挂并触发针对当前对应返回格式对象的HttpMessageConverter转换实现流程，对该目标进行最终翻译成数据直接倾泄给底层通讯层返回给用户调用的数据响应行为动作。"
   },
   {
     "id": 248,
     "type": "简答题",
     "q": "请结合案例，展开说明三层架构。",
     "a": "三层架构包括表示层、业务层和持久层。以用户登录为例，表示层 Controller 接收登录请求，业务层 Service 处理账号密码校验，持久层 Dao 或 Mapper 查询数据库。三层职责清晰，便于维护和扩展。",
-    "desc": "本题考查三层架构的分层职责与调用关系。"
+    "desc": "表现层(Controller)接收请求并响应，业务层(Service)处理核心业务与事务，持久层(Mapper)负责数据库CRUD操作，三层分离解耦。"
   }
 ]
