@@ -2,7 +2,7 @@
   {
     "id": 1,
     "type": "判断题",
-    "q": "EJB Spring 与 相比， 框架代码简洁，并且更易于集成到不同的环境中。",
+    "q": "与EJB 相比，Spring 框架代码简洁，并且更易于集成到不同的环境中。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "type": "判断题",
-    "q": "Spring Bean Spring 在 框架中， 是指由 容器管理的对象实例。",
+    "q": "在Spring 框架中，Bean 是指由Spring 容器管理的对象实例。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "type": "判断题",
-    "q": "Beans Spring IoC AOP 模块提供了 框架的基本组成部分，包括 和 功能。",
+    "q": "Beans 模块提供了Spring 框架的基本组成部分，包括IoC 和AOP 功能。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "type": "判断题",
-    "q": "Spring Context Beans Core 的 模块构建于 模块和 模块之上。",
+    "q": "Spring 的Context 模块构建于Beans 模块和Core 模块之上。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -57,7 +57,7 @@
   {
     "id": 6,
     "type": "判断题",
-    "q": "Spring 框架的核心优势之一是降低组件间的耦合度，通过依赖注入实现松 耦合。",
+    "q": "Spring 框架的核心优势之一是降低组件间的耦合度，通过依赖注入实现松耦合。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -68,7 +68,7 @@
   {
     "id": 7,
     "type": "判断题",
-    "q": "Spring AOP BeanFactory 的 模块独立于核心容器运行，无需依赖 或 ApplicationContext 。",
+    "q": "Spring 的AOP 模块独立于核心容器运行，无需依赖BeanFactory 或 ApplicationContext。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -79,7 +79,7 @@
   {
     "id": 8,
     "type": "判断题",
-    "q": "Spring 5 JDK JDK 8 要求最低 版本为 ，并支持反应式编程模型。",
+    "q": "Spring 5 要求最低JDK 版本为JDK 8，并支持反应式编程模型。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -90,7 +90,7 @@
   {
     "id": 9,
     "type": "判断题",
-    "q": "DI Setter 依赖注入（ ）只能通过构造方法实现，无法通过 方法注入。",
+    "q": "依赖注入（DI）只能通过构造方法实现，无法通过Setter 方法注入。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -101,7 +101,7 @@
   {
     "id": 10,
     "type": "判断题",
-    "q": "IoC Spring 控制反转（ ）指由 容器管理对象的创建和依赖关系，而非开发 者手动控制。",
+    "q": "控制反转（IoC）指由Spring 容器管理对象的创建和依赖关系，而非开发者手动控制。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -112,7 +112,7 @@
   {
     "id": 11,
     "type": "判断题",
-    "q": "Spring XML Bean 编写 入门程序时，必须使用 配置文件定义 。",
+    "q": "编写Spring 入门程序时，必须使用XML 配置文件定义Bean。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -123,7 +123,7 @@
   {
     "id": 12,
     "type": "判断题",
-    "q": "Setter Spring 构造方法注入和 方法注入均为 支持的依赖注入方式。",
+    "q": "构造方法注入和Setter 方法注入均为Spring 支持的依赖注入方式。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -134,7 +134,7 @@
   {
     "id": 13,
     "type": "判断题",
-    "q": "Spring libs JAR 的 目录包含所有必需的运行时依赖库，无需额外引入其他 包。",
+    "q": "Spring 的libs 目录包含所有必需的运行时依赖库，无需额外引入其他JAR包。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -156,7 +156,7 @@
   {
     "id": 15,
     "type": "判断题",
-    "q": "Spring 5 XML 移除了对传统 配置的支持，强制使用注解驱动开发。",
+    "q": "Spring 5 移除了对传统XML 配置的支持，强制使用注解驱动开发。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -167,7 +167,7 @@
   {
     "id": 16,
     "type": "单选题",
-    "q": "IoC DI 下列选项中，包含 和 功能的模块是（ ）。",
+    "q": "下列选项中，包含IoC 和DI 功能的模块是（ ）。",
     "opts": {
       "A": "Beans",
       "B": "Core",
@@ -180,12 +180,12 @@
   {
     "id": 17,
     "type": "单选题",
-    "q": "Spring 下列选项中，关于 框架优点的说法不正确的是（ ）。",
+    "q": "下列选项中，关于Spring 框架优点的说法不正确的是（ ）。",
     "opts": {
       "A": "非侵入式设计",
       "B": "支持声明式事务",
-      "C": "支持 AOP 编程",
-      "D": "提供了自动配置和嵌入式 Web 服务器"
+      "C": "支持AOP 编程",
+      "D": "提供了自动配置和嵌入式Web 服务器"
     },
     "a": "D",
     "desc": "答案要点：提供了自动配置和嵌入式 Web 服务器，考查Spring。"
@@ -193,7 +193,7 @@
   {
     "id": 18,
     "type": "单选题",
-    "q": "Spring 下列选项中，关于 框架的描述，错误的是（ ）。",
+    "q": "下列选项中，关于Spring 框架的描述，错误的是（ ）。",
     "opts": {
       "A": "Spring 是一个提供了一站式服务的框架",
       "B": "Spring 是轻量级框架",
@@ -206,9 +206,9 @@
   {
     "id": 19,
     "type": "单选题",
-    "q": "Spring 下列选项中，对于 的数据访问及集成模块说法错误的是（ ）。",
+    "q": "下列选项中，对于Spring 的数据访问及集成模块说法错误的是（ ）。",
     "opts": {
-      "A": "JDBC 模块简化了 JDBC 编程的过程",
+      "A": "JDBC 模块简化了JDBC 编程的过程",
       "B": "JMS 模块主要用于处理消息传递，包括消息的生产和消费",
       "C": "ORM 模块提供了对主流的对象关系映射框架的集成支持",
       "D": "Transactions 模块负责事务管理，但是没有提供声明式事务管理 的功能"
@@ -219,12 +219,12 @@
   {
     "id": 20,
     "type": "单选题",
-    "q": "Spring IoC DI 下列选项中，对于 框架中的 和 描述错误的是（ ）。",
+    "q": "下列选项中，对于Spring 框架中的IoC 和DI 描述错误的是（ ）。",
     "opts": {
       "A": "IoC 表示控制反转",
       "B": "IoC 旨在构建松耦合的应用程序，降低代码的复杂度",
-      "C": "通常谈及 Spring 容器时，指的就是 Spring 框架中的 DI 容器",
-      "D": "DI 表示依赖注入，是 IoC 的一种实现方式"
+      "C": "通常谈及Spring 容器时，指的就是Spring 框架中的DI 容器",
+      "D": "DI 表示依赖注入，是IoC 的一种实现方式"
     },
     "a": "B",
     "desc": "答案要点：IoC 旨在构建松耦合的应用程序，降低代码的复杂度，考查Spring、IoC、DI。"
@@ -234,8 +234,8 @@
     "type": "单选题",
     "q": "Spring 框架的核心特性是（ ）。",
     "opts": {
-      "A": "控制反转（IoC ）",
-      "B": "面向切面编程（AOP ）",
+      "A": "控制反转（IoC）",
+      "B": "面向切面编程（AOP）",
       "C": "数据访问支持",
       "D": "Web 应用支持"
     },
@@ -245,10 +245,10 @@
   {
     "id": 22,
     "type": "单选题",
-    "q": "Spring ApplicationContext 框架的 接口用于（ ）。",
+    "q": "Spring 框架的ApplicationContext 接口用于（ ）。",
     "opts": {
       "A": "加载配置文件",
-      "B": "管理 Bean 的生命周期",
+      "B": "管理Bean 的生命周期",
       "C": "提供依赖注入",
       "D": "以上都是"
     },
@@ -258,12 +258,12 @@
   {
     "id": 23,
     "type": "单选题",
-    "q": "Spring BeanFactory 框架中， 接口的主要作用是（ ）。",
+    "q": "Spring 框架中，BeanFactory 接口的主要作用是（ ）。",
     "opts": {
-      "A": "管理 Bean 的生命周期",
+      "A": "管理Bean 的生命周期",
       "B": "加载配置文件",
       "C": "提供依赖注入",
-      "D": "负责 Bean 的实例化、配置和管理"
+      "D": "负责Bean 的实例化、配置和管理"
     },
     "a": "D",
     "desc": "答案要点：负责 Bean 的实例化、配置和管理，考查Spring、BeanFactory。"
@@ -271,9 +271,9 @@
   {
     "id": 24,
     "type": "单选题",
-    "q": "Spring @Component 框架中， 注解的作用是（ ）。",
+    "q": "Spring 框架中，@Component 注解的作用是（ ）。",
     "opts": {
-      "A": "标注一个类为 Spring 的 Bean",
+      "A": "标注一个类为Spring 的Bean",
       "B": "标注一个类为控制器",
       "C": "标注一个类为服务层组件",
       "D": "标注一个类为持久层组件"
@@ -284,9 +284,9 @@
   {
     "id": 25,
     "type": "单选题",
-    "q": "Spring @Controller 框架中， 注解的作用是（ ）。",
+    "q": "Spring 框架中，@Controller 注解的作用是（ ）。",
     "opts": {
-      "A": "标注一个类为 Spring 的 Bean",
+      "A": "标注一个类为Spring 的Bean",
       "B": "标注一个类为控制器",
       "C": "标注一个类为服务层组件",
       "D": "标注一个类为持久层组件"
@@ -297,9 +297,9 @@
   {
     "id": 26,
     "type": "单选题",
-    "q": "Spring @Service 框架中， 注解的作用是（ ）。",
+    "q": "Spring 框架中，@Service 注解的作用是（ ）。",
     "opts": {
-      "A": "标注一个类为 Spring 的 Bean",
+      "A": "标注一个类为Spring 的Bean",
       "B": "标注一个类为控制器",
       "C": "标注一个类为服务层组件",
       "D": "标注一个类为持久层组件"
@@ -310,9 +310,9 @@
   {
     "id": 27,
     "type": "单选题",
-    "q": "Spring @Repository 框架中， 注解的作用是（ ）。",
+    "q": "Spring 框架中，@Repository 注解的作用是（ ）。",
     "opts": {
-      "A": "标注一个类为 Spring 的 Bean",
+      "A": "标注一个类为Spring 的Bean",
       "B": "标注一个类为控制器",
       "C": "标注一个类为服务层组件",
       "D": "标注一个类为持久层组件"
@@ -323,7 +323,7 @@
   {
     "id": 28,
     "type": "单选题",
-    "q": "Spring @Controller 框架中， 注解通常用于（ ）。",
+    "q": "Spring 框架中，@Controller 注解通常用于（ ）。",
     "opts": {
       "A": "控制层",
       "B": "服务层",
@@ -336,7 +336,7 @@
   {
     "id": 29,
     "type": "单选题",
-    "q": "Spring @Service 框架中， 注解通常用于（ ）。",
+    "q": "Spring 框架中，@Service 注解通常用于（ ）。",
     "opts": {
       "A": "控制层",
       "B": "服务层",
@@ -349,7 +349,7 @@
   {
     "id": 30,
     "type": "单选题",
-    "q": "Spring @Repository 框架中， 注解通常用于（ ）。",
+    "q": "Spring 框架中，@Repository 注解通常用于（ ）。",
     "opts": {
       "A": "控制层",
       "B": "服务层",
@@ -362,7 +362,7 @@
   {
     "id": 31,
     "type": "单选题",
-    "q": "Spring @Component 框架中， 注解可以标注在（ ）。",
+    "q": "Spring 框架中，@Component 注解可以标注在（ ）。",
     "opts": {
       "A": "类上",
       "B": "方法上",
@@ -375,10 +375,10 @@
   {
     "id": 32,
     "type": "单选题",
-    "q": "Spring @Bean 框架中， 注解的作用是（ ）。",
+    "q": "Spring 框架中，@Bean 注解的作用是（ ）。",
     "opts": {
-      "A": "标注一个类为 Spring 的 Bean",
-      "B": "在方法上声明一个 Bean",
+      "A": "标注一个类为Spring 的Bean",
+      "B": "在方法上声明一个Bean",
       "C": "标注一个类为服务层组件",
       "D": "标注一个类为持久层组件"
     },
@@ -388,9 +388,9 @@
   {
     "id": 33,
     "type": "单选题",
-    "q": "Spring @Configuration 框架中， 注解的作用是（ ）。",
+    "q": "Spring 框架中，@Configuration 注解的作用是（ ）。",
     "opts": {
-      "A": "标注一个类为 Spring 的 Bean",
+      "A": "标注一个类为Spring 的Bean",
       "B": "标注一个类为配置类",
       "C": "标注一个类为服务层组件",
       "D": "标注一个类为持久层组件"
@@ -401,9 +401,9 @@
   {
     "id": 34,
     "type": "单选题",
-    "q": "Spring @Autowired 框架中， 注解的作用是（ ）。",
+    "q": "Spring 框架中，@Autowired 注解的作用是（ ）。",
     "opts": {
-      "A": "标注一个类为 Spring 的 Bean",
+      "A": "标注一个类为Spring 的Bean",
       "B": "自动注入依赖",
       "C": "标注一个类为服务层组件",
       "D": "标注一个类为持久层组件"
@@ -414,10 +414,10 @@
   {
     "id": 35,
     "type": "单选题",
-    "q": "Spring @Qualifier 框架中， 注解的作用是（ ）。",
+    "q": "Spring 框架中，@Qualifier 注解的作用是（ ）。",
     "opts": {
-      "A": "标注一个类为 Spring 的 Bean",
-      "B": "指定注入的 Bean 的名称",
+      "A": "标注一个类为Spring 的Bean",
+      "B": "指定注入的Bean 的名称",
       "C": "标注一个类为服务层组件",
       "D": "标注一个类为持久层组件"
     },
@@ -427,7 +427,7 @@
   {
     "id": 36,
     "type": "判断题",
-    "q": "BeanFactory Bean 采用延迟加载的方式创建 的实例。",
+    "q": "BeanFactory 采用延迟加载的方式创建Bean 的实例。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -438,7 +438,7 @@
   {
     "id": 37,
     "type": "判断题",
-    "q": "<constructor-arg> index 标签的 属性用于指定构造方法的参数索引，参数 0 1 索引从 开始依次递增 。",
+    "q": "<constructor-arg> 标签的index 属性用于指定构造方法的参数索引，参数 索引从0 开始依次递增1。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -449,7 +449,7 @@
   {
     "id": 38,
     "type": "判断题",
-    "q": "Bean 使用静态工厂方式实例化 时，需要开发者定义一个静态工厂类，并在 Bean 其中编写静态方法来创建 的实例。",
+    "q": "使用静态工厂方式实例化Bean 时，需要开发者定义一个静态工厂类，并在 其中编写静态方法来创建Bean 的实例。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -460,7 +460,7 @@
   {
     "id": 39,
     "type": "判断题",
-    "q": "Spring setter Bean Bean 使用属性的 方法注入 时， 类必须为需要注入的属 setter 性提供对应的 方法。",
+    "q": "Spring 使用属性的setter 方法注入Bean 时，Bean 类必须为需要注入的属性提供对应的setter 方法。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -471,7 +471,7 @@
   {
     "id": 40,
     "type": "判断题",
-    "q": "prototype Bean Spring 对于 作用域的 ， 容器不会管理其完整的生命周期。",
+    "q": "对于prototype 作用域的Bean，Spring 容器不会管理其完整的生命周期。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -482,7 +482,7 @@
   {
     "id": 41,
     "type": "判断题",
-    "q": "BeanFactory Spring Bean 是 的核心接口，提供基础的 管理功能，但默认 Bean 延迟初始化 。",
+    "q": "BeanFactory 是Spring 的核心接口，提供基础的Bean 管理功能，但默认 延迟初始化Bean。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -493,7 +493,7 @@
   {
     "id": 42,
     "type": "判断题",
-    "q": "ApplicationContext BeanFactory 是 的子接口，支持事件发布、国际化等 高级功能。",
+    "q": "ApplicationContext 是BeanFactory 的子接口，支持事件发布、国际化等 高级功能。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -504,7 +504,7 @@
   {
     "id": 43,
     "type": "判断题",
-    "q": "<bean> class Bean 通过 标签的 属性指定 的实现类时，必须提供无参构造 方法。",
+    "q": "通过<bean> 标签的class 属性指定Bean 的实现类时，必须提供无参构造 方法。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -515,7 +515,7 @@
   {
     "id": 44,
     "type": "判断题",
-    "q": "Bean factory-method 静态工厂实例化 需要在配置中指定 属性，且该方法 必须是静态的。",
+    "q": "静态工厂实例化Bean 需要在配置中指定factory-method 属性，且该方法 必须是静态的。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -526,7 +526,7 @@
   {
     "id": 45,
     "type": "判断题",
-    "q": "singleton Bean 作用域的 默认在容器启动时立即初始化。",
+    "q": "singleton 作用域的Bean 默认在容器启动时立即初始化。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -537,7 +537,7 @@
   {
     "id": 46,
     "type": "判断题",
-    "q": "prototype Bean Spring 作用域的 在容器销毁时， 会自动调用其销毁方法。",
+    "q": "prototype 作用域的Bean 在容器销毁时，Spring 会自动调用其销毁方法。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -548,7 +548,7 @@
   {
     "id": 47,
     "type": "判断题",
-    "q": "XML autowire=\"byName\" 基于 的装配中， 表示按属性类型自动注入依赖。",
+    "q": "基于XML 的装配中，autowire=\"byName\" 表示按属性类型自动注入依赖。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -559,7 +559,7 @@
   {
     "id": 48,
     "type": "判断题",
-    "q": "@Autowired byType Bean 注解默认按类型（ ）进行自动装配，若匹配多个 会抛出异常。",
+    "q": "@Autowired 注解默认按类型（byType）进行自动装配，若匹配多个Bean 会抛出异常。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -570,7 +570,7 @@
   {
     "id": 49,
     "type": "判断题",
-    "q": "Bean init-method Bean 的生命周期中， 指定的方法会在 属性注入完成后执 行。",
+    "q": "Bean 的生命周期中，init-method 指定的方法会在Bean 属性注入完成后执行。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -581,7 +581,7 @@
   {
     "id": 50,
     "type": "判断题",
-    "q": "Bean class 实例工厂实例化 可以直接通过 属性指定工厂类，无需额外配置。",
+    "q": "实例工厂实例化Bean 可以直接通过class 属性指定工厂类，无需额外配置。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -592,7 +592,7 @@
   {
     "id": 51,
     "type": "单选题",
-    "q": "ApplicationContext 下列选项中，不属于 的实现类的是（ ）。",
+    "q": "下列选项中，不属于ApplicationContext 的实现类的是（ ）。",
     "opts": {
       "A": "ClassPathXmlApplicationContext",
       "B": "FileSystemXmlApplicationContext",
@@ -605,12 +605,12 @@
   {
     "id": 52,
     "type": "单选题",
-    "q": "Spring Bean 下列选项中，对于 的配置的标签说法错误的是（ ）。",
+    "q": "下列选项中，对于Spring Bean 的配置的标签说法错误的是（ ）。",
     "opts": {
-      "A": "<constructor-arg> 标签用于设置 Bean 的构造方法参数",
-      "B": "<set> 标签用于设置 Bean 中 Set 类型的属性值",
-      "C": "<list> 标签用于设置 Bean 中 List 类型的属性值",
-      "D": "<map> 标签用于设置 Bean 中 Map 类型的属性值"
+      "A": "<constructor-arg> 标签用于设置Bean 的构造方法参数",
+      "B": "<set> 标签用于设置Bean 中Set 类型的属性值",
+      "C": "<list> 标签用于设置Bean 中List 类型的属性值",
+      "D": "<map> 标签用于设置Bean 中Map 类型的属性值"
     },
     "a": "A",
     "desc": "答案要点：<constructor-arg> 标签用于设置 Bean 的构造方法参数，考查Spring、Bean。"
@@ -618,12 +618,12 @@
   {
     "id": 53,
     "type": "单选题",
-    "q": "Spring 下列选项中，关于 支持的作用域描述错误的是（ ）。",
+    "q": "下列选项中，关于Spring 支持的作用域描述错误的是（ ）。",
     "opts": {
-      "A": "singleton 是 Spring 框架的默认作用域",
-      "B": "当将 Bean 的作用域设置为 prototype 时，每次从容器中请求 Bean Bean 都会创建一个新的",
-      "C": "当将 Bean 的作用域设置为 request 时，Bean 在整个 Web 应用 中都有效",
-      "D": "当将 Bean 的作用域设置为 application 时，整个 Web 应用的生 Bean 命周期内只存在一个"
+      "A": "singleton 是Spring 框架的默认作用域",
+      "B": "当将Bean 的作用域设置为prototype 时，每次从容器中请求 Bean 都会创建一个新的Bean",
+      "C": "当将Bean 的作用域设置为request 时，Bean 在整个Web 应用 中都有效",
+      "D": "当将Bean 的作用域设置为application 时，整个Web 应用的生命周期内只存在一个Bean"
     },
     "a": "C",
     "desc": "答案要点：当将 Bean 的作用域设置为 request 时，Bean 在整个 Web 应用 中都有效，考查Spring。"
@@ -631,10 +631,10 @@
   {
     "id": 54,
     "type": "单选题",
-    "q": "Spring 下列选项中，关于 用于装配注解描述错误的是（ ）。",
+    "q": "下列选项中，关于Spring 用于装配注解描述错误的是（ ）。",
     "opts": {
-      "A": "@Component 用于标识类为 Spring 中的 Bean",
-      "B": "@Scope 指定 Bean 的作用域",
+      "A": "@Component 用于标识类为Spring 中的Bean",
+      "B": "@Scope 指定Bean 的作用域",
       "C": "@Value 指定自动装配的对象名称",
       "D": "@Autowired 指定要自动装配的对象"
     },
@@ -644,12 +644,12 @@
   {
     "id": 55,
     "type": "单选题",
-    "q": "Bean 下列选项中，对于 的生命周期描述错误的是（ ）。",
+    "q": "下列选项中，对于Bean 的生命周期描述错误的是（ ）。",
     "opts": {
-      "A": "Bean 的生命周期是指 Bean 从创建到销毁的整个过程",
-      "B": "Spring 中作用域不同的 Bean 在生命周期管理上没有区别",
-      "C": "开发者可以通过 @Bean 注解的 initMethod 属性指定初始化方法",
-      "D": "开发者可以通过 @Bean 注解的 destroyMethod 属性指定销毁方 法"
+      "A": "Bean 的生命周期是指Bean 从创建到销毁的整个过程",
+      "B": "Spring 中作用域不同的Bean 在生命周期管理上没有区别",
+      "C": "开发者可以通过@Bean 注解的initMethod 属性指定初始化方法",
+      "D": "开发者可以通过@Bean 注解的destroyMethod 属性指定销毁方法"
     },
     "a": "B",
     "desc": "答案要点：Spring 中作用域不同的 Bean 在生命周期管理上没有区别，考查Bean。"
@@ -657,7 +657,7 @@
   {
     "id": 56,
     "type": "单选题",
-    "q": "Spring Bean 中， 的作用域默认是（ ）。",
+    "q": "Spring 中，Bean 的作用域默认是（ ）。",
     "opts": {
       "A": "singleton",
       "B": "prototype",
@@ -670,11 +670,11 @@
   {
     "id": 57,
     "type": "单选题",
-    "q": "Spring singleton Bean 中， 作用域的 是（ ）。",
+    "q": "Spring 中，singleton 作用域的Bean 是（ ）。",
     "opts": {
       "A": "每次请求都创建一个新的实例",
-      "B": "在 Spring 容器中只有一个实例",
-      "C": "每个 HTTP 请求都创建一个新的实例",
+      "B": "在Spring 容器中只有一个实例",
+      "C": "每个HTTP 请求都创建一个新的实例",
       "D": "每个会话都创建一个新的实例"
     },
     "a": "B",
@@ -683,11 +683,11 @@
   {
     "id": 58,
     "type": "单选题",
-    "q": "Spring prototype Bean 中， 作用域的 是（ ）。",
+    "q": "Spring 中，prototype 作用域的Bean 是（ ）。",
     "opts": {
       "A": "每次请求都创建一个新的实例",
-      "B": "在 Spring 容器中只有一个实例",
-      "C": "每个 HTTP 请求都创建一个新的实例",
+      "B": "在Spring 容器中只有一个实例",
+      "C": "每个HTTP 请求都创建一个新的实例",
       "D": "每个会话都创建一个新的实例"
     },
     "a": "A",
@@ -696,11 +696,11 @@
   {
     "id": 59,
     "type": "单选题",
-    "q": "Spring request Bean 中， 作用域的 是（ ）。",
+    "q": "Spring 中，request 作用域的Bean 是（ ）。",
     "opts": {
       "A": "每次请求都创建一个新的实例",
-      "B": "在 Spring 容器中只有一个实例",
-      "C": "每个 HTTP 请求都创建一个新的实例",
+      "B": "在Spring 容器中只有一个实例",
+      "C": "每个HTTP 请求都创建一个新的实例",
       "D": "每个会话都创建一个新的实例"
     },
     "a": "C",
@@ -709,11 +709,11 @@
   {
     "id": 60,
     "type": "单选题",
-    "q": "Spring session Bean 中， 作用域的 是（ ）。",
+    "q": "Spring 中，session 作用域的Bean 是（ ）。",
     "opts": {
       "A": "每次请求都创建一个新的实例",
-      "B": "在 Spring 容器中只有一个实例",
-      "C": "每个 HTTP 请求都创建一个新的实例",
+      "B": "在Spring 容器中只有一个实例",
+      "C": "每个HTTP 请求都创建一个新的实例",
       "D": "每个会话都创建一个新的实例"
     },
     "a": "D",
@@ -722,12 +722,12 @@
   {
     "id": 61,
     "type": "单选题",
-    "q": "Spring @Scope 中， 注解用于（ ）。",
+    "q": "Spring 中，@Scope 注解用于（ ）。",
     "opts": {
-      "A": "指定 Bean 的作用域",
-      "B": "指定 Bean 的生命周期",
-      "C": "指定 Bean 的加载方式",
-      "D": "指定 Bean 的注入方式"
+      "A": "指定Bean 的作用域",
+      "B": "指定Bean 的生命周期",
+      "C": "指定Bean 的加载方式",
+      "D": "指定Bean 的注入方式"
     },
     "a": "A",
     "desc": "答案要点：指定 Bean 的作用域，考查Spring、@Scope。"
@@ -735,12 +735,12 @@
   {
     "id": 62,
     "type": "单选题",
-    "q": "Spring @PostConstruct 中， 注解的作用是（ ）。",
+    "q": "Spring 中，@PostConstruct 注解的作用是（ ）。",
     "opts": {
-      "A": "指定 Bean 的初始化方法",
-      "B": "指定 Bean 的销毁方法",
-      "C": "指定 Bean 的加载方式",
-      "D": "指定 Bean 的注入方式"
+      "A": "指定Bean 的初始化方法",
+      "B": "指定Bean 的销毁方法",
+      "C": "指定Bean 的加载方式",
+      "D": "指定Bean 的注入方式"
     },
     "a": "A",
     "desc": "答案要点：指定 Bean 的初始化方法，考查Spring、@PostConstruct。"
@@ -748,12 +748,12 @@
   {
     "id": 63,
     "type": "单选题",
-    "q": "Spring @PreDestroy 中， 注解的作用是（ ）。",
+    "q": "Spring 中，@PreDestroy 注解的作用是（ ）。",
     "opts": {
-      "A": "指定 Bean 的初始化方法",
-      "B": "指定 Bean 的销毁方法",
-      "C": "指定 Bean 的加载方式",
-      "D": "指定 Bean 的注入方式"
+      "A": "指定Bean 的初始化方法",
+      "B": "指定Bean 的销毁方法",
+      "C": "指定Bean 的加载方式",
+      "D": "指定Bean 的注入方式"
     },
     "a": "B",
     "desc": "答案要点：指定 Bean 的销毁方法，考查Spring、@PreDestroy。"
@@ -761,12 +761,12 @@
   {
     "id": 64,
     "type": "单选题",
-    "q": "Spring @Lazy 中， 注解的作用是（ ）。",
+    "q": "Spring 中，@Lazy 注解的作用是（ ）。",
     "opts": {
-      "A": "指定 Bean 的加载方式为懒加载",
-      "B": "指定 Bean 的加载方式为急加载",
-      "C": "指定 Bean 的生命周期",
-      "D": "指定 Bean 的注入方式"
+      "A": "指定Bean 的加载方式为懒加载",
+      "B": "指定Bean 的加载方式为急加载",
+      "C": "指定Bean 的生命周期",
+      "D": "指定Bean 的注入方式"
     },
     "a": "A",
     "desc": "答案要点：指定 Bean 的加载方式为懒加载，考查Spring、@Lazy。"
@@ -774,12 +774,12 @@
   {
     "id": 65,
     "type": "单选题",
-    "q": "Spring @Primary 中， 注解的作用是（ ）。",
+    "q": "Spring 中，@Primary 注解的作用是（ ）。",
     "opts": {
-      "A": "指定优先注入的 Bean",
-      "B": "指定 Bean 的加载方式",
-      "C": "指定 Bean 的生命周期",
-      "D": "指定 Bean 的注入方式"
+      "A": "指定优先注入的Bean",
+      "B": "指定Bean 的加载方式",
+      "C": "指定Bean 的生命周期",
+      "D": "指定Bean 的注入方式"
     },
     "a": "A",
     "desc": "答案要点：指定优先注入的 Bean，考查Spring、@Primary。"
@@ -787,12 +787,12 @@
   {
     "id": 66,
     "type": "单选题",
-    "q": "Spring @DependsOn 中， 注解的作用是（ ）。",
+    "q": "Spring 中，@DependsOn 注解的作用是（ ）。",
     "opts": {
-      "A": "指定 Bean 的依赖关系",
-      "B": "指定 Bean 的加载方式",
-      "C": "指定 Bean 的生命周期",
-      "D": "指定 Bean 的注入方式"
+      "A": "指定Bean 的依赖关系",
+      "B": "指定Bean 的加载方式",
+      "C": "指定Bean 的生命周期",
+      "D": "指定Bean 的注入方式"
     },
     "a": "A",
     "desc": "答案要点：指定 Bean 的依赖关系，考查Spring、@DependsOn。"
@@ -800,10 +800,10 @@
   {
     "id": 67,
     "type": "单选题",
-    "q": "Spring @Configuration 中， 注解用于（ ）。",
+    "q": "Spring 中，@Configuration 注解用于（ ）。",
     "opts": {
       "A": "标注一个类为配置类",
-      "B": "标注一个类为 Bean",
+      "B": "标注一个类为Bean",
       "C": "标注一个类为服务层组件",
       "D": "标注一个类为持久层组件"
     },
@@ -813,10 +813,10 @@
   {
     "id": 68,
     "type": "单选题",
-    "q": "Spring @Bean 中， 注解用于（ ）。",
+    "q": "Spring 中，@Bean 注解用于（ ）。",
     "opts": {
-      "A": "在方法上声明一个 Bean",
-      "B": "标注一个类为 Bean",
+      "A": "在方法上声明一个Bean",
+      "B": "标注一个类为Bean",
       "C": "标注一个类为服务层组件",
       "D": "标注一个类为持久层组件"
     },
@@ -826,12 +826,12 @@
   {
     "id": 69,
     "type": "单选题",
-    "q": "Spring @ComponentScan 中， 注解用于（ ）。",
+    "q": "Spring 中，@ComponentScan 注解用于（ ）。",
     "opts": {
       "A": "指定组件扫描的包路径",
-      "B": "指定 Bean 的加载方式",
-      "C": "指定 Bean 的生命周期",
-      "D": "指定 Bean 的注入方式"
+      "B": "指定Bean 的加载方式",
+      "C": "指定Bean 的生命周期",
+      "D": "指定Bean 的注入方式"
     },
     "a": "A",
     "desc": "答案要点：指定组件扫描的包路径，考查Spring、@ComponentScan。"
@@ -839,10 +839,10 @@
   {
     "id": 70,
     "type": "单选题",
-    "q": "Spring @Value 中， 注解用于（ ）。",
+    "q": "Spring 中，@Value 注解用于（ ）。",
     "opts": {
       "A": "注入属性值",
-      "B": "注入 Bean",
+      "B": "注入Bean",
       "C": "注入依赖",
       "D": "注入方法"
     },
@@ -852,7 +852,7 @@
   {
     "id": 71,
     "type": "判断题",
-    "q": "Spring MVC MVC Web 是基于 设计模式的一个轻量级的 框架。",
+    "q": "Spring MVC 是基于MVC 设计模式的一个轻量级的Web 框架。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -874,7 +874,7 @@
   {
     "id": 73,
     "type": "判断题",
-    "q": "@RequestMapping method 如果 注解没有指定 属性的值，程序会在运行 时出错。",
+    "q": "如果@RequestMapping 注解没有指定method 属性的值，程序会在运行 时出错。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -896,7 +896,7 @@
   {
     "id": 75,
     "type": "判断题",
-    "q": "@GetMapping @RequestMapping(method = 的作用和 RequestMethod.GET) 的作用相同。",
+    "q": "@GetMapping 的作用和@RequestMapping(method = RequestMethod.GET) 的作用相同。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -907,7 +907,7 @@
   {
     "id": 76,
     "type": "判断题",
-    "q": "Spring MVC DispatcherServlet 的核心设计思想是“请求驱动”，围绕 分发处 理。",
+    "q": "Spring MVC 的核心设计思想是“请求驱动”，围绕DispatcherServlet 分发处理。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -918,7 +918,7 @@
   {
     "id": 77,
     "type": "判断题",
-    "q": "@RestController @Controller @ResponseBody 注解是 和 的组合注解，用 JSON 于返回 数据。",
+    "q": "@RestController 注解是@Controller 和@ResponseBody 的组合注解，用 于返回JSON 数据。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -929,7 +929,7 @@
   {
     "id": 78,
     "type": "判断题",
-    "q": "Spring MVC Model 在 中， 对象用于在控制器和视图之间传递数据。",
+    "q": "在Spring MVC 中，Model 对象用于在控制器和视图之间传递数据。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -951,7 +951,7 @@
   {
     "id": 80,
     "type": "判断题",
-    "q": "InternalResourceViewResolver Spring MVC 是 默认的视图解析器，无需显 式配置。",
+    "q": "InternalResourceViewResolver 是Spring MVC 默认的视图解析器，无需显 式配置。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -962,7 +962,7 @@
   {
     "id": 81,
     "type": "判断题",
-    "q": "@RequestMapping method HTTP 使用 注解时， 属性可限制请求的 方法 GET/POST （如 ）。",
+    "q": "使用@RequestMapping 注解时，method 属性可限制请求的HTTP 方法 （如GET/POST）。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -973,7 +973,7 @@
   {
     "id": 82,
     "type": "判断题",
-    "q": "Spring MVC String ModelAndView 的控制器方法返回值只能是 或 类型。",
+    "q": "Spring MVC 的控制器方法返回值只能是String 或ModelAndView 类型。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -984,7 +984,7 @@
   {
     "id": 83,
     "type": "判断题",
-    "q": "MultipartResolver 文件上传功能需要配置 实现类（如 CommonsMultipartResolver ）。",
+    "q": "文件上传功能需要配置MultipartResolver 实现类（如 CommonsMultipartResolver）。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -995,7 +995,7 @@
   {
     "id": 84,
     "type": "判断题",
-    "q": "Spring MVC Spring AOP 必须依赖 框架的其他模块（如 、事务管理）才能 运行。",
+    "q": "Spring MVC 必须依赖Spring 框架的其他模块（如AOP、事务管理）才能 运行。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1006,7 +1006,7 @@
   {
     "id": 85,
     "type": "判断题",
-    "q": "RESTful URL @PathVariable 风格的 可通过 注解映射动态参数。",
+    "q": "RESTful 风格的URL 可通过@PathVariable 注解映射动态参数。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1017,11 +1017,11 @@
   {
     "id": 86,
     "type": "单选题",
-    "q": "Spring MVC 下列选项中，关于 常用的组件描述错误的是（ ）。",
+    "q": "下列选项中，关于Spring MVC 常用的组件描述错误的是（ ）。",
     "opts": {
-      "A": "DispatcherServlet 为前端控制器，是整个 Spring MVC 流程控制 中心",
-      "B": "HandlerMapping 为处理器映射器，根据请求的 URL 、HTTP 方 法等信息找到对应的处理器",
-      "C": "Handler 为处理器适配器，负责将请求适配到对应处理器处理请 求",
+      "A": "DispatcherServlet 为前端控制器，是整个Spring MVC 流程控制 中心",
+      "B": "HandlerMapping 为处理器映射器，根据请求的URL、HTTP 方法等信息找到对应的处理器",
+      "C": "Handler 为处理器适配器，负责将请求适配到对应处理器处理请求",
       "D": "ViewResolver 为视图解析器，视图解析器会根据逻辑视图名解析 成物理视图名"
     },
     "a": "C",
@@ -1030,10 +1030,10 @@
   {
     "id": 87,
     "type": "单选题",
-    "q": "@RequestMapping 下列选项中，关于 注解的属性描述错误的是（ ）。",
+    "q": "下列选项中，关于@RequestMapping 注解的属性描述错误的是（ ）。",
     "opts": {
       "A": "name 属性用于为请求映射提供一个名称",
-      "B": "method 属性用于指定该方法可以处理哪种类型的 HTTP 请求",
+      "B": "method 属性用于指定该方法可以处理哪种类型的HTTP 请求",
       "C": "params 属性用于指定请求参数的条件，为必选属性",
       "D": "headers 属性用于指定请求头的条件"
     },
@@ -1043,12 +1043,12 @@
   {
     "id": 88,
     "type": "单选题",
-    "q": "Spring MVC 下列选项中，关于 的执行流程描述错误的是（ ）。",
+    "q": "下列选项中，关于Spring MVC 的执行流程描述错误的是（ ）。",
     "opts": {
-      "A": "用户通过浏览器向服务器发送请求，请求会被 Spring MVC 的前 端控制器拦截",
+      "A": "用户通过浏览器向服务器发送请求，请求会被Spring MVC 的前 端控制器拦截",
       "B": "前端控制器拦截到请求后，会调用处理器映射器",
       "C": "处理器适配器会调用并执行相应的处理器",
-      "D": "处理器执行完成后，会返回一个 DispatcherServlet 对象，该对象 中会包含视图名或包含数据模型和视图名"
+      "D": "处理器执行完成后，会返回一个DispatcherServlet 对象，该对象 中会包含视图名或包含数据模型和视图名"
     },
     "a": "D",
     "desc": "答案要点：处理器执行完成后，会返回一个 DispatcherServlet 对象，该对象 中会包含视图名或包含数据模型和视图名，考查Spring、MVC。"
@@ -1056,12 +1056,12 @@
   {
     "id": 89,
     "type": "单选题",
-    "q": "RESTful 下列选项中，关于 风格的描述错误的是（ ）。",
+    "q": "下列选项中，关于RESTful 风格的描述错误的是（ ）。",
     "opts": {
-      "A": "RESTful 是按照 REST 风格访问网络资源的一种实践",
+      "A": "RESTful 是按照REST 风格访问网络资源的一种实践",
       "B": "RESTful 是把请求参数变成请求路径的一种风格",
-      "C": "RESTful 风格在 HTTP 请求中，GET 表示用于获取资源",
-      "D": "RESTful 风格在 HTTP 请求中，POST 表示用于更新资源"
+      "C": "RESTful 风格在HTTP 请求中，GET 表示用于获取资源",
+      "D": "RESTful 风格在HTTP 请求中，POST 表示用于更新资源"
     },
     "a": "D",
     "desc": "答案要点：RESTful 风格在 HTTP 请求中，POST 表示用于更新资源，考查RESTful。"
@@ -1082,10 +1082,10 @@
   {
     "id": 91,
     "type": "单选题",
-    "q": "Spring MVC <servlet> 的配置文件中， 元素用于（ ）。",
+    "q": "Spring MVC 的配置文件中，<servlet> 元素用于（ ）。",
     "opts": {
-      "A": "定义 Servlet",
-      "B": "配置 Servlet 映射",
+      "A": "定义Servlet",
+      "B": "配置Servlet 映射",
       "C": "定义过滤器",
       "D": "配置拦截器"
     },
@@ -1095,7 +1095,7 @@
   {
     "id": 92,
     "type": "单选题",
-    "q": "Spring MVC @Controller 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@Controller 注解的作用是（ ）。",
     "opts": {
       "A": "标注一个类为控制器",
       "B": "标注一个类为服务层组件",
@@ -1108,7 +1108,7 @@
   {
     "id": 93,
     "type": "单选题",
-    "q": "Spring MVC @RequestMapping 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@RequestMapping 注解的作用是（ ）。",
     "opts": {
       "A": "映射请求到处理器方法",
       "B": "标注一个类为控制器",
@@ -1121,7 +1121,7 @@
   {
     "id": 94,
     "type": "单选题",
-    "q": "Spring MVC @RequestParam 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@RequestParam 注解的作用是（ ）。",
     "opts": {
       "A": "绑定请求参数到方法参数",
       "B": "绑定请求头到方法参数",
@@ -1134,7 +1134,7 @@
   {
     "id": 95,
     "type": "单选题",
-    "q": "Spring MVC @PathVariable 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@PathVariable 注解的作用是（ ）。",
     "opts": {
       "A": "绑定请求参数到方法参数",
       "B": "绑定请求头到方法参数",
@@ -1147,7 +1147,7 @@
   {
     "id": 96,
     "type": "单选题",
-    "q": "Spring MVC @RequestHeader 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@RequestHeader 注解的作用是（ ）。",
     "opts": {
       "A": "绑定请求参数到方法参数",
       "B": "绑定请求头到方法参数",
@@ -1160,7 +1160,7 @@
   {
     "id": 97,
     "type": "单选题",
-    "q": "Spring MVC @RequestBody 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@RequestBody 注解的作用是（ ）。",
     "opts": {
       "A": "绑定请求参数到方法参数",
       "B": "绑定请求头到方法参数",
@@ -1173,7 +1173,7 @@
   {
     "id": 98,
     "type": "单选题",
-    "q": "Spring MVC @ResponseBody 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@ResponseBody 注解的作用是（ ）。",
     "opts": {
       "A": "将方法返回值直接写入响应体",
       "B": "将方法返回值绑定到请求体",
@@ -1186,10 +1186,10 @@
   {
     "id": 99,
     "type": "单选题",
-    "q": "Spring MVC @RestController 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@RestController 注解的作用是（ ）。",
     "opts": {
       "A": "标注一个类为控制器",
-      "B": "标注一个类为 REST 风格的控制器",
+      "B": "标注一个类为REST 风格的控制器",
       "C": "标注一个类为服务层组件",
       "D": "标注一个类为持久层组件"
     },
@@ -1199,7 +1199,7 @@
   {
     "id": 100,
     "type": "判断题",
-    "q": "Spring MVC 在 中进行简单类型的数据绑定，只需客户端请求参数的名称和 处理器的形参名称一致即可。",
+    "q": "在Spring MVC 中进行简单类型的数据绑定，只需客户端请求参数的名称和 处理器的形参名称一致即可。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1210,7 +1210,7 @@
   {
     "id": 101,
     "type": "判断题",
-    "q": "POJO 在 类型的数据绑定过程中，需要确保请求的参数名称与要绑定的 POJO 类中的属性名称保持一致。",
+    "q": "在POJO 类型的数据绑定过程中，需要确保请求的参数名称与要绑定的 POJO 类中的属性名称保持一致。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1221,7 +1221,7 @@
   {
     "id": 102,
     "type": "判断题",
-    "q": "@ResponseBody 注解的作用是将处理器方法返回的对象通过适当的转换器 HttpServletResponse 转换为指定的格式之后，写入到 对象的响应体中。",
+    "q": "@ResponseBody 注解的作用是将处理器方法返回的对象通过适当的转换器 转换为指定的格式之后，写入到HttpServletResponse 对象的响应体中。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1232,7 +1232,7 @@
   {
     "id": 103,
     "type": "判断题",
-    "q": "Spring MVC void 当 方法的返回值为 时，方法执行后会跳转到项目中视图 index 名称为 的页面。",
+    "q": "当Spring MVC 方法的返回值为void 时，方法执行后会跳转到项目中视图 名称为index 的页面。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1243,7 +1243,7 @@
   {
     "id": 104,
     "type": "判断题",
-    "q": "@DateTimeFormat 使用 注解完成日期类型的格式转换无需自定义类型转换 器，也无需在配置文件中定义转换器工厂或格式化工厂。",
+    "q": "使用@DateTimeFormat 注解完成日期类型的格式转换无需自定义类型转换 器，也无需在配置文件中定义转换器工厂或格式化工厂。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1254,7 +1254,7 @@
   {
     "id": 105,
     "type": "判断题",
-    "q": "DispatcherServlet Spring MVC 是 的前端控制器，负责统一调度请求处理 流程。",
+    "q": "DispatcherServlet 是Spring MVC 的前端控制器，负责统一调度请求处理 流程。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1276,7 +1276,7 @@
   {
     "id": 107,
     "type": "判断题",
-    "q": "@RequestMapping method RequestMethod.GET 注解的 属性默认为 ，仅 GET 处理 请求。",
+    "q": "@RequestMapping 注解的method 属性默认为RequestMethod.GET，仅 处理GET 请求。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1287,7 +1287,7 @@
   {
     "id": 108,
     "type": "判断题",
-    "q": "@RequestMapping value 注解的 属性可以简写，例如 @RequestMapping(\"/user\") @RequestMapping(value = \"/user\") 等价于 。",
+    "q": "@RequestMapping 注解的value 属性可以简写，例如 @RequestMapping(\"/user\") 等价于@RequestMapping(value = \"/user\")。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1298,7 +1298,7 @@
   {
     "id": 109,
     "type": "判断题",
-    "q": "@RequestMapping URL 注解支持同时指定多个 路径，例如 @RequestMapping({\"/list\", \"/all\"}) 。",
+    "q": "@RequestMapping 注解支持同时指定多个URL 路径，例如 @RequestMapping({\"/list\", \"/all\"})。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1309,7 +1309,7 @@
   {
     "id": 110,
     "type": "判断题",
-    "q": "@PathVariable URL name 注解用于从 模板中提取参数，且必须通过 属性 指定参数名。",
+    "q": "@PathVariable 注解用于从URL 模板中提取参数，且必须通过name 属性 指定参数名。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1320,7 +1320,7 @@
   {
     "id": 111,
     "type": "判断题",
-    "q": "@RequestParam required true 注解的 属性默认为 ，表示请求参数必须传递。",
+    "q": "@RequestParam 注解的required 属性默认为true，表示请求参数必须传递。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1331,7 +1331,7 @@
   {
     "id": 112,
     "type": "判断题",
-    "q": "@GetMapping @RequestMapping(method = RequestMethod.GET) 注解是 的快捷方式。",
+    "q": "@GetMapping 注解是@RequestMapping(method = RequestMethod.GET) 的快捷方式。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1353,7 +1353,7 @@
   {
     "id": 114,
     "type": "判断题",
-    "q": "@RequestMapping headers 注解可以通过 属性限制请求头信息，例如 headers = \"Content-Type=application/json\" 。",
+    "q": "@RequestMapping 注解可以通过headers 属性限制请求头信息，例如 headers = \"Content-Type=application/json\"。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1364,7 +1364,7 @@
   {
     "id": 115,
     "type": "单选题",
-    "q": "Spring MVC 下列选项中，不属于 默认支持的类型的是（ ）。",
+    "q": "下列选项中，不属于Spring MVC 默认支持的类型的是（ ）。",
     "opts": {
       "A": "HttpServletRequest",
       "B": "HttpServletResponse",
@@ -1377,11 +1377,11 @@
   {
     "id": 116,
     "type": "单选题",
-    "q": "@RequestParam 下列选项中，关于 注解的属性描述错误的是（ ）。",
+    "q": "下列选项中，关于@RequestParam 注解的属性描述错误的是（ ）。",
     "opts": {
       "A": "value 用于指定要绑定的请求参数的名称",
-      "B": "name 与 value 属性作用一致",
-      "C": "required 用于指定参数是否必须，默认是 false",
+      "B": "name 与value 属性作用一致",
+      "C": "required 用于指定参数是否必须，默认是false",
       "D": "defaultValue 用于指定参数的默认值"
     },
     "a": "C",
@@ -1390,12 +1390,12 @@
   {
     "id": 117,
     "type": "单选题",
-    "q": "ModelAndView 下列选项中，关于 设置视图和模型数据的方法的描述错误 的是（ ）。",
+    "q": "下列选项中，关于ModelAndView 设置视图和模型数据的方法的描述错误 的是（ ）。",
     "opts": {
-      "A": "setViewName() 方法用于在 ModelAndView 对象中设置一个逻辑 视图名称，会覆盖预先存在的逻辑视图名称",
-      "B": "setView() 方法用于在 ModelAndView 对象中设置一个视图实例， 会覆盖预先存在的视图实例",
-      "C": "addObject() 方法用于在 ModelAndView 对象中添加模型数据和 视图实例",
-      "D": "addAllObjects() 方法用于在 ModelAndView 对象中添加模型数据"
+      "A": "setViewName() 方法用于在ModelAndView 对象中设置一个逻辑 视图名称，会覆盖预先存在的逻辑视图名称",
+      "B": "setView() 方法用于在ModelAndView 对象中设置一个视图实例， 会覆盖预先存在的视图实例",
+      "C": "addObject() 方法用于在ModelAndView 对象中添加模型数据和 视图实例",
+      "D": "addAllObjects() 方法用于在ModelAndView 对象中添加模型数据"
     },
     "a": "C",
     "desc": "答案要点：addObject() 方法用于在 ModelAndView 对象中添加模型数据和 视图实例，考查ModelAndView。"
@@ -1403,11 +1403,11 @@
   {
     "id": 118,
     "type": "单选题",
-    "q": "Spring MVC 下列选项中，关于 数据绑定的描述错误的是（ ）。",
+    "q": "下列选项中，关于Spring MVC 数据绑定的描述错误的是（ ）。",
     "opts": {
-      "A": "当使用 Spring MVC 默认支持的数据类型作为处理器的形参类型 Spring MVC HTTP 时， 的参数处理适配器能够将 请求中的参数自动 转换并绑定到处理器方法的形参上",
-      "B": "在 POJO 类型的数据绑定过程中，需要确保请求的参数名称与要 POJO 绑定的 类中的属性名称保持一致",
-      "C": "Spring MVC 的默认类型转换器可以转换 Java 中所有的数据类型",
+      "A": "当使用Spring MVC 默认支持的数据类型作为处理器的形参类型 时，Spring MVC 的参数处理适配器能够将HTTP 请求中的参数自动 转换并绑定到处理器方法的形参上",
+      "B": "在POJO 类型的数据绑定过程中，需要确保请求的参数名称与要 绑定的POJO 类中的属性名称保持一致",
+      "C": "Spring MVC 的默认类型转换器可以转换Java 中所有的数据类型",
       "D": "@RequestBody 注解需要书写在方法的形参前"
     },
     "a": "C",
@@ -1416,11 +1416,11 @@
   {
     "id": 119,
     "type": "单选题",
-    "q": "Spring MV 下列选项中，关于 页面跳转和数据回写的描述错误的是 （ ）。",
+    "q": "下列选项中，关于Spring MVC 页面跳转和数据回写的描述错误的是（ ）。",
     "opts": {
-      "A": "当 Spring MVC 方法的返回值为 void 时，没有配置视图解析器， HTTP Status 500 则会报 错误",
-      "B": "当 Spring MVC 方法的返回值为 String 类型时，处理器方法执行 Spring MVC 后， 会根据方法的返回值跳转到对应的视图",
-      "C": "当 Spring MVC 方法的返回值为 String 类型时，方法返回的字符 “forward:” “redirect:” 串添加了 或 前缀，则视图解析器不再会为方 法返回值拼接后缀但是不会拼接前缀",
+      "A": "当Spring MVC 方法的返回值为void 时，没有配置视图解析器， 则会报HTTP Status 500 错误",
+      "B": "当Spring MVC 方法的返回值为String 类型时，处理器方法执行 后，Spring MVC 会根据方法的返回值跳转到对应的视图",
+      "C": "当Spring MVC 方法的返回值为String 类型时，方法返回的字符 串添加了“forward:” 或“redirect:” 前缀，则视图解析器不再会为方法返回值拼接后缀但是不会拼接前缀",
       "D": "ModelAndView 对象主要用于存储模型数据和视图信息"
     },
     "a": "A",
@@ -1429,12 +1429,12 @@
   {
     "id": 120,
     "type": "单选题",
-    "q": "Spring MVC DispatcherServlet 中， 的作用是（ ）。",
+    "q": "Spring MVC 中，DispatcherServlet 的作用是（ ）。",
     "opts": {
-      "A": "处理所有 HTTP 请求",
+      "A": "处理所有HTTP 请求",
       "B": "提供依赖注入",
       "C": "管理事务",
-      "D": "提供 Web 支持"
+      "D": "提供Web 支持"
     },
     "a": "A",
     "desc": "答案要点：处理所有 HTTP 请求，考查Spring、MVC、DispatcherServlet。"
@@ -1442,7 +1442,7 @@
   {
     "id": 121,
     "type": "单选题",
-    "q": "Spring MVC HandlerMapping 中， 的作用是（ ）。",
+    "q": "Spring MVC 中，HandlerMapping 的作用是（ ）。",
     "opts": {
       "A": "映射请求到处理器",
       "B": "处理请求",
@@ -1455,7 +1455,7 @@
   {
     "id": 122,
     "type": "单选题",
-    "q": "Spring MVC ViewResolver 中， 的作用是（ ）。",
+    "q": "Spring MVC 中，ViewResolver 的作用是（ ）。",
     "opts": {
       "A": "解析视图名称",
       "B": "映射请求到处理器",
@@ -1468,9 +1468,9 @@
   {
     "id": 123,
     "type": "单选题",
-    "q": "Spring MVC @RequestMapping method 中， 注解的 属性用于（ ）。",
+    "q": "Spring MVC 中，@RequestMapping 注解的method 属性用于（ ）。",
     "opts": {
-      "A": "指定请求的 HTTP 方法类型",
+      "A": "指定请求的HTTP 方法类型",
       "B": "指定请求的路径",
       "C": "指定请求的参数",
       "D": "指定请求的头信息"
@@ -1481,7 +1481,7 @@
   {
     "id": 124,
     "type": "单选题",
-    "q": "Spring MVC @RequestParam defaultValue 中， 注解的 属性用于（ ）。",
+    "q": "Spring MVC 中，@RequestParam 注解的defaultValue 属性用于（ ）。",
     "opts": {
       "A": "指定参数的默认值",
       "B": "指定参数是否必须",
@@ -1494,7 +1494,7 @@
   {
     "id": 125,
     "type": "单选题",
-    "q": "Spring MVC @Controller 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@Controller 注解的作用是（ ）。",
     "opts": {
       "A": "标注一个类为控制器",
       "B": "标注一个类为服务层组件",
@@ -1507,11 +1507,11 @@
   {
     "id": 126,
     "type": "单选题",
-    "q": "Spring MVC @RequestMapping params 中， 注解的 属性用于（ ）。",
+    "q": "Spring MVC 中，@RequestMapping 注解的params 属性用于（ ）。",
     "opts": {
       "A": "指定请求的参数条件",
       "B": "指定请求的路径",
-      "C": "指定请求的 HTTP 方法类型",
+      "C": "指定请求的HTTP 方法类型",
       "D": "指定请求的头信息"
     },
     "a": "A",
@@ -1520,7 +1520,7 @@
   {
     "id": 127,
     "type": "单选题",
-    "q": "Spring MVC @ResponseStatus 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@ResponseStatus 注解的作用是（ ）。",
     "opts": {
       "A": "指定请求状态码",
       "B": "映射请求到处理器",
@@ -1533,7 +1533,7 @@
   {
     "id": 128,
     "type": "单选题",
-    "q": "Spring MVC @ControllerAdvice 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@ControllerAdvice 注解的作用是（ ）。",
     "opts": {
       "A": "提供依赖注入",
       "B": "映射请求到处理器",
@@ -1546,7 +1546,7 @@
   {
     "id": 129,
     "type": "单选题",
-    "q": "Spring MVC @RequestMapping 中， 注解可以用于类或方法上，其作用是 （ ）。",
+    "q": "Spring MVC 中，@RequestMapping 注解可以用于类或方法上，其作用是（ ）。",
     "opts": {
       "A": "标注一个类为持久层组件",
       "B": "标注一个类为控制器",
@@ -1559,11 +1559,11 @@
   {
     "id": 130,
     "type": "单选题",
-    "q": "Spring MVC @ExceptionHandler 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@ExceptionHandler 注解的作用是（ ）。",
     "opts": {
       "A": "处理当前控制器内的异常",
       "B": "记录请求日志",
-      "C": "返回 JSON 格式响应",
+      "C": "返回JSON 格式响应",
       "D": "验证请求参数合法性"
     },
     "a": "A",
@@ -1572,7 +1572,7 @@
   {
     "id": 131,
     "type": "单选题",
-    "q": "Spring MVC @InitBinder 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@InitBinder 注解的作用是（ ）。",
     "opts": {
       "A": "初始化数据绑定与类型转换规则",
       "B": "注册自定义数据验证器",
@@ -1585,12 +1585,12 @@
   {
     "id": 132,
     "type": "单选题",
-    "q": "Spring MVC @ModelAttribute 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@ModelAttribute 注解的作用是（ ）。",
     "opts": {
-      "A": "向模型（Model ）中添加属性",
-      "B": "绑定 URL 路径变量到参数",
+      "A": "向模型（Model）中添加属性",
+      "B": "绑定URL 路径变量到参数",
       "C": "定义请求的视图名称",
-      "D": "解析请求体为 JSON 对象"
+      "D": "解析请求体为JSON 对象"
     },
     "a": "A",
     "desc": "答案要点：向模型（Model ）中添加属性，考查Spring、MVC、@ModelAttribute。"
@@ -1598,11 +1598,11 @@
   {
     "id": 133,
     "type": "单选题",
-    "q": "Spring MVC @SessionAttributes 中， 注解的作用是（ ）。",
+    "q": "Spring MVC 中，@SessionAttributes 注解的作用是（ ）。",
     "opts": {
-      "A": "声明模型属性需存储到会话（Session ）中",
-      "B": "管理用户 HTTP 会话生命周期",
-      "C": "从 Cookie 中读取会话标识",
+      "A": "声明模型属性需存储到会话（Session）中",
+      "B": "管理用户HTTP 会话生命周期",
+      "C": "从Cookie 中读取会话标识",
       "D": "缓存数据库查询结果"
     },
     "a": "A",
@@ -1611,7 +1611,7 @@
   {
     "id": 134,
     "type": "判断题",
-    "q": "MyBatis ORM 基于 技术实现数据的持久化操作。",
+    "q": "MyBatis 基于ORM 技术实现数据的持久化操作。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1622,7 +1622,7 @@
   {
     "id": 135,
     "type": "判断题",
-    "q": "SqlSessionFactory MyBatis 类的主要职责是读取 的配置信息，并解析配置 信息。",
+    "q": "SqlSessionFactory 类的主要职责是读取MyBatis 的配置信息，并解析配置 信息。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1633,7 +1633,7 @@
   {
     "id": 136,
     "type": "判断题",
-    "q": "SqlSession SQL 接口提供了一系列方法用于执行 查询、更新、插入和删除 操作。",
+    "q": "SqlSession 接口提供了一系列方法用于执行SQL 查询、更新、插入和删除 操作。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1655,7 +1655,7 @@
   {
     "id": 138,
     "type": "判断题",
-    "q": "MyBatis <insert> useGeneratedKeys 映射文件中， 标签的 属性用于指定是 否返回生成的主键值。",
+    "q": "MyBatis 映射文件中，<insert> 标签的useGeneratedKeys 属性用于指定是 否返回生成的主键值。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1677,7 +1677,7 @@
   {
     "id": 140,
     "type": "判断题",
-    "q": "MyBatis JDBC JDBC 完全消除了 的使用，开发者无需了解 。",
+    "q": "MyBatis 完全消除了JDBC 的使用，开发者无需了解JDBC。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1688,7 +1688,7 @@
   {
     "id": 141,
     "type": "判断题",
-    "q": "JDBC 传统 需要手动管理数据库连接，增加了代码冗余。",
+    "q": "传统JDBC 需要手动管理数据库连接，增加了代码冗余。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1699,7 +1699,7 @@
   {
     "id": 142,
     "type": "判断题",
-    "q": "MyBatis Spring 的入门程序必须依赖 框架才能运行。",
+    "q": "MyBatis 的入门程序必须依赖Spring 框架才能运行。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1710,7 +1710,7 @@
   {
     "id": 143,
     "type": "判断题",
-    "q": "MyBatis XML SQL SQL 通过 或注解配置 映射，解耦了代码和 。",
+    "q": "MyBatis 通过XML 或注解配置SQL 映射，解耦了代码和SQL。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1721,7 +1721,7 @@
   {
     "id": 144,
     "type": "判断题",
-    "q": "MyBatis MyBatis JAR 在 环境搭建中，只需引入 的 包，无需数据库驱动。",
+    "q": "在MyBatis 环境搭建中，只需引入MyBatis 的JAR包，无需数据库驱动。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1732,7 +1732,7 @@
   {
     "id": 145,
     "type": "判断题",
-    "q": "MyBatis SqlSessionFactory SqlSession 的核心组件包括 和 。",
+    "q": "MyBatis 的核心组件包括SqlSessionFactory 和SqlSession。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1743,7 +1743,7 @@
   {
     "id": 146,
     "type": "判断题",
-    "q": "MyBatis SQL Java 的映射文件中， 语句可以直接写在 代码里。",
+    "q": "MyBatis 的映射文件中，SQL 语句可以直接写在Java 代码里。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1754,7 +1754,7 @@
   {
     "id": 147,
     "type": "判断题",
-    "q": "MyBatis SqlSession 使用 时， 会自动关闭，无需手动管理。",
+    "q": "使用MyBatis 时，SqlSession 会自动关闭，无需手动管理。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1765,7 +1765,7 @@
   {
     "id": 148,
     "type": "判断题",
-    "q": "MyBatis SqlSessionFactoryBuilder 的工作原理中， 用于创建 SqlSessionFactory 实例。",
+    "q": "MyBatis 的工作原理中，SqlSessionFactoryBuilder 用于创建 SqlSessionFactory 实例。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1776,7 +1776,7 @@
   {
     "id": 149,
     "type": "判断题",
-    "q": "SqlSessionFactoryBuilder SqlSessionFactory 对象在创建 后可以被立即销 毁，无需长期保存。",
+    "q": "SqlSessionFactoryBuilder 对象在创建SqlSessionFactory 后可以被立即销 毁，无需长期保存。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1798,7 +1798,7 @@
   {
     "id": 151,
     "type": "判断题",
-    "q": "MyBatis <properties> 配置文件中 元素用于加载外部属性文件，优先级高于 内部直接定义的属性。",
+    "q": "MyBatis 配置文件中<properties> 元素用于加载外部属性文件，优先级高于 内部直接定义的属性。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1809,7 +1809,7 @@
   {
     "id": 152,
     "type": "判断题",
-    "q": "<settings> MyBatis 元素必须放在 配置文件的最前面，否则会报错。",
+    "q": "<settings> 元素必须放在MyBatis 配置文件的最前面，否则会报错。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1820,7 +1820,7 @@
   {
     "id": 153,
     "type": "判断题",
-    "q": "<typeAliases> Java 元素的作用是为 类定义简短的别名，简化映射文件中的 类型书写。",
+    "q": "<typeAliases> 元素的作用是为Java 类定义简短的别名，简化映射文件中的 类型书写。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1831,7 +1831,7 @@
   {
     "id": 154,
     "type": "判断题",
-    "q": "<environments> default 标签的 属性用于指定默认使用的数据库环境配置。",
+    "q": "<environments> 标签的default 属性用于指定默认使用的数据库环境配置。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1842,7 +1842,7 @@
   {
     "id": 155,
     "type": "判断题",
-    "q": "MyBatis <select> resultMap resultType 映射文件中 元素的 和 属性可以同 时存在。",
+    "q": "MyBatis 映射文件中<select> 元素的resultMap 和resultType 属性可以同 时存在。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1853,7 +1853,7 @@
   {
     "id": 156,
     "type": "判断题",
-    "q": "<insert> useGeneratedKeys MySQL 元素的 属性仅适用于 数据库的自增主 键场景。",
+    "q": "<insert> 元素的useGeneratedKeys 属性仅适用于MySQL 数据库的自增主 键场景。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1864,7 +1864,7 @@
   {
     "id": 157,
     "type": "判断题",
-    "q": "<resultMap> Java 元素可以解决数据库字段名与 实体类属性名不一致的问 题。",
+    "q": "<resultMap> 元素可以解决数据库字段名与Java 实体类属性名不一致的问 题。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1875,7 +1875,7 @@
   {
     "id": 158,
     "type": "判断题",
-    "q": "<mappers> resource XML 元素只能通过 属性加载 映射文件，不能直接指 定接口类。",
+    "q": "<mappers> 元素只能通过resource 属性加载XML 映射文件，不能直接指 定接口类。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -1886,12 +1886,12 @@
   {
     "id": 159,
     "type": "单选题",
-    "q": "SqlSession 下列选项中，关于 的描述错误的是（ ）。",
+    "q": "下列选项中，关于SqlSession 的描述错误的是（ ）。",
     "opts": {
       "A": "SqlSession 接口的实例用于表示应用程序与数据库的一次会话",
       "B": "在多线程环境下，SqlSession 的实例是线程安全的",
       "C": "默认情况下，SqlSession 对象的事务不会自动提交",
-      "D": "DefaultSqlSession 是 MyBatis 提供的 SqlSession 接口默认实现 类"
+      "D": "DefaultSqlSession 是MyBatis 提供的SqlSession 接口默认实现 类"
     },
     "a": "B",
     "desc": "答案要点：在多线程环境下，SqlSession 的实例是线程安全的，考查SqlSession。"
@@ -1899,7 +1899,7 @@
   {
     "id": 160,
     "type": "单选题",
-    "q": "MyBatis 下列选项中，关于 核心配置文件中的标签描述错误的是（ ）。",
+    "q": "下列选项中，关于MyBatis 核心配置文件中的标签描述错误的是（ ）。",
     "opts": {
       "A": "<properties> 标签用于定义属性",
       "B": "<environments> 标签用于配置数据库环境",
@@ -1912,9 +1912,9 @@
   {
     "id": 161,
     "type": "单选题",
-    "q": "<mappers> 下列选项中，关于 标签的描述错误的是（ ）。",
+    "q": "下列选项中，关于<mappers> 标签的描述错误的是（ ）。",
     "opts": {
-      "A": "可以通过子标签 <mapper> 和 <package> 实现映射器信息的指定",
+      "A": "可以通过子标签<mapper> 和<package> 实现映射器信息的指定",
       "B": "<mapper> 子标签可以通过资源路径指定映射文件",
       "C": "<mapper> 子标签通过映射器接口的实现类指定映射器",
       "D": "<package> 子标签用于指定包含映射器接口的包名"
@@ -1925,12 +1925,12 @@
   {
     "id": 162,
     "type": "单选题",
-    "q": "MyBatis <select> 下列选项中，关于 映射文件中 标签的属性描述错误的是 （ ）。",
+    "q": "下列选项中，关于MyBatis 映射文件中<select> 标签的属性描述错误的是（ ）。",
     "opts": {
       "A": "id 属性用于定义当前查询的唯一标识，是必需的属性",
       "B": "resultType 属性用于指定查询结果的映射类型",
       "C": "resultMap 属性用于指定一个结果集映射",
-      "D": "当查询结果需要复杂映射时，可以同时使用 resultMap 和 resultType 实现"
+      "D": "当查询结果需要复杂映射时，可以同时使用resultMap 和 resultType 实现"
     },
     "a": "D",
     "desc": "答案要点：当查询结果需要复杂映射时，可以同时使用 resultMap 和 resultType 实现，考查MyBatis、<select>。"
@@ -1938,12 +1938,12 @@
   {
     "id": 163,
     "type": "单选题",
-    "q": "MyBatis 下列选项中，对于 映射文件中的标签的描述错误的是（ ）。",
+    "q": "下列选项中，对于MyBatis 映射文件中的标签的描述错误的是（ ）。",
     "opts": {
-      "A": "<select> 标签用于配置 SQL 查询语句以及查询结果的映射规则",
+      "A": "<select> 标签用于配置SQL 查询语句以及查询结果的映射规则",
       "B": "<resultMap> 标签为定义结果集映射的根标签",
-      "C": "<sql> 标签用于定义可重用的 SQL 片段",
-      "D": "<include> 标签用于在 SQL 语句中引用前面定义的 SQL 片段"
+      "C": "<sql> 标签用于定义可重用的SQL 片段",
+      "D": "<include> 标签用于在SQL 语句中引用前面定义的SQL 片段"
     },
     "a": "A",
     "desc": "答案要点：<select> 标签用于配置 SQL 查询语句以及查询结果的映射规则，考查MyBatis。"
@@ -1966,9 +1966,9 @@
     "type": "单选题",
     "q": "MyBatis 框架的核心优势是（ ）。",
     "opts": {
-      "A": "完全替代 JDBC",
-      "B": "简化 SQL 语句的编写",
-      "C": "提供对象关系映射（ORM ）支持",
+      "A": "完全替代JDBC",
+      "B": "简化SQL 语句的编写",
+      "C": "提供对象关系映射（ORM）支持",
       "D": "自动管理数据库连接"
     },
     "a": "C",
@@ -1990,7 +1990,7 @@
   {
     "id": 167,
     "type": "单选题",
-    "q": "MyBatis SqlSession 入门程序中，用于获取 对象的是（ ）。",
+    "q": "MyBatis 入门程序中，用于获取SqlSession 对象的是（ ）。",
     "opts": {
       "A": "SqlSessionFactory",
       "B": "SqlSessionBuilder",
@@ -2008,7 +2008,7 @@
       "A": "数据库连接池",
       "B": "SQL 语句解析",
       "C": "对象关系映射",
-      "D": "动态 SQL 生成"
+      "D": "动态SQL 生成"
     },
     "a": "C",
     "desc": "答案要点：对象关系映射，考查MyBatis。"
@@ -2016,7 +2016,7 @@
   {
     "id": 169,
     "type": "单选题",
-    "q": "MyBatis <select> 在 中， 元素的作用是（ ）。",
+    "q": "在MyBatis 中，<select> 元素的作用是（ ）。",
     "opts": {
       "A": "插入数据",
       "B": "查询数据",
@@ -2029,9 +2029,9 @@
   {
     "id": 170,
     "type": "单选题",
-    "q": "MyBatis <properties> 框架的 元素用于（ ）。",
+    "q": "MyBatis 框架的<properties> 元素用于（ ）。",
     "opts": {
-      "A": "定义 SQL 语句",
+      "A": "定义SQL 语句",
       "B": "配置数据库连接信息",
       "C": "指定映射文件的位置",
       "D": "配置事务管理"
@@ -2042,9 +2042,9 @@
   {
     "id": 171,
     "type": "单选题",
-    "q": "MyBatis <environments> 入门程序中， 元素用于（ ）。",
+    "q": "MyBatis 入门程序中，<environments> 元素用于（ ）。",
     "opts": {
-      "A": "定义 SQL 语句",
+      "A": "定义SQL 语句",
       "B": "配置数据库环境",
       "C": "指定映射文件的位置",
       "D": "配置事务管理"
@@ -2055,9 +2055,9 @@
   {
     "id": 172,
     "type": "单选题",
-    "q": "MyBatis <typeAliases> 框架的 元素用于（ ）。",
+    "q": "MyBatis 框架的<typeAliases> 元素用于（ ）。",
     "opts": {
-      "A": "定义 SQL 语句",
+      "A": "定义SQL 语句",
       "B": "配置数据库连接信息",
       "C": "定义别名",
       "D": "配置事务管理"
@@ -2068,9 +2068,9 @@
   {
     "id": 173,
     "type": "单选题",
-    "q": "MyBatis <settings> 框架的 元素用于（ ）。",
+    "q": "MyBatis 框架的<settings> 元素用于（ ）。",
     "opts": {
-      "A": "定义 SQL 语句",
+      "A": "定义SQL 语句",
       "B": "配置全局设置",
       "C": "指定映射文件的位置",
       "D": "配置事务管理"
@@ -2081,7 +2081,7 @@
   {
     "id": 174,
     "type": "单选题",
-    "q": "MyBatis <environments> <transactionManager> 框架的 元素中， 的默认类 型是（ ）。",
+    "q": "MyBatis 框架的<environments> 元素中，<transactionManager> 的默认类型是（ ）。",
     "opts": {
       "A": "JDBC",
       "B": "MANAGED",
@@ -2094,12 +2094,12 @@
   {
     "id": 175,
     "type": "单选题",
-    "q": "MyBatis <environments> <dataSource> 框架的 元素中， 的 type=\"POOLED\" 表示（ ）。",
+    "q": "MyBatis 框架的<environments> 元素中，<dataSource> 的 type=\"POOLED\" 表示（ ）。",
     "opts": {
       "A": "不使用连接池",
       "B": "使用简单的连接池",
       "C": "使用内置的连接池",
-      "D": "使用 JNDI 连接池"
+      "D": "使用JNDI 连接池"
     },
     "a": "C",
     "desc": "答案要点：使用内置的连接池，考查MyBatis、<environments>、<dataSource>。"
@@ -2107,12 +2107,12 @@
   {
     "id": 176,
     "type": "单选题",
-    "q": "MyBatis <environments> <transactionManager> 框架的 元素中， 的 type=\"MANAGED\" 表示（ ）。",
+    "q": "MyBatis 框架的<environments> 元素中，<transactionManager> 的 type=\"MANAGED\" 表示（ ）。",
     "opts": {
-      "A": "由 MyBatis 管理事务",
+      "A": "由MyBatis 管理事务",
       "B": "由容器管理事务",
       "C": "不使用事务管理",
-      "D": "使用 JNDI 事务管理"
+      "D": "使用JNDI 事务管理"
     },
     "a": "B",
     "desc": "答案要点：由容器管理事务，考查MyBatis、<environments>、<transactionManager>。"
@@ -2120,10 +2120,10 @@
   {
     "id": 177,
     "type": "单选题",
-    "q": "MyBatis SqlSessionFactory 在 中， 的作用是（ ）。",
+    "q": "在MyBatis 中，SqlSessionFactory 的作用是（ ）。",
     "opts": {
-      "A": "创建 SqlSession 对象",
-      "B": "执行 SQL 语句",
+      "A": "创建SqlSession 对象",
+      "B": "执行SQL 语句",
       "C": "管理事务",
       "D": "配置数据库连接"
     },
@@ -2133,7 +2133,7 @@
   {
     "id": 178,
     "type": "单选题",
-    "q": "MyBatis <environments> 核心配置文件中， 元素可以配置多个环境，但默认 只能激活一个，通过哪个属性指定激活的环境？（ ）",
+    "q": "MyBatis 核心配置文件中，<environments> 元素可以配置多个环境，但默认 只能激活一个，通过哪个属性指定激活的环境？（ ）",
     "opts": {
       "A": "id",
       "B": "default",
@@ -2146,9 +2146,9 @@
   {
     "id": 179,
     "type": "单选题",
-    "q": "MyBatis <typeAliases> 在 中， 元素的作用是（ ）。",
+    "q": "在MyBatis 中，<typeAliases> 元素的作用是（ ）。",
     "opts": {
-      "A": "定义 SQL 语句",
+      "A": "定义SQL 语句",
       "B": "配置数据库连接信息",
       "C": "定义别名",
       "D": "配置事务管理"
@@ -2159,9 +2159,9 @@
   {
     "id": 180,
     "type": "单选题",
-    "q": "MyBatis <mappers> 核心配置文件中， 元素用于（ ）。",
+    "q": "MyBatis 核心配置文件中，<mappers> 元素用于（ ）。",
     "opts": {
-      "A": "定义 SQL 语句",
+      "A": "定义SQL 语句",
       "B": "配置数据库连接信息",
       "C": "指定映射文件的位置",
       "D": "配置事务管理"
@@ -2172,9 +2172,9 @@
   {
     "id": 181,
     "type": "单选题",
-    "q": "MyBatis <settings> 在 中， 元素用于（ ）。",
+    "q": "在MyBatis 中，<settings> 元素用于（ ）。",
     "opts": {
-      "A": "定义 SQL 语句",
+      "A": "定义SQL 语句",
       "B": "配置全局设置",
       "C": "指定映射文件的位置",
       "D": "配置事务管理"
@@ -2185,7 +2185,7 @@
   {
     "id": 182,
     "type": "单选题",
-    "q": "MyBatis <environments> <transactionManager> 在 中， 元素中 的默认类型 是（ ）。",
+    "q": "在MyBatis 中，<environments> 元素中<transactionManager> 的默认类型 是（ ）。",
     "opts": {
       "A": "JDBC",
       "B": "MANAGED",
@@ -2198,9 +2198,9 @@
   {
     "id": 183,
     "type": "单选题",
-    "q": "MyBatis <environments> 在 中， 元素用于（ ）。",
+    "q": "在MyBatis 中，<environments> 元素用于（ ）。",
     "opts": {
-      "A": "定义 SQL 语句",
+      "A": "定义SQL 语句",
       "B": "配置数据库连接信息",
       "C": "配置事务管理器",
       "D": "配置事务管理"
@@ -2211,9 +2211,9 @@
   {
     "id": 184,
     "type": "单选题",
-    "q": "MyBatis <properties> 在 中， 元素用于（ ）。",
+    "q": "在MyBatis 中，<properties> 元素用于（ ）。",
     "opts": {
-      "A": "定义 SQL 语句",
+      "A": "定义SQL 语句",
       "B": "配置数据库连接信息",
       "C": "指定映射文件的位置",
       "D": "配置事务管理"
@@ -2224,9 +2224,9 @@
   {
     "id": 185,
     "type": "单选题",
-    "q": "MyBatis <mappers> 在 中， 元素的作用是（ ）。",
+    "q": "在MyBatis 中，<mappers> 元素的作用是（ ）。",
     "opts": {
-      "A": "定义 SQL 语句",
+      "A": "定义SQL 语句",
       "B": "配置数据库连接信息",
       "C": "指定映射文件的位置",
       "D": "配置事务管理"
@@ -2237,7 +2237,7 @@
   {
     "id": 186,
     "type": "单选题",
-    "q": "MyBatis <settings> cacheEnabled 在 中， 元素的 属性用于（ ）。",
+    "q": "在MyBatis 中，<settings> 元素的cacheEnabled 属性用于（ ）。",
     "opts": {
       "A": "启用或禁用缓存",
       "B": "配置日志实现",
@@ -2250,7 +2250,7 @@
   {
     "id": 187,
     "type": "单选题",
-    "q": "MyBatis <settings> lazyLoadingEnabled 在 中， 元素的 属性用于（ ）。",
+    "q": "在MyBatis 中，<settings> 元素的lazyLoadingEnabled 属性用于（ ）。",
     "opts": {
       "A": "启用或禁用缓存",
       "B": "配置日志实现",
@@ -2263,7 +2263,7 @@
   {
     "id": 188,
     "type": "单选题",
-    "q": "MyBatis <settings> logImpl 在 中， 元素的 属性用于（ ）。",
+    "q": "在MyBatis 中，<settings> 元素的logImpl 属性用于（ ）。",
     "opts": {
       "A": "启用或禁用缓存",
       "B": "配置日志实现",
@@ -2276,12 +2276,12 @@
   {
     "id": 189,
     "type": "单选题",
-    "q": "MyBatis <environments> <dataSource> type=\"POOLED\" 在 中， 元素中 的 表示（ ）。",
+    "q": "在MyBatis 中，<environments> 元素中<dataSource> 的type=\"POOLED\" 表示（ ）。",
     "opts": {
       "A": "不使用连接池",
       "B": "使用简单的连接池",
       "C": "使用内置的连接池",
-      "D": "使用 JNDI 连接池"
+      "D": "使用JNDI 连接池"
     },
     "a": "C",
     "desc": "答案要点：使用内置的连接池，考查MyBatis、<environments>、<dataSource>。"
@@ -2289,12 +2289,12 @@
   {
     "id": 190,
     "type": "单选题",
-    "q": "MyBatis <environments> <transactionManager> 在 中， 元素中 的 type=\"MANAGED\" 表示（ ）。",
+    "q": "在MyBatis 中，<environments> 元素中<transactionManager> 的 type=\"MANAGED\" 表示（ ）。",
     "opts": {
-      "A": "由 MyBatis 管理事务",
+      "A": "由MyBatis 管理事务",
       "B": "由容器管理事务",
       "C": "不使用事务管理",
-      "D": "使用 JNDI 事务管理"
+      "D": "使用JNDI 事务管理"
     },
     "a": "B",
     "desc": "答案要点：由容器管理事务，考查MyBatis、<environments>、<transactionManager>。"
@@ -2313,7 +2313,7 @@
   {
     "id": 192,
     "type": "判断题",
-    "q": "<when> <choose> test 标签用于定义 标签中的备选条件，它包含一个 属性， 用于指定条件表达式。",
+    "q": "<when> 标签用于定义<choose> 标签中的备选条件，它包含一个test 属性， 用于指定条件表达式。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2324,7 +2324,7 @@
   {
     "id": 193,
     "type": "判断题",
-    "q": "<where> SQL 标签会确保只有所有条件都成立时，才会在 语句中添加 WHERE 关键字。",
+    "q": "<where> 标签会确保只有所有条件都成立时，才会在SQL 语句中添加 WHERE 关键字。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2357,7 +2357,7 @@
   {
     "id": 196,
     "type": "判断题",
-    "q": "<if> test SQL 元素可以通过 属性判断条件，动态拼接 片段。",
+    "q": "<if> 元素可以通过test 属性判断条件，动态拼接SQL 片段。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2368,7 +2368,7 @@
   {
     "id": 197,
     "type": "判断题",
-    "q": "<choose> <otherwise> 必须包含 子元素，否则会报错。",
+    "q": "<choose> 必须包含<otherwise> 子元素，否则会报错。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2379,7 +2379,7 @@
   {
     "id": 198,
     "type": "判断题",
-    "q": "<where> AND OR 元素会自动去除其内部条件中多余的 或 关键字。",
+    "q": "<where> 元素会自动去除其内部条件中多余的AND 或OR 关键字。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2390,7 +2390,7 @@
   {
     "id": 199,
     "type": "判断题",
-    "q": "<trim> prefixOverrides 元素的 属性可以删除指定前缀后的多余字符。",
+    "q": "<trim> 元素的prefixOverrides 属性可以删除指定前缀后的多余字符。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2401,7 +2401,7 @@
   {
     "id": 200,
     "type": "判断题",
-    "q": "<foreach> collection array 使用 遍历数组时， 属性必须指定为 。",
+    "q": "使用<foreach> 遍历数组时，collection 属性必须指定为array。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2412,7 +2412,7 @@
   {
     "id": 201,
     "type": "判断题",
-    "q": "<set> SET 在更新操作中，可以通过 元素动态生成 子句并自动处理逗号。",
+    "q": "在更新操作中，可以通过<set> 元素动态生成SET 子句并自动处理逗号。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2423,7 +2423,7 @@
   {
     "id": 202,
     "type": "判断题",
-    "q": "<foreach> item 元素的 属性用于定义循环中当前元素的别名。",
+    "q": "<foreach> 元素的item 属性用于定义循环中当前元素的别名。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2434,7 +2434,7 @@
   {
     "id": 203,
     "type": "判断题",
-    "q": "<foreach> Map 可以直接遍历 类型参数，无需额外处理键值对。",
+    "q": "<foreach> 可以直接遍历Map 类型参数，无需额外处理键值对。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2445,7 +2445,7 @@
   {
     "id": 204,
     "type": "判断题",
-    "q": "<trim> suffix 元素的 属性会在处理后为整个内容添加指定后缀。",
+    "q": "<trim> 元素的suffix 属性会在处理后为整个内容添加指定后缀。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2456,7 +2456,7 @@
   {
     "id": 205,
     "type": "判断题",
-    "q": "SQL <when> <choose> 动态 中， 元素可以独立使用，无需包裹在 内。",
+    "q": "动态SQL 中，<when> 元素可以独立使用，无需包裹在<choose> 内。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2467,12 +2467,12 @@
   {
     "id": 206,
     "type": "单选题",
-    "q": "MyBatis SQL 下列选项中，关于 映射文件中生成动态 的标签描述错误的是 （ ）。",
+    "q": "下列选项中，关于MyBatis 映射文件中生成动态SQL 的标签描述错误的是（ ）。",
     "opts": {
-      "A": "<if> 标签的 test 属性用于指定条件表达式，如果条件表达式的值 true SQL 为 ，则包含标签内部的 语句",
+      "A": "<if> 标签的test 属性用于指定条件表达式，如果条件表达式的值 为true，则包含标签内部的SQL 语句",
       "B": "<foreach> 标签不能遍历数组",
-      "C": "<where> 标签可以自动处理条件语句中的逻辑连接词，如 AND 或 OR",
-      "D": "<choose> 标签类似于 Java 中的 switch 语句"
+      "C": "<where> 标签可以自动处理条件语句中的逻辑连接词，如AND 或 OR",
+      "D": "<choose> 标签类似于Java 中的switch 语句"
     },
     "a": "B",
     "desc": "答案要点：<foreach> 标签不能遍历数组，考查MyBatis、SQL。"
@@ -2480,12 +2480,12 @@
   {
     "id": 207,
     "type": "单选题",
-    "q": "<choose> <when> <otherwise> 下列选项中，关于 、 、 的描述错误的是 （ ）。",
+    "q": "下列选项中，关于<choose>、<when>、<otherwise> 的描述错误的是（ ）。",
     "opts": {
-      "A": "<choose> 标签类可以包含零个或多个 <when> 标签",
-      "B": "<choose> 标签类可以包含一个或多个 <otherwise> 标签",
-      "C": "如果所有子 <when> 标签的条件表达式都不为 true ，则 <otherwise> SQL SQL 标签内部的 片段会被包含到最终生成的 语句 中",
-      "D": "一旦某个 <when> 标签的条件满足后，整个 <choose> 块的执行就 <when> <otherwise> 结束了，后续的 标签和 标签将不会再执行"
+      "A": "<choose> 标签类可以包含零个或多个<when> 标签",
+      "B": "<choose> 标签类可以包含一个或多个<otherwise> 标签",
+      "C": "如果所有子<when> 标签的条件表达式都不为true，则 <otherwise> 标签内部的SQL 片段会被包含到最终生成的SQL 语句 中",
+      "D": "一旦某个<when> 标签的条件满足后，整个<choose> 块的执行就 结束了，后续的<when> 标签和<otherwise> 标签将不会再执行"
     },
     "a": "C",
     "desc": "答案要点：如果所有子 <when> 标签的条件表达式都不为 true ，则 <otherwise> SQL SQL 标签内部的 片段会被包含到最终生成的 语句 中，考查<choose>、<when>、<otherwise>。"
@@ -2493,12 +2493,12 @@
   {
     "id": 208,
     "type": "单选题",
-    "q": "<foreach> 下列选项中，关于 标签的属性描述错误的是（ ）。",
+    "q": "下列选项中，关于<foreach> 标签的属性描述错误的是（ ）。",
     "opts": {
       "A": "item 属性用于指定遍历过程中每个元素的别名",
       "B": "index 属性用于指定在遍历过程中当前元素的索引值",
       "C": "open 属性用于指定循环开始处插入的字符串，常用于包围循环内 容的起始符号",
-      "D": "separator 属性与 open 相对应，用于定义在循环结束处插入的字 符串，用于包围循环内容的终止符号"
+      "D": "separator 属性与open 相对应，用于定义在循环结束处插入的字 符串，用于包围循环内容的终止符号"
     },
     "a": "D",
     "desc": "答案要点：separator 属性与 open 相对应，用于定义在循环结束处插入的字 符串，用于包围循环内容的终止符号，考查<foreach>。"
@@ -2519,7 +2519,7 @@
   {
     "id": 210,
     "type": "单选题",
-    "q": "<trim> SQL 标签中用于指定给 语句增加的后缀的属性的是（ ）。",
+    "q": "<trim> 标签中用于指定给SQL 语句增加的后缀的属性的是（ ）。",
     "opts": {
       "A": "prefix",
       "B": "prefixOverrides",
@@ -2532,7 +2532,7 @@
   {
     "id": 211,
     "type": "单选题",
-    "q": "MyBatis SQL <if> 在 中，动态 的 元素主要用于（ ）。",
+    "q": "在MyBatis 中，动态SQL 的<if> 元素主要用于（ ）。",
     "opts": {
       "A": "循环遍历",
       "B": "条件判断",
@@ -2545,7 +2545,7 @@
   {
     "id": 212,
     "type": "单选题",
-    "q": "SQL <choose> <when> <otherwise> Java 动态 中， 、 、 元素的作用类似于 中的（ ）。",
+    "q": "动态SQL 中，<choose>、<when>、<otherwise> 元素的作用类似于Java 中的（ ）。",
     "opts": {
       "A": "if-else 语句",
       "B": "switch-case 语句",
@@ -2558,12 +2558,12 @@
   {
     "id": 213,
     "type": "单选题",
-    "q": "MyBatis <where> 在 中， 元素的主要作用是（ ）。",
+    "q": "在MyBatis 中，<where> 元素的主要作用是（ ）。",
     "opts": {
-      "A": "自动生成 WHERE 关键字",
-      "B": "自动生成 FROM 关键字",
-      "C": "自动生成 SELECT 关键字",
-      "D": "自动生成 INSERT 关键字"
+      "A": "自动生成WHERE 关键字",
+      "B": "自动生成FROM 关键字",
+      "C": "自动生成SELECT 关键字",
+      "D": "自动生成INSERT 关键字"
     },
     "a": "A",
     "desc": "答案要点：自动生成 WHERE 关键字，考查MyBatis、<where>。"
@@ -2571,7 +2571,7 @@
   {
     "id": 214,
     "type": "单选题",
-    "q": "MyBatis <foreach> collection 在 中， 元素的 属性用于（ ）。",
+    "q": "在MyBatis 中，<foreach> 元素的collection 属性用于（ ）。",
     "opts": {
       "A": "指定集合变量",
       "B": "指定当前元素变量",
@@ -2584,7 +2584,7 @@
   {
     "id": 215,
     "type": "单选题",
-    "q": "MyBatis <foreach> item 在 中， 元素的 属性用于（ ）。",
+    "q": "在MyBatis 中，<foreach> 元素的item 属性用于（ ）。",
     "opts": {
       "A": "指定集合变量",
       "B": "指定当前元素变量",
@@ -2597,7 +2597,7 @@
   {
     "id": 216,
     "type": "单选题",
-    "q": "MyBatis <foreach> index 在 中， 元素的 属性用于（ ）。",
+    "q": "在MyBatis 中，<foreach> 元素的index 属性用于（ ）。",
     "opts": {
       "A": "指定集合变量",
       "B": "指定当前元素变量",
@@ -2610,7 +2610,7 @@
   {
     "id": 217,
     "type": "单选题",
-    "q": "MyBatis <foreach> open close 在 中， 元素的 和 属性的作用是（ ）。",
+    "q": "在MyBatis 中，<foreach> 元素的open 和close 属性的作用是（ ）。",
     "opts": {
       "A": "添加前缀和后缀",
       "B": "指定集合变量",
@@ -2623,7 +2623,7 @@
   {
     "id": 218,
     "type": "单选题",
-    "q": "MyBatis <foreach> separator 在 中， 元素的 属性用于（ ）。",
+    "q": "在MyBatis 中，<foreach> 元素的separator 属性用于（ ）。",
     "opts": {
       "A": "添加前缀",
       "B": "添加后缀",
@@ -2636,12 +2636,12 @@
   {
     "id": 219,
     "type": "单选题",
-    "q": "MyBatis <trim> 在 中， 元素的主要作用是（ ）。",
+    "q": "在MyBatis 中，<trim> 元素的主要作用是（ ）。",
     "opts": {
       "A": "去除多余的空格",
       "B": "去除多余的逗号",
-      "C": "自动生成 WHERE 关键字",
-      "D": "自动生成 FROM 关键字"
+      "C": "自动生成WHERE 关键字",
+      "D": "自动生成FROM 关键字"
     },
     "a": "B",
     "desc": "答案要点：去除多余的逗号，考查MyBatis、<trim>。"
@@ -2649,12 +2649,12 @@
   {
     "id": 220,
     "type": "单选题",
-    "q": "MyBatis <set> 在 中， 元素主要用于（ ）。",
+    "q": "在MyBatis 中，<set> 元素主要用于（ ）。",
     "opts": {
-      "A": "自动生成 SET 关键字",
-      "B": "自动生成 FROM 关键字",
-      "C": "自动生成 SELECT 关键字",
-      "D": "自动生成 INSERT 关键字"
+      "A": "自动生成SET 关键字",
+      "B": "自动生成FROM 关键字",
+      "C": "自动生成SELECT 关键字",
+      "D": "自动生成INSERT 关键字"
     },
     "a": "A",
     "desc": "答案要点：自动生成 SET 关键字，考查MyBatis、<set>。"
@@ -2662,7 +2662,7 @@
   {
     "id": 221,
     "type": "单选题",
-    "q": "MyBatis <if> test 在 中， 元素的 属性的作用是（ ）。",
+    "q": "在MyBatis 中，<if> 元素的test 属性的作用是（ ）。",
     "opts": {
       "A": "指定条件表达式",
       "B": "指定集合变量",
@@ -2675,7 +2675,7 @@
   {
     "id": 222,
     "type": "单选题",
-    "q": "MyBatis <choose> Java 在 中， 元素类似于 中的（ ）。",
+    "q": "在MyBatis 中，<choose> 元素类似于Java 中的（ ）。",
     "opts": {
       "A": "if-else 语句",
       "B": "switch-case 语句",
@@ -2688,7 +2688,7 @@
   {
     "id": 223,
     "type": "单选题",
-    "q": "MyBatis <foreach> 在 中， 元素可以用于迭代以下哪种数据类型？（ ）",
+    "q": "在MyBatis 中，<foreach> 元素可以用于迭代以下哪种数据类型？（ ）",
     "opts": {
       "A": "数组",
       "B": "List 集合",
@@ -2701,7 +2701,7 @@
   {
     "id": 224,
     "type": "单选题",
-    "q": "MyBatis <trim> prefix 在 中， 元素的 属性用于（ ）。",
+    "q": "在MyBatis 中，<trim> 元素的prefix 属性用于（ ）。",
     "opts": {
       "A": "添加前缀",
       "B": "添加后缀",
@@ -2714,7 +2714,7 @@
   {
     "id": 225,
     "type": "单选题",
-    "q": "MyBatis <trim> suffix 在 中， 元素的 属性用于（ ）。",
+    "q": "在MyBatis 中，<trim> 元素的suffix 属性用于（ ）。",
     "opts": {
       "A": "添加前缀",
       "B": "添加后缀",
@@ -2727,7 +2727,7 @@
   {
     "id": 226,
     "type": "判断题",
-    "q": "Spring Boot Spring 是替代 框架的解决方案。",
+    "q": "Spring Boot 是替代Spring 框架的解决方案。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2738,7 +2738,7 @@
   {
     "id": 227,
     "type": "判断题",
-    "q": "Maven Spring Boot 第一次使用 方式构建 项目必须处于联网状态，否则会 创建失败。",
+    "q": "第一次使用Maven 方式构建Spring Boot 项目必须处于联网状态，否则会 创建失败。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2749,7 +2749,7 @@
   {
     "id": 228,
     "type": "判断题",
-    "q": "Spring Boot Tomcat Jetty Undertow Web 直接内嵌了 、 或 等 容器。",
+    "q": "Spring Boot 直接内嵌了Tomcat、Jetty 或Undertow 等Web 容器。",
     "opts": {
       "A": "对",
       "B": "错"
@@ -2760,11 +2760,11 @@
   {
     "id": 229,
     "type": "单选题",
-    "q": "Spring Boot 下列选项中，关于 概述错误的是（ ）。",
+    "q": "下列选项中，关于Spring Boot 概述错误的是（ ）。",
     "opts": {
-      "A": "使用 Spring Boot 开发程序时，几乎可以实现开箱即用",
-      "B": "Spring Boot 框架本身并不提供 Spring 框架的核心特性以及扩展 功能",
-      "C": "Spring Boot 是替代 Spring 框架的解决方案",
+      "A": "使用Spring Boot 开发程序时，几乎可以实现开箱即用",
+      "B": "Spring Boot 框架本身并不提供Spring 框架的核心特性以及扩展 功能",
+      "C": "Spring Boot 是替代Spring 框架的解决方案",
       "D": "Spring Boot 集成了大量常用的第三方库配置"
     },
     "a": "C",
@@ -2773,11 +2773,11 @@
   {
     "id": 230,
     "type": "单选题",
-    "q": "Spring Boot 下列选项中，关于 的全局配置文件描述错误的是（ ）。",
+    "q": "下列选项中，关于Spring Boot 的全局配置文件描述错误的是（ ）。",
     "opts": {
-      "A": "Spring Boot 默认支持 application.properties 、application.yaml 作为全局配置文件",
+      "A": "Spring Boot 默认支持application.properties、application.yaml 作为全局配置文件",
       "B": "Spring Boot 项目中可以存在多个全局配置文件",
-      "C": "位于相同位置的 application.properties 的优先级低于 application.yml",
+      "C": "位于相同位置的application.properties 的优先级低于 application.yml",
       "D": "如果存在相同的配置内容时，高优先级的内容会覆盖低优先级的 内容"
     },
     "a": "C",
@@ -2786,12 +2786,12 @@
   {
     "id": 231,
     "type": "单选题",
-    "q": "application.properties 下列选项中，关于 文件中的配置描述错误的是 （ ）。",
+    "q": "下列选项中，关于application.properties 文件中的配置描述错误的是（ ）。",
     "opts": {
-      "A": "属性的表示形式为 Key=Value",
-      "B": "在 application.properties 文件中配置字面量的属性时，直接将字 Value 面量作为 直接写在键值对中即可",
+      "A": "属性的表示形式为Key=Value",
+      "B": "在application.properties 文件中配置字面量的属性时，直接将字面量作为Value 直接写在键值对中即可",
       "C": "默认情况下字符串是需要使用单引号或双引号进行修饰",
-      "D": "在 application.properties 文件中配置数组类型属性时，元素值之 间使用逗号间隔"
+      "D": "在application.properties 文件中配置数组类型属性时，元素值之间使用逗号间隔"
     },
     "a": "C",
     "desc": "答案要点：默认情况下字符串是需要使用单引号或双引号进行修饰，考查application.properties。"
@@ -2799,112 +2799,112 @@
   {
     "id": 232,
     "type": "简答题",
-    "q": "请简述什么是 MyBatis？",
+    "q": "请简述什么是MyBatis？",
     "a": "MyBatis 是一种持久层框架，它对 JDBC 进行了封装，支持自定义 SQL、存储过程和对象映射。开发者可以通过 XML 或注解配置 SQL，将数据库记录映射成 Java 对象，从而简化数据库操作。",
     "desc": "本题考查 MyBatis 的基本概念。"
   },
   {
     "id": 233,
     "type": "简答题",
-    "q": "请简述 <mappers> 元素引入映射文件的 4 种方式。",
+    "q": "请简述<mappers>元素引入映射文件的4 种方式。",
     "a": "<mappers> 元素用于引入 MyBatis 的映射文件或映射接口。常见方式有四种：resource 引入类路径下的 XML 文件，url 引入网络或本地路径文件，class 引入 Mapper 接口，package 批量扫描 Mapper 接口所在包。",
     "desc": "本题考查 MyBatis 映射文件的加载方式。"
   },
   {
     "id": 234,
     "type": "简答题",
-    "q": "请简述 MyBatis 动态 SQL 中的常用元素及其作用。",
+    "q": "请简述MyBatis 动态SQL 中的常用元素及其作用。",
     "a": "MyBatis 动态 SQL 常用元素有 <if>、<choose>、<when>、<otherwise>、<where>、<set>、<trim> 和 <foreach>。它们主要用于条件判断、分支选择、动态拼接 where 或 set 子句，以及遍历集合生成 SQL。",
     "desc": "本题考查 MyBatis 动态 SQL 的核心标签。"
   },
   {
     "id": 235,
     "type": "简答题",
-    "q": "请简述在使用 <foreach> 时，collection 属性需要注意的几点。",
+    "q": "请简述在使用<foreach>时，collection 属性需要注意的几点。",
     "a": "<foreach> 中的 collection 用于指定要遍历的集合名称。单个 List 参数通常写 list 或 collection，数组通常写 array，多参数或 Map 参数一般配合 @Param 指定名称。",
     "desc": "本题考查 <foreach> 的 collection 属性用法。"
   },
   {
     "id": 236,
     "type": "简答题",
-    "q": "请简述 Spring 框架的优点。",
+    "q": "请简述Spring 框架的优点。",
     "a": "Spring 的优点主要包括降低耦合、方便扩展和便于测试。它通过 IoC 和 DI 管理对象，通过 AOP 处理事务、日志等横切功能，并能方便整合 MyBatis、Spring MVC 等框架。",
     "desc": "本题考查 Spring 框架的主要优势。"
   },
   {
     "id": 237,
     "type": "简答题",
-    "q": "请简述控制反转（IoC）的概念和依赖注入（DI）的概念。",
+    "q": "请简述控制反转的概念和依赖注入的概念。",
     "a": "IoC 是指把对象的创建和依赖关系交给 Spring 容器管理，而不是在程序中手动创建对象。DI 是 IoC 的实现方式，指容器把对象需要的依赖注入到对象中。",
     "desc": "本题考查 IoC 与 DI 的概念区别。"
   },
   {
     "id": 238,
     "type": "简答题",
-    "q": "请简述 XML 配置文件中 <beans> 根元素下的常用元素及作用。",
+    "q": "请简述XML 配置文件的根元素是<beans>中的常用元素及作用。",
     "a": "<beans> 是 Spring XML 配置文件的根元素。其下常用元素有 <bean>、<property>、<constructor-arg>、<import> 和 <alias>，分别用于定义 Bean、属性注入、构造方法注入、导入配置文件和设置别名。",
     "desc": "本题考查 Spring XML 配置的基础标签。"
   },
   {
     "id": 239,
     "type": "简答题",
-    "q": "请简述 Bean 的几种装配方式的基本用法。",
+    "q": "请简述Bean 的几种装配方式的基本用法。",
     "a": "Bean 的装配方式主要有 XML 装配、注解装配和 Java 配置类装配。XML 通过配置文件定义 Bean，注解通过 @Component、@Autowired 等完成自动装配，Java 配置类通过 @Configuration 和 @Bean 管理对象。",
     "desc": "本题考查 Bean 的常见装配方式。"
   },
   {
     "id": 240,
     "type": "简答题",
-    "q": "请简述 Spring MVC 框架的优点。",
+    "q": "请简述Spring MVC 框架的优点。",
     "a": "Spring MVC 是基于 MVC 模式的 Web 表现层框架，结构清晰，能实现请求处理、业务模型和视图显示的分离。它支持注解开发、参数绑定、视图解析、异常处理和 REST 风格接口开发。",
     "desc": "本题考查 Spring MVC 的主要优势。"
   },
   {
     "id": 241,
     "type": "简答题",
-    "q": "请列举 @RequestMapping 注解的常用属性。",
+    "q": "请列举@RequestMapping 注解的属性。",
     "a": "@RequestMapping 用于建立请求路径和控制器方法之间的映射关系。常用属性有 value 或 path、method、params、headers、consumes、produces 和 name，其中最常用的是路径和请求方式。",
     "desc": "本题考查 @RequestMapping 的常用属性。"
   },
   {
     "id": 242,
     "type": "简答题",
-    "q": "请简述简单数据类型中 @RequestParam 注解及其属性作用。",
+    "q": "请简述简单数据类型中的@RequestParam 注解及其属性作用。",
     "a": "@RequestParam 用于将请求参数绑定到控制器方法的形参上。常用属性有 value 或 name、required 和 defaultValue，分别表示参数名、是否必须传入和默认值。",
     "desc": "本题考查 @RequestParam 的绑定作用。"
   },
   {
     "id": 243,
     "type": "简答题",
-    "q": "请简述复杂 POJO 绑定时的注意事项。",
+    "q": "请简述复杂POJO 绑定时的注意事项。",
     "a": "复杂 POJO 绑定时，请求参数名要与 POJO 属性名一致。POJO 类应提供无参构造方法、getter 和 setter 方法，若包含嵌套对象或集合，还要注意参数层级和类型转换。",
     "desc": "本题考查复杂 POJO 数据绑定的注意点。"
   },
   {
     "id": 244,
     "type": "简答题",
-    "q": "请简述 @RequestBody 注解的作用。",
+    "q": "请简述@RequestBody 注解的作用。",
     "a": "@RequestBody 用于读取 HTTP 请求体中的数据，并通过消息转换器转换成 Java 对象。它常用于接收前端提交的 JSON 数据，适合前后端分离开发。",
     "desc": "本题考查 @RequestBody 的核心作用。"
   },
   {
     "id": 245,
     "type": "简答题",
-    "q": "请简述包装 POJO 类型绑定时的注意事项。",
+    "q": "请简述包装POJO 类型绑定时的注意事项。",
     "a": "包装 POJO 是指一个 POJO 中包含另一个 POJO 对象。绑定时请求参数名要符合对象层级关系，通常写成 user.name、user.age 这样的形式。",
     "desc": "本题考查包装 POJO 的参数绑定规则。"
   },
   {
     "id": 246,
     "type": "简答题",
-    "q": "请简述 Spring MVC 方法返回值中 3 种不同类型的区别。",
+    "q": "请简述Spring MVC 方法返回值3 中不同类型的区别。",
     "a": "Spring MVC 常见返回值有 String、ModelAndView 和直接响应数据。String 通常表示视图名，ModelAndView 同时包含模型数据和视图信息，使用 @ResponseBody 时则直接把数据写入响应体。",
     "desc": "本题考查 Spring MVC 返回值的常见形式。"
   },
   {
     "id": 247,
     "type": "简答题",
-    "q": "请简述 @ResponseBody 注解的作用。",
+    "q": "请简述@ResponseBody 注解的作用。",
     "a": "@ResponseBody 用于将控制器方法的返回值直接写入 HTTP 响应体，而不是进行页面跳转。它通常把 Java 对象或集合转换成 JSON 数据返回给客户端。",
     "desc": "本题考查 @ResponseBody 的响应机制。"
   },
