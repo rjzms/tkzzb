@@ -442,7 +442,8 @@ body.image-zoom-open {
 
         <div class="sidebar-footer">
             <span id="stat-info">加载中...</span><br>
-            <button class="btn-reset" onclick="resetAll()">重置本章进度</button>
+           <button class="btn-reset" onclick="resetCurrentMode()">重置当前章节</button>
+<button class="btn-reset" onclick="resetAll()">重置所有章节</button>
             <button class="btn-force-reload" onclick="forceReload()">🔄 强制重载题库 (清除本地修改)</button>
             <div class="btn-action-group">
                 <button class="btn-add" onclick="openAdd()">➕ 添加新题目</button>
@@ -972,8 +973,24 @@ function jumpTo(i) {
     }
     renderCard(); renderGrid(); 
 }
-function resetAll() { if(confirm('确定要清空本章所有记录（错题本、进度、已掌握）吗？')) { localStorage.removeItem(storeKey); location.reload(); } }
-
+function resetCurrentMode() {
+    if(confirm(`确定要清空【${state.mode === 'all' ? '全题库' : state.mode}】的记录（错题本、进度、已掌握）吗？`)) {
+        if (state.mode === 'all') {
+            state.mistakes = []; state.corrects = []; state.progress = {}; state.idx = 0;
+        } else if (state.mode === 'mistakes') {
+            state.mistakes = []; state.idx = 0;
+        } else {
+            const currentIds = state.currentList.map(q => q.id);
+            state.mistakes = state.mistakes.filter(id => !currentIds.includes(id));
+            state.corrects = state.corrects.filter(id => !currentIds.includes(id));
+            state.progress[state.mode] = 0;
+            state.idx = 0;
+        }
+        save();
+        changeMode(state.mode);
+    }
+}
+function resetAll() { if(confirm('确定要清空所有章节的所有记录（错题本、进度、已掌握）吗？')) { localStorage.removeItem(storeKey); location.reload(); } }
 function forceReload() {
     if(confirm('⚠️ 警告：强制重载将清除您在当前设备上“新增”或“修改”的题目！\n\n系统将忽略本地缓存，并强制从服务器读取原始 JSON 文件。\n\n是否继续？')) {
         localStorage.removeItem(storeKeyDB); 
