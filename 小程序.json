@@ -10,7 +10,7 @@
       "D": "通过“扫一扫”或“搜一搜”即可打开对应的微信小程序"
     },
     "a": "C",
-    "desc": ""
+    "desc": "微信小程序依托微信运行，可在不同系统的微信客户端中使用，不能说“不可以跨平台”。"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       "D": "入口丰富"
     },
     "a": "C",
-    "desc": ""
+    "desc": "小程序强调轻量化，体积大不是其特点。"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       "D": "Network"
     },
     "a": "B",
-    "desc": ""
+    "desc": "Console面板用于查看日志和调试输出信息。"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "D": "app.js文件是微信小程序项目的入口文件"
     },
     "a": "C",
-    "desc": ""
+    "desc": "全局配置文件是app.json，sitemap.json主要用于配置页面是否允许被微信索引。"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
       "D": "编辑器中只能打开一个文件"
     },
     "a": "D",
-    "desc": ""
+    "desc": "微信开发者工具编辑器可以同时打开多个文件，并非只能打开一个。"
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
       "D": "project.config.json"
     },
     "a": "B",
-    "desc": ""
+    "desc": "app.json中的pages数组用于配置小程序所有页面路径。"
   },
   {
     "id": 7,
@@ -88,7 +88,7 @@
       "D": "swiper组件"
     },
     "a": "D",
-    "desc": ""
+    "desc": "swiper是滑块视图容器，不属于表单组件。"
   },
   {
     "id": 8,
@@ -101,7 +101,7 @@
       "D": "flex-flow:column nowrap;"
     },
     "a": "C",
-    "desc": ""
+    "desc": "float:left属于浮动布局写法，不是Flex布局属性。"
   },
   {
     "id": 9,
@@ -114,7 +114,7 @@
       "D": "6"
     },
     "a": "C",
-    "desc": ""
+    "desc": "tabBar中list配置项最多支持5个页面。"
   },
   {
     "id": 10,
@@ -127,7 +127,7 @@
       "D": "wx:for-item可以用于设置当前索引变量的属性名"
     },
     "a": "C",
-    "desc": ""
+    "desc": "wx:for是微信小程序用于列表渲染的核心指令。"
   },
   {
     "id": 11,
@@ -140,7 +140,7 @@
       "D": "onReady"
     },
     "a": "D",
-    "desc": ""
+    "desc": "onReady在页面初次渲染完成后触发。"
   },
   {
     "id": 12,
@@ -153,7 +153,7 @@
       "D": "wx:for-index"
     },
     "a": "D",
-    "desc": ""
+    "desc": "wx:for-index用于自定义当前项索引变量名。"
   },
   {
     "id": 13,
@@ -166,7 +166,7 @@
       "D": "success、fail和complete"
     },
     "a": "D",
-    "desc": "（注：A选项实际不含回调，但答案以此为准）"
+    "desc": "wx.showToast()的回调函数是success、fail、complete。"
   },
   {
     "id": 14,
@@ -179,7 +179,7 @@
       "D": "[[ ]]"
     },
     "a": "A",
-    "desc": ""
+    "desc": "WXML中使用双大括号{{ }}进行数据绑定。"
   },
   {
     "id": 15,
@@ -192,7 +192,7 @@
       "D": "audio"
     },
     "a": "B",
-    "desc": ""
+    "desc": "slider组件用于滑动选择数值。"
   },
   {
     "id": 16,
@@ -205,7 +205,7 @@
       "D": "play()"
     },
     "a": "B",
-    "desc": ""
+    "desc": "seek()方法用于将背景音频跳转到指定播放位置。"
   },
   {
     "id": 17,
@@ -218,7 +218,7 @@
       "D": "在同一个页面中，canvas-id是唯一的"
     },
     "a": "A",
-    "desc": "（注：B本身正确，但答案判错，以答案为准）"
+    "desc": "canvas主要通过绘图API绘制内容；canvas-id唯一标识等说法正确，本题错误项选A。"
   },
   {
     "id": 18,
@@ -231,7 +231,7 @@
       "D": "onError()方法表示停止录音，点击开始录音后会从中断的地方接着继续录音"
     },
     "a": "D",
-    "desc": ""
+    "desc": "onError()是错误监听回调，不表示停止录音；停止录音应使用stop()。"
   },
   {
     "id": 19,
@@ -244,7 +244,7 @@
       "D": "wx.navigator()"
     },
     "a": "A",
-    "desc": ""
+    "desc": "wx.navigateTo()用于跳转到非tabBar页面并保留当前页面。"
   },
   {
     "id": 20,
@@ -257,7 +257,7 @@
       "D": "markers为标记点数组"
     },
     "a": "B",
-    "desc": ""
+    "desc": "map组件scale常用缩放范围为3~20，因此“1~20”说法错误。"
   },
   {
     "id": 21,
@@ -270,7 +270,7 @@
       "D": "openid是微信小程序的唯一标识"
     },
     "a": "D",
-    "desc": ""
+    "desc": "openid标识用户在某个小程序中的身份，不是小程序本身的唯一标识。"
   },
   {
     "id": 22,
@@ -283,7 +283,7 @@
       "D": "userInfo表示用户信息对象"
     },
     "a": "D",
-    "desc": ""
+    "desc": "marker对象常用属性包括title、zIndex、alpha等，userInfo不是其标准属性。"
   },
   {
     "id": 23,
@@ -296,7 +296,7 @@
       "D": "在实现数据缓存的方法中，方法名以Sync结尾的都是同步方法"
     },
     "a": "B",
-    "desc": ""
+    "desc": "带Sync后缀的方法是同步方法，removeStorageSync()不是异步移除。"
   },
   {
     "id": 24,
@@ -309,7 +309,7 @@
       "D": "project.config.json"
     },
     "a": "B",
-    "desc": ""
+    "desc": "app.json中的pages数组负责配置所有页面地址。"
   },
   {
     "id": 25,
@@ -322,7 +322,7 @@
       "D": "duration属性用于设置滑动动画时长"
     },
     "a": "A",
-    "desc": ""
+    "desc": "indicatorDots为false时不显示面板指示点。"
   },
   {
     "id": 26,
@@ -335,7 +335,7 @@
       "D": "responseType为返回的数据格式，默认值为json"
     },
     "a": "B",
-    "desc": ""
+    "desc": "wx.request()的url用于填写开发者服务器接口地址。"
   },
   {
     "id": 27,
@@ -348,7 +348,7 @@
       "D": "采用Flex布局的元素，称为Flex容器"
     },
     "a": "B",
-    "desc": ""
+    "desc": "设为Flex布局后，子元素的float属性不再起作用。"
   },
   {
     "id": 28,
@@ -361,7 +361,7 @@
       "D": "exit表示退出微信小程序"
     },
     "a": "A",
-    "desc": ""
+    "desc": "navigate会保留当前页面跳转；关闭当前页面跳转的是redirect。"
   },
   {
     "id": 29,
@@ -374,7 +374,7 @@
       "D": "static文件夹用于存放静态资源文件"
     },
     "a": "B",
-    "desc": ""
+    "desc": "uni-app中main.js是应用入口文件，不是用于指定应用名称的配置文件。"
   },
   {
     "id": 30,
@@ -387,7 +387,7 @@
       "D": "open-type默认值为\"switchTab\""
     },
     "a": "D",
-    "desc": ""
+    "desc": "navigator组件open-type默认值是navigate，不是switchTab。"
   },
   {
     "id": 31,
@@ -400,7 +400,7 @@
       "D": "uni-app框架支持微信小程序自定义组件及SDK"
     },
     "a": "B",
-    "desc": ""
+    "desc": "uni-app基于Vue.js开发，不是React框架。"
   },
   {
     "id": 32,
@@ -413,7 +413,7 @@
       "D": "通过添加usingComponents属性实现在页面中引用自定义组件"
     },
     "a": "C",
-    "desc": ""
+    "desc": "自定义组件JS文件应调用Component()函数，不是Page()函数。"
   },
   {
     "id": 33,
@@ -426,7 +426,7 @@
       "D": "bindtap"
     },
     "a": "D",
-    "desc": ""
+    "desc": "bindtap用于绑定点击/轻触事件。"
   },
   {
     "id": 34,
@@ -439,7 +439,7 @@
       "D": "current"
     },
     "a": "D",
-    "desc": ""
+    "desc": "current常用于swiper当前项控制，不属于scroll-view属性。"
   },
   {
     "id": 35,
@@ -452,7 +452,7 @@
       "D": "dalta"
     },
     "a": "A",
-    "desc": ""
+    "desc": "navigator通过open-type区分navigate、redirect、switchTab等跳转方式。"
   },
   {
     "id": 36,
@@ -465,7 +465,7 @@
       "D": "pages配置项是一个数组，数组中的每个元素表示一个页面"
     },
     "a": "C",
-    "desc": ""
+    "desc": "globalStyle用于配置全局样式，不是局部样式。"
   },
   {
     "id": 37,
@@ -478,7 +478,7 @@
       "D": "backgroundColor"
     },
     "a": "B",
-    "desc": ""
+    "desc": "navigationBarTitleText用于设置导航栏标题文字。"
   },
   {
     "id": 38,
@@ -489,7 +489,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "AppID用于唯一标识一个微信小程序账号。"
   },
   {
     "id": 39,
@@ -500,7 +500,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": ""
+    "desc": "app.js是小程序入口逻辑文件，全局样式文件是app.wxss。"
   },
   {
     "id": 40,
@@ -511,7 +511,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "微信客户端为小程序提供运行环境，通常称为宿主环境。"
   },
   {
     "id": 41,
@@ -522,7 +522,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "无须安装、触手可及、用完即走、无须卸载是小程序的典型特点。"
   },
   {
     "id": 42,
@@ -533,7 +533,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "项目成员指参与小程序开发和运营等工作的成员。"
   },
   {
     "id": 43,
@@ -544,7 +544,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "父元素设置display:flex后，可用flex-direction等属性控制布局。"
   },
   {
     "id": 44,
@@ -555,7 +555,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": ""
+    "desc": "WXSS除rpx外也支持px等单位。"
   },
   {
     "id": 45,
@@ -566,7 +566,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "swiper组件常用于实现轮播图效果。"
   },
   {
     "id": 46,
@@ -577,7 +577,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "（注：虽主要播放视频，但可播音频，答案判对）"
+    "desc": "video组件主要用于播放视频，不是专门用于播放音频。"
   },
   {
     "id": 47,
@@ -588,7 +588,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "data-*自定义属性常用于在事件中传递参数。"
   },
   {
     "id": 48,
@@ -599,7 +599,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": ""
+    "desc": "绑定数据通常来自data，但并非所有字段都必须预先初始化。"
   },
   {
     "id": 49,
@@ -610,7 +610,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "enablePullDownRefresh为false表示不开启下拉刷新。"
   },
   {
     "id": 50,
@@ -621,7 +621,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "wx.request()用于发起HTTPS网络请求。"
   },
   {
     "id": 51,
@@ -632,7 +632,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "wx.showLoading()用于显示加载提示框。"
   },
   {
     "id": 52,
@@ -643,7 +643,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "canvas-id用于标识canvas组件，同一页面应保持唯一。"
   },
   {
     "id": 53,
@@ -654,7 +654,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "bindchanging会在slider拖动过程中触发对应事件处理函数。"
   },
   {
     "id": 54,
@@ -665,7 +665,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "canvas设置type为2d表示使用Canvas 2D接口。"
   },
   {
     "id": 55,
@@ -675,8 +675,8 @@
       "A": "对",
       "B": "错"
     },
-    "a": "错",
-    "desc": "（注：此题为错，可能因为题目本身有误，以答案为准）"
+    "a": "对",
+    "desc": "文件上传API对应的方法是wx.uploadFile()。"
   },
   {
     "id": 56,
@@ -687,7 +687,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "wx.login()调用成功后可获取临时登录凭证code。"
   },
   {
     "id": 57,
@@ -698,7 +698,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "openid与AppID相关，同一用户在不同AppID下openid不同。"
   },
   {
     "id": 58,
@@ -709,7 +709,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": ""
+    "desc": "openid标识用户身份，小程序唯一标识是AppID。"
   },
   {
     "id": 59,
@@ -720,7 +720,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "wx.setStorageSync()用于同步写入本地缓存。"
   },
   {
     "id": 60,
@@ -731,7 +731,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": ""
+    "desc": "animation.export()调用后会清除之前的动画操作。"
   },
   {
     "id": 61,
@@ -742,7 +742,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "小程序中require引入模块通常使用相对路径，不支持绝对路径。"
   },
   {
     "id": 62,
@@ -753,7 +753,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "wx.navigateTo()不能跳转到tabBar页面。"
   },
   {
     "id": 63,
@@ -764,7 +764,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "<block>只作包装，不会渲染为实际节点。"
   },
   {
     "id": 64,
@@ -775,7 +775,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "wx.showLoading()的作用就是显示加载提示。"
   },
   {
     "id": 65,
@@ -786,7 +786,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "wx:key用于标识列表项，有利于提升列表渲染效率。"
   },
   {
     "id": 66,
@@ -797,7 +797,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "自定义组件通过Component()注册。"
   },
   {
     "id": 67,
@@ -808,7 +808,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "uni-app是基于Vue.js的跨端开发框架。"
   },
   {
     "id": 68,
@@ -819,7 +819,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "重复功能可封装为自定义组件，在多个页面复用。"
   },
   {
     "id": 69,
@@ -830,7 +830,7 @@
       "B": "错"
     },
     "a": "错",
-    "desc": "（正确为useExtendedLib）"
+    "desc": "引入WeUI扩展库的配置名是useExtendedLib，不是useExtendedLibs。"
   },
   {
     "id": 70,
@@ -840,8 +840,8 @@
       "A": "对",
       "B": "错"
     },
-    "a": "对",
-    "desc": "（注：实际是应用入口，但答案判对）"
+    "a": "错",
+    "desc": "main.js是uni-app应用入口文件，不是页面入口文件。"
   },
   {
     "id": 71,
@@ -852,7 +852,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "pages.json可通过style配置页面导航栏标题。"
   },
   {
     "id": 72,
@@ -863,7 +863,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "uni.navigateTo()用于保留当前页并跳转到应用内页面。"
   },
   {
     "id": 73,
@@ -874,7 +874,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "wx:for可用于列表渲染，也可以嵌套使用。"
   },
   {
     "id": 74,
@@ -885,7 +885,7 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "uni-app支持一套代码多端发行。"
   },
   {
     "id": 75,
@@ -896,181 +896,181 @@
       "B": "错"
     },
     "a": "对",
-    "desc": ""
+    "desc": "wx:key能帮助框架识别列表项，提高更新效率。"
   },
   {
     "id": 76,
     "type": "简答题",
     "q": "请简述微信小程序的特点。",
     "a": "答案： 微信小程序具有无须安装、触手可及、用完即走、无须卸载的特点。用户在使用时无须安装，直接使用，不占用存储空间；使用后可以用完即走，无须卸载。此外，还具有名称唯一、入口丰富和传播能力强等特点。",
-    "desc": ""
+    "desc": "答案覆盖了书中列出的无须安装、触手可及、用完即走、无须卸载等核心特点。"
   },
   {
     "id": 77,
     "type": "简答题",
     "q": "请简述微信小程序项目的创建过程。",
     "a": "答案： ① 首次打开微信开发者工具时，使用微信扫码登录。② 登录成功后进入项目选择界面，单击“+”进入创建页面。③ 填写项目名称、目录、AppID、开发模式、后端服务和模板选择等内容，单击“确定”按钮即可创建项目。",
-    "desc": ""
+    "desc": "按微信开发者工具创建项目的基本流程作答即可。"
   },
   {
     "id": 78,
     "type": "简答题",
     "q": "简述WXML和HTML的区别。",
     "a": "答案： 主要有5点：① 标签不同（HTML用<div>、<span>，WXML用<view>、<text>）；② WXML提供类似Vue的模板语法（数据绑定、列表渲染等），HTML没有；③ HTML可在浏览器预览，WXML仅能在微信客户端和开发者工具中预览；④ WXML单标签必须自闭合，HTML允许省略；⑤ WXML使用微信自定义标签，应避免使用HTML标签。",
-    "desc": ""
+    "desc": "从标签、语法、运行环境和书写规范等方面区分WXML与HTML。"
   },
   {
     "id": 79,
     "type": "简答题",
     "q": "简述WXSS和CSS的区别。",
     "a": "答案： ① 单位不同：WXSS引入rpx适配屏幕，CSS常用px；② 样式作用域：WXSS中app.wxss为全局样式，页面WXSS仅对当前页面生效，CSS没有此功能；③ 背景图片：WXSS中只能使用网络图片或Base64，不能使用本地图片，CSS可以使用本地图片。",
-    "desc": ""
+    "desc": "从rpx单位、样式作用域和背景图片限制等方面区分WXSS与CSS。"
   },
   {
     "id": 80,
     "type": "简答题",
     "q": "简述Flex布局的概念。",
     "a": "答案： Flex布局即弹性盒布局，为盒子模型提供灵活性。任何容器均可指定为Flex容器，其子元素自动成为Flex项目。容器内有主轴和交叉轴（默认水平、垂直），项目沿主轴排列。",
-    "desc": ""
+    "desc": "Flex布局核心是把容器设为弹性盒，子元素按主轴和交叉轴排列。"
   },
   {
     "id": 81,
     "type": "简答题",
     "q": "简述页面生命周期函数包括哪些。",
     "a": "答案： 包括5个：onLoad()（监听页面加载，触发一次）、onShow()（页面显示时触发）、onReady()（初次渲染完成，触发一次）、onHide()（页面隐藏时触发）、onUnload()（页面卸载时触发）。",
-    "desc": ""
+    "desc": "页面生命周期重点记住加载、显示、初次渲染、隐藏、卸载五个函数。"
   },
   {
     "id": 82,
     "type": "简答题",
     "q": "简述wx:if和hidden的区别。",
     "a": "答案： wx:if初始条件为false时不渲染，条件变为true才开始渲染；hidden始终渲染，仅控制显示隐藏。wx:if切换开销大，hidden初次渲染开销大。频繁切换用hidden，条件不易改变用wx:if。",
-    "desc": ""
+    "desc": "wx:if控制是否渲染，hidden控制是否显示，这是二者核心区别。"
   },
   {
     "id": 83,
     "type": "简答题",
     "q": "简述微信小程序如何实现下拉刷新。",
     "a": "答案： ① 在app.json的window或页面的json中设置enablePullDownRefresh为true；② 在页面JS中定义onPullDownRefresh()事件处理函数执行下拉操作。",
-    "desc": ""
+    "desc": "下拉刷新需要先开启配置，再在onPullDownRefresh中处理刷新逻辑。"
   },
   {
     "id": 84,
     "type": "简答题",
     "q": "简述微信小程序如何实现上拉触底。",
     "a": "答案： 使用页面事件处理函数onReachBottom()监听上拉触底。默认触底距离为50px，可在全局或页面json中通过onReachBottomDistance属性修改。",
-    "desc": ""
+    "desc": "上拉触底由onReachBottom监听页面到达底部触发。"
   },
   {
     "id": 85,
     "type": "简答题",
     "q": "简述BackgroundAudioManager实例的属性和方法。",
     "a": "答案： 常用属性包括src、startTime、title、duration、currentTime、paused；常用方法包括play()、pause()、seek()、stop()。",
-    "desc": ""
+    "desc": "答案列出了背景音频管理器常用属性和播放控制方法。"
   },
   {
     "id": 86,
     "type": "简答题",
     "q": "简述使用画布API进行绘图的基本步骤。",
     "a": "答案： 先获取Canvas实例，再通过该实例获取RenderingContext（渲染上下文），最后使用渲染上下文的属性和方法完成绘图。",
-    "desc": ""
+    "desc": "绘图基本流程是获取Canvas对象、获取上下文、调用上下文绘图。"
   },
   {
     "id": 87,
     "type": "简答题",
     "q": "简述如何实现文件上传和文件下载。",
     "a": "答案： 通过调用wx.uploadFile()实现文件上传；通过调用wx.downloadFile()实现文件下载。",
-    "desc": ""
+    "desc": "上传对应wx.uploadFile()，下载对应wx.downloadFile()。"
   },
   {
     "id": 88,
     "type": "简答题",
     "q": "简述如何获取Animation实例。",
     "a": "答案： 通过wx.createAnimation()方法获取。",
-    "desc": ""
+    "desc": "Animation实例通过wx.createAnimation()创建。"
   },
   {
     "id": 89,
     "type": "简答题",
     "q": "简述微信小程序中应用生命周期回调函数onLaunch()、onShow()、onError()、onHide()和onPageNotFound()的作用。",
     "a": "答案： onLaunch()：小程序初始化时触发，全局一次；onShow()：小程序启动或切前台时触发；onError()：脚本错误或API调用报错时触发；onHide()：小程序切后台时触发；onPageNotFound()：要打开的页面不存在时触发。",
-    "desc": ""
+    "desc": "这些函数分别对应小程序启动、显示、隐藏、错误和页面不存在等应用级事件。"
   },
   {
     "id": 90,
     "type": "简答题",
     "q": "简述如何创建WebSocket连接。",
     "a": "答案： 使用wx.connectSocket()方法创建。",
-    "desc": ""
+    "desc": "创建WebSocket连接使用wx.connectSocket()。"
   },
   {
     "id": 91,
     "type": "简答题",
     "q": "简述微信小程序中实现页面之间切换的wx.navigateTo()、wx.redirectTo()和wx.switchTab()方法的区别。",
     "a": "答案： wx.navigateTo()：保留当前页面，跳转新页面，可返回，不能跳转tabBar；wx.redirectTo()：关闭当前页面，跳转新页面，不能跳转tabBar；wx.switchTab()：跳转到tabBar页面，关闭其他所有非tabBar页面。",
-    "desc": ""
+    "desc": "三者区别在于是否保留当前页、是否关闭当前页以及是否跳转tabBar页面。"
   },
   {
     "id": 92,
     "type": "简答题",
     "q": "简述微信小程序的登录流程。",
     "a": "答案： ① 调用wx.login()获取临时code；② 使用wx.request()将code发送给开发者服务器；③ 开发者服务器将appid、appsecret和code发送给微信接口服务校验，成功返回session_key、openid等；④ 服务器保存openid和session_key，生成token返回给小程序，后续请求携带token验证登录状态。",
-    "desc": ""
+    "desc": "登录流程核心是wx.login取code，服务器换取openid/session_key并维护登录态。"
   },
   {
     "id": 93,
     "type": "简答题",
     "q": "简述自定义组件的创建和使用方法。",
-    "a": "答案： 创建：在项目根目录新建components文件夹，在其下新建组件文件夹（如test），右键选择“新建Component”输入组件名即可。使用：① 局部引用：在页面的json中通过usingComponents引入组件，如\"text\": \"/components/test/test\"，然后在wxml中使用<text/>；② 全局引用：在app.json的usingComponents中配置，同样方式使用。",
-    "desc": ""
+    "a": "答案： 创建自定义组件时，可在components目录中新建组件文件夹，并生成同名的JSON、JS、WXML、WXSS文件；组件JSON中设置\"component\": true，组件JS中使用Component()注册。使用时，在页面或app.json的usingComponents中配置组件名和路径，如\"test\": \"/components/test/test\"，然后在WXML中使用<test></test>。",
+    "desc": "自定义组件创建看四个文件和Component()，使用看usingComponents引用。"
   },
   {
     "id": 94,
     "type": "简答题",
     "q": "简述通过useExtendedLib扩展库的方式引入WeUI组件库的方式。",
     "a": "答案： 在app.json中添加配置：\"useExtendedLib\": {\"weui\": true}。",
-    "desc": ""
+    "desc": "WeUI扩展库通过app.json中的useExtendedLib配置开启。"
   },
   {
     "id": 95,
     "type": "简答题",
     "q": "简述navigator组件的open-type属性的合法值及作用。",
     "a": "答案： navigate（保留当前页，跳转，不能跳tabBar）、redirect（关闭当前页，跳转，不能跳tabBar）、switchTab（跳tabBar，关闭其他非tabBar）、reLaunch（关闭所有页，打开某页）、navigateBack（返回上一页或多级）、exit（退出小程序，需target=\"miniProgram\"）。",
-    "desc": ""
+    "desc": "open-type用于决定navigator的跳转方式，如navigate、redirect、switchTab等。"
   },
   {
     "id": 96,
     "type": "简答题",
     "q": "简述uni-app框架的优点。",
     "a": "答案： ① 多端发行，一套代码；② 性能优秀，加载快；③ 基于Vue，学习成本低；④ 生态开放，支持npm、微信自定义组件及SDK等。",
-    "desc": ""
+    "desc": "uni-app优点集中在一套代码多端运行、基于Vue、生态兼容和性能较好。"
   },
   {
     "id": 97,
     "type": "简答题",
     "q": "简述微信小程序的页面组成。",
     "a": "答案： 一个微信小程序由多个页面组成，每个页面存放在pages目录中，每个页面由四个文件组成：JS、JSON、WXML、WXSS。",
-    "desc": ""
+    "desc": "小程序页面一般放在pages目录下，每页由JS、JSON、WXML、WXSS组成。"
   },
   {
     "id": 98,
     "type": "简答题",
     "q": "简述如何在uni-app项目中设置页面路径。",
     "a": "答案： 在pages.json文件中通过pages数组配置，每个元素包含path（路径）和style（如navigationBarTitleText导航栏标题）等。",
-    "desc": ""
+    "desc": "uni-app页面路径统一在pages.json的pages数组中配置。"
   },
   {
     "id": 99,
     "type": "简答题",
     "q": "使用Vant Weapp实现只有文字的自定义标签栏。",
     "a": "答案要点：\n· 创建项目，安装Vant Weapp（npm install @vant/weapp@1.10.4 -S --production），删除\"style\": \"v2\"，构建npm。\n· 在项目根目录创建custom-tab-bar文件夹，并新建index组件。\n· 在app.json中配置tabBar（\"custom\": true），并全局引入van-tabbar和van-tabbar-item组件。\n· 在custom-tab-bar的index.js中定义列表数据（包含pagePath、text、name），并在methods中实现onChange切换。\n· 在custom-tab-bar的index.wxml中渲染van-tabbar和van-tabbar-item，使用wx:for循环。\n· 在每个页面（如index、message、contact）的onShow中调用this.getTabBar().setData({ active: '页面名' })激活对应标签。\n（完整代码参见原答案）",
-    "desc": ""
+    "desc": "答案按Vant Weapp自定义tabBar流程：安装、配置custom-tab-bar、渲染并切换激活项。"
   },
   {
     "id": 100,
     "type": "简答题",
     "q": "使用WeUI组件库实现图书列表页面。",
     "a": "答案要点：\n· 创建项目，配置导航栏标题为“图书列表”。\n· 在app.json中通过\"useExtendedLib\": {\"weui\": true}引入WeUI。\n· 在index.wxml中使用weui-panel、weui-media-box等布局，配合wx:for循环渲染图书数据。\n· 在index.js中定义contents数组，包含title、article、poster（图片路径）。\n· 在index.wxss中设置描述文字颜色等样式。\n（完整代码参见原答案）",
-    "desc": ""
+    "desc": "答案按WeUI列表页面流程：引入扩展库、准备数据、WXML循环渲染并写样式。"
   }
 ]
